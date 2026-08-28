@@ -6,9 +6,9 @@ Welcome! This is my portfolio for Telling Stories with Data at Carnegie Mellon U
 
 # About me
 
-Hi, I'm Jessica Zhang. I am a current BIDA student and will graduate in December. I graduated from University of Washington with a major in Computational Finance & Risk Management: Data Science and Economics. My background combines economics and finance with data analytics and applied AI. I am especially interested in the human and business behavior behind the data. I enjoy starting with a messy question, finding patterns, and translating the analysis into something that can support a real decision.
+Hi, I'm Jessica Zhang. I am completing the Master of Science in Business Intelligence and Data Analytics program at Carnegie Mellon University and expect to graduate in December. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington. Finance first sparked my interest in data, but projects involving customer behavior, operational decisions, and AI evaluation helped me understand what I enjoy most: starting with an uncertain question, investigating why a pattern exists, and deciding how the findings can be useful.
 
-I am building toward work that connects technical methods with user needs. Through my coursework and projects, I have explored customer behavior, financial questions, operational decisions, and AI evaluation. This portfolio gives me a place to practice communicating those ideas visually.
+I am especially interested in the people and business decisions behind the numbers. I like framing messy problems, comparing methods, and translating technical results into language that a product or business team can act on. I am building toward human-centered data and AI work, with particular interest in product, customer, and financial questions. This course will help me communicate that analysis more clearly through thoughtful visual storytelling.
 
 # What I hope to learn
 

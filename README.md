@@ -24,7 +24,3 @@ My goal is to create visualizations that are clear and credible without being mi
 - [Final project, Part I](final-project-part-one)
 - [Final project, Part II](final-project-part-two)
 - [Final project, Part III](final-project-part-three)
-
-## AI acknowledgements
-
-I used OpenAI Codex to help revise the wording and organize this page. The goals and personal background are my own, and I reviewed the final content.

@@ -12,7 +12,7 @@ My interest in data began with finance. Working with financial and risk informat
 
 I am especially interested in the people and business behavior behind the numbers. I enjoy the early stages of a project, when the team must decide what problem to solve, why it matters, and how to approach it. I also like translating technical results into language that a product or business team can act on while being honest about tradeoffs and limitations.
 
-I am building toward human-centered data and AI work, with particular interest in product and financial analytics, including customer behavior. Outside the classroom, I enjoy following financial markets and learning about asset allocation and risk. Music, movies, and video games also inspire me. This portfolio gives me a place to strengthen another part of that work: using thoughtful visual storytelling to make an analysis clear and useful without sacrificing credibility.
+I am building toward human-centered data and AI work, with particular interest in product and financial analytics, including customer behavior. Outside the classroom, I enjoy following financial markets and learning about asset allocation and risk. I also draw inspiration from music, movies, and video games, especially the different ways they combine structure and design to shape an audience's experience. This portfolio gives me a place to strengthen another part of that work: using thoughtful visual storytelling to make an analysis clear and useful without sacrificing credibility.
 
 # What I hope to learn
 

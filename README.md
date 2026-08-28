@@ -6,9 +6,13 @@ Welcome! This is my portfolio for Telling Stories with Data at Carnegie Mellon U
 
 # About me
 
-Hi, I'm Jessica Zhang. I am pursuing a Master of Information Systems Management in the Business Intelligence and Data Analytics (BIDA) track at Carnegie Mellon University's Heinz College and expect to graduate in December. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington. Finance first sparked my interest in data, while projects involving customer behavior, operational decisions, and AI evaluation helped me discover what I enjoy most: starting with an uncertain question, investigating why a pattern exists, and deciding how the findings can be useful.
+Hi, I'm Jessica Zhang. I am pursuing a Master of Information Systems Management in the Business Intelligence and Data Analytics (BIDA) track at Carnegie Mellon University's Heinz College and expect to graduate in December. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington.
 
-I am especially interested in the people and business decisions behind the numbers. I enjoy framing messy problems, comparing methods, and translating technical results into language that a product or business team can act on. I am building toward human-centered data and AI work, with particular interest in product, customer, and financial questions. This course will help me communicate that analysis more clearly through thoughtful visual storytelling.
+My interest in data began with finance. Working with financial and risk information made me curious about how coding and analytical methods could reduce repetitive work and support better decisions. Later experiences involving customer insights, financial questions, operational decisions, and AI evaluation helped me recognize what I enjoy most: starting with an uncertain problem, investigating why a pattern exists, comparing possible approaches, and deciding how the findings can be useful.
+
+I am especially interested in the people and business behavior behind the numbers. I enjoy the early stages of a project, when the team must decide what problem to solve, why it matters, and how to approach it. I also like translating technical results into language that a product or business team can act on while being honest about tradeoffs and limitations.
+
+I am building toward human-centered data and AI work, with particular interest in product and financial analytics, including customer behavior. Outside the classroom, I enjoy following financial markets and learning about asset allocation and risk. This portfolio gives me a place to strengthen another part of that work: using thoughtful visual storytelling to make an analysis clear and useful without sacrificing credibility.
 
 # What I hope to learn
 

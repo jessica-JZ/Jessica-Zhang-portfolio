@@ -26,6 +26,8 @@ The original article's “about 60%” statement uses another denominator. The 1
 
 I used Stephen Few's Data Visualization Effectiveness Profile to examine the chart's usefulness, completeness, perceptibility, truthfulness, intuitiveness, aesthetics, and engagement. The chart communicates a relevant finding and provides the survey source, sample size, and values. The descending bars also make the distribution easy to scan.
 
+The primary audience appears to be HBR readers, workplace leaders, and employees who use AI at work. The topic is relevant to this audience, but the changing denominator makes the original chart's main claim harder to verify.
+
 The main weakness is the shift in denominators. The headline refers to the subgroup who reported some workslop, while the bar labels use all survey respondents. A reader cannot verify the 60% statement directly without calculating `(20.3 + 11.2) / 52.8`. The “None” category is also ambiguous because it may sound like the respondent did not use AI, even though it means the person used AI but reported no workslop. The 17.0% who did not use AI appears separately below the chart, so the bars sum to about 83% rather than 100%.
 
 The exercise showed me that Stephen Few's profile is useful for checking whether a chart functions clearly and truthfully. The Good Charts framework pushed me to think more about the idea I wanted the audience to remember. I decided that the redesign should prioritize a comparison that uses one denominator instead of trying to preserve every detail of the original distribution.

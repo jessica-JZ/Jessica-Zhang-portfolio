@@ -26,4 +26,4 @@ Secondary sources: None.
 
 ## AI acknowledgement
 
-I used ChatGPT to check the dataset, select years with sufficient country coverage, create the Tableau calculated fields, and review the chart's title, colors, labels, and source note. I created and published the final visualization in Tableau.
+I used ChatGPT to help me revise the writing.

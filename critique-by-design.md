@@ -82,4 +82,4 @@ The redesign answers a simpler question than the original distribution: how were
 
 ## AI acknowledgement
 
-I used ChatGPT and Codex to clarify the assignment requirements and verify my percentage calculations. The tools also helped me organize anonymized peer-feedback notes, revise the writing, and format this portfolio page. I selected and critiqued the original visualization, collected the peer feedback, made the redesign decisions, and built both versions in Tableau.
+I used ChatGPT to help me organize anonymized peer-feedback notes and revise the writing.

@@ -1,4 +1,4 @@
-| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](dataviz-examples) | [Visualizing Government Debt](visualizing-government-debt) | [Critique by Design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
+| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](dataviz-examples) | [Visualizing Government Debt](visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
 # Jessica Zhang's data visualization portfolio
 
@@ -24,7 +24,7 @@ My goal is to create visualizations that are clear and credible without being mi
 
 - [Data visualization examples](dataviz-examples)
 - [Visualizing Government Debt](visualizing-government-debt)
-- [Critique by Design](critique-by-design)
+- [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design)
 - [Final project, Part I](final-project-part-one)
 - [Final project, Part II](final-project-part-two)
 - [Final project, Part III](final-project-part-three)

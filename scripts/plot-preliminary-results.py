@@ -35,7 +35,7 @@ parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
     '<rect width="100%" height="100%" fill="#ffffff"/>',
     '<style>text{font-family:Arial,sans-serif;fill:#252525}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:21px;font-weight:700}.tick{font-size:14px;fill:#666}.note{font-size:14px;fill:#555}.grid{stroke:#ddd9d0;stroke-width:1}</style>',
-    '<text x="70" y="58" class="title">Files became dominant, but vinyl remained present</text>',
+    '<text x="70" y="58" class="title">Files took over, but vinyl remained in all three styles</text>',
     '<text x="70" y="91" class="subtitle">Share among filtered Discogs releases with Vinyl, CD, or File, 1985–2024</text>',
 ]
 

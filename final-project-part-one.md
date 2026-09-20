@@ -1,26 +1,28 @@
 | [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
-# Did Vinyl Disappear from Electronic Music in the Digital Era?
+# Files Took Over, but Vinyl Remained
+
+*Release-format changes in House, Techno, and Ambient, 1985–2024*
 
 ## High-level summary
 
-Digital music changed how electronic music is distributed, but physical formats did not vanish at the same moment. For this project, I want to examine how the formats of electronic music releases changed between 1985 and 2024. I will focus on House, Techno, and Ambient because they belong to the same broad genre but may have different relationships with vinyl, CDs, and digital files.
+File-based distribution changed how electronic music was released, but it did not eliminate physical formats. For this project, I want to examine how the mix of Vinyl, CD, and File releases changed between 1985 and 2024 within House, Techno, and Ambient. I chose these three styles as a focused comparison within electronic music, not as a representative sample of the entire genre.
 
-My intended audience is people who enjoy electronic music but may not think about the format through which music reaches them. I want the audience to question the simple idea that each new format replaces the previous one. The project will follow changes in releases cataloged by Discogs. It will not measure listening habits, sales, audio quality, or whether online audio was recorded from vinyl.
+My intended audience is people who enjoy electronic music but may not think about the difference between a release format and a recording method. In Discogs, `File` and `Vinyl` describe how a release was issued; they do not reveal whether the music was recorded, mastered, or transferred using analog or digital technology. The project will therefore tell a story about changes in cataloged release formats, not about sound quality, production methods, listening habits, or sales.
 
 ### One-sentence summary
 
-This project investigates whether vinyl releases disappeared as electronic music entered the digital era, and whether the answer differs among House, Techno, and Ambient.
+This project shows how File releases became dominant while Vinyl remained part of the release mix, with House, Techno, and Ambient following different paths between 1985 and 2024.
 
 ### Audience and purpose
 
-The primary audience is electronic-music listeners and collectors who are curious about how music formats change. After viewing the project, they should understand that a digital listening environment can coexist with continued physical releases. They should also be able to distinguish a release-format trend from a claim about popularity.
+The primary audience is electronic-music listeners and collectors who are curious about how music formats change. After viewing the project, they should understand that growth in File releases can coexist with continued Vinyl releases. They should also be able to distinguish a release-format trend from a claim about popularity or about whether a recording itself is analog or digital.
 
 ## Story structure
 
-### 1. The expectation: physical formats should fade
+### 1. The distinction: format is not recording technology
 
-The story will open with a familiar assumption: once music can be distributed as a file, physical formats should steadily disappear. A short introduction will explain the difference between the format of an official release and the way a listener later hears it.
+The story will open by separating two ideas that are easy to confuse. A release labeled Vinyl may have been produced from a digital master, while `File` identifies a release format rather than the method used to record the music. This distinction keeps the story focused on what the Discogs fields can actually show.
 
 Planned visual: a simple annotated timeline showing when Vinyl, CD, and File releases appear in the selected data. This will orient the reader rather than prove the main claim.
 
@@ -32,13 +34,13 @@ Planned visual: aligned lines for format share, paired with a small line chart f
 
 ### 3. The complication: electronic styles do not move together
 
-The project will then compare House, Techno, and Ambient. Small-multiple line charts will use the same scale and time range so the audience can compare the styles without learning a new chart form. The analysis will ask whether vinyl's presence is concentrated in particular styles rather than treating Electronic as one uniform category.
+The project will then compare House, Techno, and Ambient. Small-multiple line charts will use the same scale and time range so the audience can compare the styles without learning a new chart form. The analysis will examine how the timing and shape of the Vinyl decline differed across the three styles rather than treating Electronic as one uniform category.
 
 Planned visual: three aligned line charts showing the percentage of releases tagged Vinyl, one for each selected style. A highlighted annotation will identify the largest meaningful difference supported by the cleaned data.
 
-### 4. The conclusion: coexistence, not a popularity ranking
+### 4. The conclusion: a format shift, not a production story
 
-The ending will return to the opening question. The conclusion will describe the pattern found in cataloged releases. It will not claim that one format sounds better, that listeners prefer vinyl, or that a format caused a style to grow. I will also explain how multi-format releases and reissues affect the count.
+The ending will show that File became the largest of the three selected format categories, while Vinyl still represented roughly 22%–26% of filtered releases across the three styles in 2024. This is evidence of coexistence in cataloged release formats, not evidence about sound quality, consumer preference, or whether a vinyl release came from an analog or digital master. I will also explain how multi-format releases and reissues affect the count.
 
 ## Initial sketches
 
@@ -46,13 +48,13 @@ The two sketches below show the planned order of the story and the role of each 
 
 ### Sketch 1: Overall story flow
 
-![Storyboard sketch showing the opening question, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=7)
+![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=8)
 
 ### Sketch 2: Preliminary chart refinement
 
-I refined the second chart idea with preliminary data to test whether the proposed story is supported. File releases became the largest category in all three selected styles. Vinyl did not disappear. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
+I refined the second chart idea with preliminary data to test whether the proposed story is supported. File became the largest of the three selected format categories in House, Techno, and Ambient, but the transitions did not follow identical paths. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
 
-![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=4)
+![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=5)
 
 ## Data
 
@@ -82,7 +84,8 @@ Discogs is a community-built catalog. The data can show how release versions in 
 
 - how many people listened to or purchased a release;
 - whether vinyl is more popular or has better audio quality;
-- whether an online recording came from a vinyl record;
+- whether a Vinyl release was cut from an analog or digital master;
+- whether an online recording was transferred from a vinyl record;
 - why an artist or label selected a particular format; or
 - whether Discogs coverage is equally complete across styles, countries, and years.
 

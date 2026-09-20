@@ -10,9 +10,9 @@
 
   <rect x="60" y="150" width="1080" height="260" rx="12" class="panel"/>
   <text x="95" y="205" class="small muted">1 · OPENING QUESTION</text>
-  <text x="95" y="270" class="head ink">Did vinyl disappear?</text>
-  <text x="95" y="315" class="sub ink">Electronic music entered a digital era.</text>
-  <text x="95" y="360" class="label muted">What happened to its official release formats?</text>
+  <text x="95" y="270" class="head ink">Files took over. Vinyl remained.</text>
+  <text x="95" y="315" class="sub ink">Three styles followed different paths.</text>
+  <text x="95" y="360" class="label muted">Release format is not recording technology.</text>
   <circle cx="920" cy="280" r="82" fill="#2c2c2c"/>
   <circle cx="920" cy="280" r="27" fill="#f7f5f0"/>
   <circle cx="920" cy="280" r="8" fill="#7656a8"/>
@@ -64,7 +64,7 @@
 
   <rect x="60" y="1235" width="1080" height="210" rx="12" class="panel"/>
   <text x="95" y="1290" class="small muted">4 · CONCLUSION AND LIMIT</text>
-  <text x="95" y="1335" class="sub ink">State only what the release data supports.</text>
+  <text x="95" y="1335" class="sub ink">A format shift, not a production story.</text>
   <rect x="95" y="1365" width="970" height="52" rx="7" class="note"/>
-  <text x="115" y="1398" class="small ink">Discogs measures cataloged release versions, not listening, sales, or audio quality.</text>
+  <text x="115" y="1398" class="small ink">Discogs does not reveal whether a vinyl release used an analog or digital master.</text>
 </svg>

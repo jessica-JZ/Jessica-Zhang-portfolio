@@ -42,13 +42,15 @@ The ending will return to the opening question. The conclusion will describe the
 
 ## Initial sketches
 
-The sketches below show the planned order of the story and the role of each chart. They are structural drafts; the lines and values are placeholders, not results.
+The two sketches below show the planned order of the story and the role of each chart. The first is a structural storyboard; its lines and values are placeholders, not results. The second refines the planned comparison using preliminary data.
 
-![Storyboard sketch showing the opening question, format transition, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=5)
+### Sketch 1: Overall story flow
 
-### Preliminary evidence check
+![Storyboard sketch showing the opening question, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=6)
 
-I created a preliminary chart to test whether the proposed story is supported by the data. File releases became the largest category in all three selected styles. Vinyl did not disappear. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
+### Sketch 2: Preliminary chart refinement
+
+I refined the second chart idea with preliminary data to test whether the proposed story is supported. File releases became the largest category in all three selected styles. Vinyl did not disappear. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
 
 ![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=4)
 

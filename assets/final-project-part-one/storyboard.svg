@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
   <title id="title">Initial storyboard for an electronic music format data story</title>
-  <desc id="desc">Four stacked wireframe panels show the opening question with a format timeline, paired share and release-count charts, small multiples comparing three electronic styles, and a conclusion with limitations.</desc>
+  <desc id="desc">Four stacked wireframe panels distinguish release format from recording technology, then show a format timeline, paired share and release-count charts, small multiples comparing three electronic styles, and a limited conclusion.</desc>
   <style>
     .bg{fill:#f7f5f0}.panel{fill:#fff;stroke:#c9c5bb;stroke-width:2}.ink{fill:#252525}.muted{fill:#666}.line{fill:none;stroke:#7656a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.line2{fill:none;stroke:#c56d2d;stroke-width:7}.grid{stroke:#ddd9d0;stroke-width:2}.axis{stroke:#918d84;stroke-width:2}.label{font-family:Arial,sans-serif;font-size:23px}.small{font-family:Arial,sans-serif;font-size:19px}.tiny{font-family:Arial,sans-serif;font-size:15px}.head{font-family:Georgia,serif;font-size:44px;font-weight:bold}.sub{font-family:Georgia,serif;font-size:29px}.note{fill:#fff8dc;stroke:#d6bc55;stroke-width:2}.vinyl{fill:#7656a8}.cd{fill:#6f91a8}.file{fill:#c56d2d}
   </style>
@@ -9,7 +9,7 @@
   <text x="70" y="110" class="label muted">Layout and chart roles only — placeholder lines are not findings</text>
 
   <rect x="60" y="150" width="1080" height="260" rx="12" class="panel"/>
-  <text x="95" y="205" class="small muted">1 · OPENING QUESTION</text>
+  <text x="95" y="205" class="small muted">1 · OPENING DISTINCTION</text>
   <text x="95" y="270" class="head ink">Files took over. Vinyl remained.</text>
   <text x="95" y="315" class="sub ink">Three styles followed different paths.</text>
   <text x="95" y="360" class="label muted">Release format is not recording technology.</text>

@@ -1,0 +1,7 @@
+electronic_releases: 4813369
+excluded_format: 170601
+excluded_style: 2899365
+excluded_year: 496258
+included_distinct_releases: 1247145
+output_rows: 1345791
+releases_read: 18724693

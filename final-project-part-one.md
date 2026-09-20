@@ -24,7 +24,7 @@ The primary audience is music-history enthusiasts and electronic-music listeners
 
 The story will open by separating two ideas that are easy to confuse. A release labeled Vinyl may have been produced from a digital master, while `File` identifies a release format rather than the method used to record the music. This distinction keeps the story focused on what the Discogs fields can actually show.
 
-Planned visual: a simple annotated timeline showing when Vinyl, CD, and File releases appear in the selected data. The 1993 marker is the first File-tagged record in this filtered Discogs sample, not a claim about the first digital music release in history. The timeline will orient the reader rather than prove the main claim.
+Planned visual: a simple annotated timeline that establishes the analysis window. Vinyl and CD are already present at the 1985 boundary; 1993 is the first File-tagged record in this filtered Discogs sample, not a claim about the first digital music release in history. The timeline will orient the reader rather than prove the main claim.
 
 ### 2. The transition: the format mix changes
 
@@ -48,7 +48,7 @@ The two sketches below show the planned order of the story and the role of each 
 
 ### Sketch 1: Overall story flow
 
-![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=11)
+![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=12)
 
 ### Sketch 2: Preliminary chart refinement
 
@@ -90,6 +90,8 @@ The exclusion counts are sequential, so each release appears in only one exclusi
 ### Why these categories?
 
 I chose House, Techno, and Ambient because they are three electronic styles I am interested in comparing. The project treats them as case studies rather than evidence about all electronic music. I compare Vinyl, CD, and File because they support the physical-to-file transition at the center of the story. Releases available only on other formats, including cassette, are excluded from the denominator. The results therefore describe the mix among three selected formats rather than the complete format market.
+
+The period begins in 1985 as a consistent analytical boundary, not as a claim about the beginning of vinyl or electronic music. It ends in 2024 because that is the last complete calendar year before the December 2025 source snapshot.
 
 The cleaned file retains `release_id`, `master_id`, `year`, `country`, `style`, `format`, and the original format descriptions. Style and format are multi-value fields. I created one row per release-style-format combination and kept the release ID so I can calculate distinct-release counts. Chart labels will say “releases tagged with this style” when categories overlap.
 

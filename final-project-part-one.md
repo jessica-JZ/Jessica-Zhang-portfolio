@@ -44,7 +44,7 @@ The ending will return to the opening question. The conclusion will describe the
 
 The sketches below show the planned order of the story and the role of each chart. They are structural drafts; the lines and values are placeholders, not results.
 
-![Storyboard sketch showing the opening question, format transition, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=4)
+![Storyboard sketch showing the opening question, format transition, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=5)
 
 ### Preliminary evidence check
 

@@ -46,7 +46,7 @@ The two sketches below show the planned order of the story and the role of each 
 
 ### Sketch 1: Overall story flow
 
-![Storyboard sketch showing the opening question, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=6)
+![Storyboard sketch showing the opening question, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=7)
 
 ### Sketch 2: Preliminary chart refinement
 

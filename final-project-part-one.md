@@ -116,4 +116,4 @@ Discogs. “Database Guidelines 6: Format.” Accessed September 19, 2026. https
 
 ## AI acknowledgement
 
-I used ChatGPT to help me evaluate possible project topics, turn my initial interest in electronic music and vinyl into a narrower research question, and organize the first draft of this page. I also used it to write and test the Python scripts that filtered the Discogs XML dump, calculate preliminary summaries, check the analysis for overlapping categories, and revise the proposed charts when a 100% stacked display proved inappropriate.
+I used ChatGPT to help me revise the writing.

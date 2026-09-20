@@ -2,7 +2,7 @@
   <title id="title">Initial storyboard for an electronic music format data story</title>
   <desc id="desc">Four stacked wireframe panels show the opening question, a format share chart, small multiples comparing three electronic styles, and a conclusion with limitations.</desc>
   <style>
-    .bg{fill:#f7f5f0}.panel{fill:#fff;stroke:#c9c5bb;stroke-width:2}.ink{fill:#252525}.muted{fill:#666}.line{fill:none;stroke:#7656a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.line2{fill:none;stroke:#c97b3d;stroke-width:7}.grid{stroke:#ddd9d0;stroke-width:2}.label{font-family:Arial,sans-serif;font-size:23px}.small{font-family:Arial,sans-serif;font-size:19px}.head{font-family:Georgia,serif;font-size:44px;font-weight:bold}.sub{font-family:Georgia,serif;font-size:29px}.note{fill:#fff8dc;stroke:#d6bc55;stroke-width:2}.vinyl{fill:#7656a8}.cd{fill:#8fa9be}.file{fill:#d4cfc3}
+    .bg{fill:#f7f5f0}.panel{fill:#fff;stroke:#c9c5bb;stroke-width:2}.ink{fill:#252525}.muted{fill:#666}.line{fill:none;stroke:#7656a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.line2{fill:none;stroke:#c56d2d;stroke-width:7}.grid{stroke:#ddd9d0;stroke-width:2}.axis{stroke:#918d84;stroke-width:2}.label{font-family:Arial,sans-serif;font-size:23px}.small{font-family:Arial,sans-serif;font-size:19px}.tiny{font-family:Arial,sans-serif;font-size:15px}.head{font-family:Georgia,serif;font-size:44px;font-weight:bold}.sub{font-family:Georgia,serif;font-size:29px}.note{fill:#fff8dc;stroke:#d6bc55;stroke-width:2}.vinyl{fill:#7656a8}.cd{fill:#6f91a8}.file{fill:#c56d2d}
   </style>
   <rect class="bg" width="1200" height="1500"/>
   <text x="70" y="70" class="head ink">Initial story sketch</text>
@@ -20,12 +20,20 @@
   <rect x="60" y="445" width="1080" height="350" rx="12" class="panel"/>
   <text x="95" y="500" class="small muted">2 · THE FORMAT MIX CHANGES</text>
   <text x="95" y="545" class="sub ink">Share of cataloged releases by format</text>
+  <line x1="120" y1="520" x2="120" y2="700" class="axis"/>
+  <line x1="120" y1="700" x2="1040" y2="700" class="axis"/>
   <line x1="120" y1="700" x2="1040" y2="700" class="grid"/>
   <line x1="120" y1="610" x2="1040" y2="610" class="grid"/>
+  <line x1="120" y1="520" x2="1040" y2="520" class="grid"/>
   <path d="M120 555 C300 575 420 625 560 640 S840 645 1040 635" fill="none" stroke="#7656a8" stroke-width="7"/>
   <path d="M120 665 C300 635 420 570 560 590 S840 660 1040 680" fill="none" stroke="#8fa9be" stroke-width="7"/>
   <path d="M120 700 C300 700 420 680 560 625 S840 545 1040 535" fill="none" stroke="#c97b3d" stroke-width="7"/>
-  <text x="120" y="742" class="small muted">1985</text><text x="985" y="742" class="small muted">2024</text>
+  <text x="100" y="706" text-anchor="end" class="tiny muted">0%</text>
+  <text x="100" y="616" text-anchor="end" class="tiny muted">50%</text>
+  <text x="100" y="526" text-anchor="end" class="tiny muted">100%</text>
+  <text x="120" y="735" class="small muted">1985</text><text x="985" y="735" class="small muted">2024</text>
+  <text x="580" y="770" text-anchor="middle" class="tiny muted">Release year</text>
+  <text x="76" y="610" text-anchor="middle" transform="rotate(-90 76 610)" class="tiny muted">Share of filtered releases</text>
   <rect x="760" y="470" width="20" height="20" class="vinyl"/><text x="790" y="487" class="small ink">Vinyl</text>
   <rect x="870" y="470" width="20" height="20" class="cd"/><text x="900" y="487" class="small ink">CD</text>
   <rect x="960" y="470" width="20" height="20" class="file"/><text x="990" y="487" class="small ink">File</text>
@@ -34,13 +42,13 @@
   <text x="95" y="885" class="small muted">3 · STYLES MAY DIFFER</text>
   <text x="95" y="930" class="sub ink">Percentage of releases tagged Vinyl</text>
   <g transform="translate(105 980)">
-    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">House</text><path d="M20 120 C90 100 160 55 280 70" class="line"/>
+    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">House</text><text x="4" y="54" class="tiny muted">100%</text><text x="15" y="132" class="tiny muted">0%</text><text x="45" y="146" class="tiny muted">1985</text><text x="245" y="146" class="tiny muted">2024</text><path d="M45 120 C100 100 170 55 280 70" class="line"/>
   </g>
   <g transform="translate(450 980)">
-    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">Techno</text><path d="M20 125 C90 80 170 105 280 45" class="line"/>
+    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">Techno</text><text x="4" y="54" class="tiny muted">100%</text><text x="15" y="132" class="tiny muted">0%</text><text x="45" y="146" class="tiny muted">1985</text><text x="245" y="146" class="tiny muted">2024</text><path d="M45 125 C100 80 175 105 280 45" class="line"/>
   </g>
   <g transform="translate(795 980)">
-    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">Ambient</text><path d="M20 80 C100 110 180 65 280 95" class="line"/>
+    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">Ambient</text><text x="4" y="54" class="tiny muted">100%</text><text x="15" y="132" class="tiny muted">0%</text><text x="45" y="146" class="tiny muted">1985</text><text x="245" y="146" class="tiny muted">2024</text><path d="M45 80 C110 110 185 65 280 95" class="line"/>
   </g>
   <text x="105" y="1170" class="small muted">Same scale and date range in all three panels</text>
 

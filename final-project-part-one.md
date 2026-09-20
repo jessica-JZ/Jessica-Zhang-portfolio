@@ -2,11 +2,11 @@
 
 # Files Took Over, but Vinyl Remained
 
-*Release-format changes in House, Techno, and Ambient, 1985–2024*
+*A Discogs comparison of Vinyl, CD, and File releases in House, Techno, and Ambient, 1985–2024*
 
 ## High-level summary
 
-File-based distribution changed how electronic music was released, but it did not eliminate physical formats. For this project, I want to examine how the mix of Vinyl, CD, and File releases changed between 1985 and 2024 within House, Techno, and Ambient. I chose these three styles as a focused comparison within electronic music, not as a representative sample of the entire genre.
+File-based distribution changed how electronic music was released, but it did not eliminate physical formats. For this project, I want to examine how the mix of Vinyl, CD, and File releases changed between 1985 and 2024 within House, Techno, and Ambient. I selected these styles because they are three parts of electronic music that I am interested in exploring. They are focused case studies, not a representative sample of the entire genre.
 
 My intended audience is people who enjoy electronic music but may not think about the difference between a release format and a recording method. In Discogs, `File` and `Vinyl` describe how a release was issued; they do not reveal whether the music was recorded, mastered, or transferred using analog or digital technology. The project will therefore tell a story about changes in cataloged release formats, not about sound quality, production methods, listening habits, or sales.
 
@@ -24,7 +24,7 @@ The primary audience is electronic-music listeners and collectors who are curiou
 
 The story will open by separating two ideas that are easy to confuse. A release labeled Vinyl may have been produced from a digital master, while `File` identifies a release format rather than the method used to record the music. This distinction keeps the story focused on what the Discogs fields can actually show.
 
-Planned visual: a simple annotated timeline showing when Vinyl, CD, and File releases appear in the selected data. This will orient the reader rather than prove the main claim.
+Planned visual: a simple annotated timeline showing when Vinyl, CD, and File releases appear in the selected data. The 1993 marker is the first File-tagged record in this filtered Discogs sample, not a claim about the first digital music release in history. The timeline will orient the reader rather than prove the main claim.
 
 ### 2. The transition: the format mix changes
 
@@ -48,11 +48,11 @@ The two sketches below show the planned order of the story and the role of each 
 
 ### Sketch 1: Overall story flow
 
-![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=9)
+![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=10)
 
 ### Sketch 2: Preliminary chart refinement
 
-I refined the second chart idea with preliminary data to test whether the proposed story is supported. File became the largest of the three selected format categories in House, Techno, and Ambient, but the transitions did not follow identical paths. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
+I refined the second chart idea with preliminary data to test whether the proposed story is supported. Among the three selected format categories, File accounted for the largest share of filtered Discogs release versions in House, Techno, and Ambient by 2024. The transitions did not follow identical paths. In 2024, File appeared on 71.9% of House releases, 74.5% of Techno releases, and 66.1% of Ambient releases; Vinyl appeared on 25.8%, 23.6%, and 22.4%, respectively. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
 
 ![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=5)
 
@@ -74,9 +74,38 @@ I extracted records that meet all of these conditions:
 - Format includes `Vinyl`, `CD`, or `File`.
 - The year is present and valid.
 
+The filters were applied in that order. This audit trail shows how the source records were reduced:
+
+| Step | Releases |
+|---|---:|
+| All releases in the source snapshot | 18,724,693 |
+| Tagged `Electronic` | 4,813,369 |
+| Excluded because the year was missing or outside 1985–2024 | 496,258 |
+| Excluded because none of the three selected styles was present | 2,899,365 |
+| Excluded because none of the three selected formats was present | 170,601 |
+| Included distinct release versions | 1,247,145 |
+
+The exclusion counts are sequential, so each release appears in only one exclusion row.
+
+### Why these categories?
+
+I chose House, Techno, and Ambient because they are three electronic styles I am interested in comparing. The project treats them as case studies rather than evidence about all electronic music. I compare Vinyl, CD, and File because they support the physical-to-file transition at the center of the story. Releases available only on other formats, including cassette, are excluded from the denominator. The results therefore describe the mix among three selected formats rather than the complete format market.
+
 The cleaned file retains `release_id`, `master_id`, `year`, `country`, `style`, `format`, and the original format descriptions. Style and format are multi-value fields. I created one row per release-style-format combination and kept the release ID so I can calculate distinct-release counts. Chart labels will say “releases tagged with this style” when categories overlap.
 
-I checked record counts by year and style, missing country values, and overlapping format labels. A remaining analysis step is to test the effect of reissues. If a single recording has several separate release versions, those versions can appear more than once in the release data. I will use `master_id` where available for a sensitivity check and state clearly that the main unit is a cataloged release version.
+I checked record counts by year and style, missing country values, and overlapping format labels. If a single recording has several separate release versions, those versions can appear more than once in the release data. The main unit of analysis is therefore a cataloged release version. I also completed a sensitivity check using `master_id` where available.
+
+### Sensitivity check: release versions and master releases
+
+Discogs stores different editions, regional versions, and reissues as separate release records, which can give some recordings more weight. To test whether this changes the main conclusion, I repeated the 2024 calculation after deduplicating by `master_id` within each style. Among records with a usable master ID, the result still points in the same direction:
+
+| Style | File share | Vinyl share |
+|---|---:|---:|
+| House | 64.3% | 50.1% |
+| Techno | 74.8% | 56.4% |
+| Ambient | 65.1% | 39.6% |
+
+These percentages can overlap because one master may have both File and Vinyl release versions. Only 651,067 of the 1,247,145 filtered release versions have a usable master ID, so this is a partial sensitivity check rather than a replacement for the release-level analysis. The direction of the finding remains the same: File is the larger of the two categories in all three styles under both counting approaches.
 
 ### What the data can and cannot show
 
@@ -99,6 +128,7 @@ These limits will appear beside the charts rather than only at the bottom of the
 - [Cleaned release-level CSV, gzip compressed](data/final-project-part-one/discogs-electronic-formats-1985-2024.csv.gz)
 - [Annual counts for Tableau](data/final-project-part-one/discogs-annual-style-format-counts.csv)
 - [Annual format shares for Tableau](data/final-project-part-one/discogs-annual-style-format-shares.csv)
+- [2024 master-level sensitivity check](data/final-project-part-one/discogs-2024-master-sensitivity.csv)
 - [Data quality summary](data/final-project-part-one/data-quality-summary.txt)
 - [Data processing documentation](data/final-project-part-one/README.md)
 - [Extraction script](scripts/extract-discogs-electronic.py)

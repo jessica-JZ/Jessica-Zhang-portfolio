@@ -20,6 +20,7 @@ The filtered file contains 1,345,791 data rows and 1,247,145 distinct Discogs re
 
 - `discogs-annual-style-format-counts.csv`
 - `discogs-annual-style-format-shares.csv`
+- `discogs-2024-master-sensitivity.csv`
 - `data-quality-summary.txt`
 
 The repository stores the detailed CSV with gzip compression. Its SHA-256 checksum is `1ff94bad0a6c5b18dfb73e7a1720b7c3b6ba20783e394963109d51271547e015`.
@@ -66,6 +67,7 @@ Columns:
 - Releases without country: 53,210.
 - Releases with more than one selected format: 2,001.
 - Releases with more than one selected style: 76,325.
+- A 2024 sensitivity check deduplicated records by `master_id` within each style and year. The direction of the main result did not change, although only records with a usable master ID could be included.
 
 Because formats can overlap, format percentages should be shown as separate lines or bars rather than forced into a 100% stacked chart.
 

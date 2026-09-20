@@ -12,6 +12,7 @@ INPUT = DATA_DIR / "discogs-electronic-formats-1985-2024.csv.gz"
 ANNUAL = DATA_DIR / "discogs-annual-style-format-counts.csv"
 SHARES = DATA_DIR / "discogs-annual-style-format-shares.csv"
 QUALITY = DATA_DIR / "data-quality-summary.txt"
+MASTER_SENSITIVITY = DATA_DIR / "discogs-2024-master-sensitivity.csv"
 
 
 release_ids = set()
@@ -22,6 +23,8 @@ styles_by_release = defaultdict(set)
 by_year = defaultdict(set)
 by_year_style = defaultdict(set)
 by_year_style_format = defaultdict(set)
+masters_by_year_style = defaultdict(set)
+masters_by_year_style_format = defaultdict(set)
 
 with gzip.open(INPUT, "rt", newline="", encoding="utf-8") as source:
     for row in csv.DictReader(source):
@@ -38,6 +41,9 @@ with gzip.open(INPUT, "rt", newline="", encoding="utf-8") as source:
         styles_by_release[release_id].add(style)
         if row["master_id"] and row["master_id"] != "0":
             release_ids_with_master.add(release_id)
+            master_id = row["master_id"]
+            masters_by_year_style[(year, style)].add(master_id)
+            masters_by_year_style_format[(year, style, format_name)].add(master_id)
         if not row["country"]:
             release_ids_without_country.add(release_id)
 
@@ -57,6 +63,18 @@ with SHARES.open("w", newline="", encoding="utf-8") as target:
         writer.writerow(
             [year, style, format_name, len(ids), denominator, len(ids) / denominator]
         )
+
+with MASTER_SENSITIVITY.open("w", newline="", encoding="utf-8") as target:
+    writer = csv.writer(target)
+    writer.writerow(
+        ["year", "style", "format", "distinct_masters", "style_year_masters", "share"]
+    )
+    year = 2024
+    for style in ("House", "Techno", "Ambient"):
+        denominator = len(masters_by_year_style[(year, style)])
+        for format_name in ("Vinyl", "CD", "File"):
+            count = len(masters_by_year_style_format[(year, style, format_name)])
+            writer.writerow([year, style, format_name, count, denominator, count / denominator])
 
 with QUALITY.open("w", encoding="utf-8") as target:
     target.write(f"distinct_releases: {len(release_ids)}\n")

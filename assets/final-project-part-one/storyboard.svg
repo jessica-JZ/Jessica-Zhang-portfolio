@@ -19,7 +19,7 @@
   <text x="690" y="374" class="tiny muted">FORMAT TIMELINE</text>
   <line x1="690" y1="390" x2="1070" y2="390" class="axis"/>
   <circle cx="700" cy="390" r="6" fill="#7656a8"/><circle cx="880" cy="390" r="6" fill="#c56d2d"/><circle cx="1060" cy="390" r="6" fill="#918d84"/>
-  <text x="700" y="402" text-anchor="middle" class="tiny muted">1985: Vinyl + CD</text><text x="880" y="402" text-anchor="middle" class="tiny muted">1993: first File</text><text x="1060" y="402" text-anchor="middle" class="tiny muted">2024</text>
+  <text x="700" y="402" text-anchor="middle" class="tiny muted">1985: Vinyl + CD</text><text x="880" y="402" text-anchor="middle" class="tiny muted">1993: File in sample</text><text x="1060" y="402" text-anchor="middle" class="tiny muted">2024</text>
 
   <rect x="60" y="445" width="1080" height="350" rx="12" class="panel"/>
   <text x="95" y="500" class="small muted">2 · THE FORMAT MIX CHANGES</text>

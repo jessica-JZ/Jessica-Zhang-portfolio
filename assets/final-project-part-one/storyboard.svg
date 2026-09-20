@@ -5,8 +5,8 @@
     .bg{fill:#f7f5f0}.panel{fill:#fff;stroke:#c9c5bb;stroke-width:2}.ink{fill:#252525}.muted{fill:#666}.line{fill:none;stroke:#7656a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.line2{fill:none;stroke:#c56d2d;stroke-width:7}.grid{stroke:#ddd9d0;stroke-width:2}.axis{stroke:#918d84;stroke-width:2}.label{font-family:Arial,sans-serif;font-size:23px}.small{font-family:Arial,sans-serif;font-size:19px}.tiny{font-family:Arial,sans-serif;font-size:15px}.head{font-family:Georgia,serif;font-size:44px;font-weight:bold}.sub{font-family:Georgia,serif;font-size:29px}.note{fill:#fff8dc;stroke:#d6bc55;stroke-width:2}.vinyl{fill:#7656a8}.cd{fill:#6f91a8}.file{fill:#c56d2d}
   </style>
   <rect class="bg" width="1200" height="1500"/>
-  <text x="70" y="70" class="head ink">Initial story sketch</text>
-  <text x="70" y="110" class="label muted">Layout and chart roles only — placeholder lines are not findings</text>
+  <text x="70" y="70" class="head ink">Music-history story sketch</text>
+  <text x="70" y="110" class="label muted">A small digital exhibition — placeholder lines are not findings</text>
 
   <rect x="60" y="150" width="1080" height="260" rx="12" class="panel"/>
   <text x="95" y="205" class="small muted">1 · OPENING DISTINCTION</text>

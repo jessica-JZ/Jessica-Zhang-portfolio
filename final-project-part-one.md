@@ -8,7 +8,7 @@
 
 File-based distribution changed how electronic music was released, but it did not eliminate physical formats. For this project, I want to examine how the mix of Vinyl, CD, and File releases changed between 1985 and 2024 within House, Techno, and Ambient. I selected these styles because they are three parts of electronic music that I am interested in exploring. They are focused case studies, not a representative sample of the entire genre.
 
-My intended audience is people who enjoy electronic music but may not think about the difference between a release format and a recording method. In Discogs, `File` and `Vinyl` describe how a release was issued; they do not reveal whether the music was recorded, mastered, or transferred using analog or digital technology. The project will therefore tell a story about changes in cataloged release formats, not about sound quality, production methods, listening habits, or sales.
+My intended audience is music-history enthusiasts and electronic-music listeners who are curious about format changes but may not have a technical data background. In Discogs, `File` and `Vinyl` describe how a release was issued; they do not reveal whether the music was recorded, mastered, or transferred using analog or digital technology. The project will therefore tell a music-history story about changes in cataloged release formats, not about sound quality, production methods, listening habits, or sales.
 
 ### One-sentence summary
 
@@ -16,7 +16,7 @@ This project shows how File releases became dominant while Vinyl remained part o
 
 ### Audience and purpose
 
-The primary audience is electronic-music listeners and collectors who are curious about how music formats change. After viewing the project, they should understand that growth in File releases can coexist with continued Vinyl releases. They should also be able to distinguish a release-format trend from a claim about popularity or about whether a recording itself is analog or digital.
+The primary audience is music-history enthusiasts and electronic-music listeners, including collectors, who are curious about how release formats changed but may not have a technical data background. After viewing the project, they should understand three ideas: release format is different from recording technology; growth in File releases can coexist with continued Vinyl releases; and House, Techno, and Ambient did not follow identical format transitions.
 
 ## Story structure
 
@@ -36,7 +36,7 @@ Planned visual: aligned lines for format share, paired with a small line chart f
 
 The project will then compare House, Techno, and Ambient. Small-multiple line charts will use the same scale and time range so the audience can compare the styles without learning a new chart form. The analysis will examine how the timing and shape of the Vinyl decline differed across the three styles rather than treating Electronic as one uniform category.
 
-Planned visual: three aligned line charts showing the percentage of releases tagged Vinyl, one for each selected style. A highlighted annotation will identify the largest meaningful difference supported by the cleaned data.
+Planned visual: three aligned line charts showing the percentage of releases tagged with each selected format. Annotations will mark when File first exceeds Vinyl in the filtered data: 2003 for Ambient and 2008 for House and Techno. These are transitions within the selected Discogs records, not dates for the music industry as a whole.
 
 ### 4. The conclusion: a format shift, not a production story
 
@@ -48,13 +48,13 @@ The two sketches below show the planned order of the story and the role of each 
 
 ### Sketch 1: Overall story flow
 
-![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=10)
+![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=11)
 
 ### Sketch 2: Preliminary chart refinement
 
 I refined the second chart idea with preliminary data to test whether the proposed story is supported. Among the three selected format categories, File accounted for the largest share of filtered Discogs release versions in House, Techno, and Ambient by 2024. The transitions did not follow identical paths. In 2024, File appeared on 71.9% of House releases, 74.5% of Techno releases, and 66.1% of Ambient releases; Vinyl appeared on 25.8%, 23.6%, and 22.4%, respectively. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
 
-![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=5)
+![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=6)
 
 ## Data
 
@@ -137,9 +137,9 @@ I downloaded the December 2025 release snapshot and verified its SHA-256 checksu
 
 ## Method and medium
 
-The final project will be a scrolling data story published on GitHub Pages. I plan to create the charts in Tableau and embed or export them for the page. The reader will move through the story in a fixed order, with one main idea per section. Limited interaction, such as a style selector or details on hover, may help readers inspect the evidence without turning the project into a standalone dashboard.
+The final project will be a scrolling data story published on GitHub Pages and designed as a small digital music-history exhibition rather than a dashboard. I plan to create the charts in Tableau and embed or export them for the page. The reader will move through the story in a fixed order, beginning with the meaning of the format labels before moving into the historical patterns. Limited interaction, such as a style selector or details on hover, may help readers inspect the evidence without interrupting the narrative.
 
-The visual design will use a restrained palette: neutral gray for context, one consistent color for Vinyl, and distinct but quieter colors for CD and File. Labels and annotations will be placed near the data they explain. Counts, percentages, dates, and the unit of analysis will remain visible.
+The visual design will use a restrained, archive-inspired palette: neutral gray for context, one consistent color for Vinyl, and distinct colors for CD and File. A simple record motif and timeline can provide historical context, but I will avoid copyrighted album artwork, artist photographs, and logos. Labels and annotations will be placed near the data they explain. Counts, percentages, dates, the denominator, and the unit of analysis will remain visible.
 
 ## References
 

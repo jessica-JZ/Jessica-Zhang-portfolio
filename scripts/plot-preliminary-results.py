@@ -34,8 +34,8 @@ def y_position(share, panel_top):
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
     '<rect width="100%" height="100%" fill="#ffffff"/>',
-    '<style>text{font-family:Arial,sans-serif;fill:#252525}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:21px;font-weight:700}.tick{font-size:14px;fill:#666}.note{font-size:14px;fill:#555}.grid{stroke:#ddd9d0;stroke-width:1}</style>',
-    '<text x="70" y="58" class="title">Files took over, but vinyl remained in all three styles</text>',
+    '<style>text{font-family:Arial,sans-serif;fill:#252525}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:21px;font-weight:700}.tick{font-size:14px;fill:#666}.note{font-size:14px;fill:#555}.annotation{font-size:13px;font-weight:700;fill:#8e4c1e;paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}.grid{stroke:#ddd9d0;stroke-width:1}</style>',
+    '<text x="70" y="58" class="title">Three formats did not simply replace one another</text>',
     '<text x="70" y="91" class="subtitle">Share among filtered Discogs releases with Vinyl, CD, or File, 1985–2024</text>',
 ]
 
@@ -67,6 +67,18 @@ for panel_index, style in enumerate(styles):
             f'<polyline points="{point_string}" fill="none" stroke="{colors[format_name]}" '
             'stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>'
         )
+    crossover_year = {"House": 2008, "Techno": 2008, "Ambient": 2003}[style]
+    crossover_share = values[(style, "File")][crossover_year]
+    annotation_x = x_position(crossover_year)
+    annotation_y = y_position(crossover_share, panel_top)
+    parts.append(
+        f'<circle cx="{annotation_x:.1f}" cy="{annotation_y:.1f}" r="5" '
+        f'fill="{colors["File"]}" stroke="#fff" stroke-width="2"/>'
+    )
+    parts.append(
+        f'<text x="{annotation_x+10:.1f}" y="{annotation_y-10:.1f}" class="annotation">'
+        f'File first exceeds Vinyl: {crossover_year}</text>'
+    )
 
 parts.append('<text x="630" y="1055" text-anchor="middle" class="subtitle">Release year</text>')
 parts.append('<text x="28" y="585" text-anchor="middle" transform="rotate(-90 28 585)" class="subtitle">Share of filtered releases tagged with each format</text>')

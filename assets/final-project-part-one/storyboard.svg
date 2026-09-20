@@ -20,23 +20,23 @@
   <rect x="60" y="445" width="1080" height="350" rx="12" class="panel"/>
   <text x="95" y="500" class="small muted">2 · THE FORMAT MIX CHANGES</text>
   <text x="95" y="545" class="sub ink">Share of cataloged releases by format</text>
-  <line x1="120" y1="520" x2="120" y2="700" class="axis"/>
-  <line x1="120" y1="700" x2="1040" y2="700" class="axis"/>
-  <line x1="120" y1="700" x2="1040" y2="700" class="grid"/>
-  <line x1="120" y1="610" x2="1040" y2="610" class="grid"/>
-  <line x1="120" y1="520" x2="1040" y2="520" class="grid"/>
-  <path d="M120 555 C300 575 420 625 560 640 S840 645 1040 635" fill="none" stroke="#7656a8" stroke-width="7"/>
-  <path d="M120 665 C300 635 420 570 560 590 S840 660 1040 680" fill="none" stroke="#8fa9be" stroke-width="7"/>
-  <path d="M120 700 C300 700 420 680 560 625 S840 545 1040 535" fill="none" stroke="#c97b3d" stroke-width="7"/>
-  <text x="100" y="706" text-anchor="end" class="tiny muted">0%</text>
-  <text x="100" y="616" text-anchor="end" class="tiny muted">50%</text>
-  <text x="100" y="526" text-anchor="end" class="tiny muted">100%</text>
-  <text x="120" y="735" class="small muted">1985</text><text x="985" y="735" class="small muted">2024</text>
-  <text x="580" y="770" text-anchor="middle" class="tiny muted">Release year</text>
-  <text x="76" y="610" text-anchor="middle" transform="rotate(-90 76 610)" class="tiny muted">Share of filtered releases</text>
-  <rect x="760" y="470" width="20" height="20" class="vinyl"/><text x="790" y="487" class="small ink">Vinyl</text>
-  <rect x="870" y="470" width="20" height="20" class="cd"/><text x="900" y="487" class="small ink">CD</text>
-  <rect x="960" y="470" width="20" height="20" class="file"/><text x="990" y="487" class="small ink">File</text>
+  <line x1="120" y1="575" x2="120" y2="710" class="axis"/>
+  <line x1="120" y1="710" x2="1040" y2="710" class="axis"/>
+  <line x1="120" y1="710" x2="1040" y2="710" class="grid"/>
+  <line x1="120" y1="642.5" x2="1040" y2="642.5" class="grid"/>
+  <line x1="120" y1="575" x2="1040" y2="575" class="grid"/>
+  <path d="M120 595 C300 610 420 650 560 665 S840 670 1040 660" fill="none" stroke="#7656a8" stroke-width="7"/>
+  <path d="M120 685 C300 660 420 610 560 625 S840 675 1040 695" fill="none" stroke="#6f91a8" stroke-width="7"/>
+  <path d="M120 710 C300 710 420 695 560 655 S840 600 1040 585" fill="none" stroke="#c56d2d" stroke-width="7"/>
+  <text x="100" y="716" text-anchor="end" class="tiny muted">0%</text>
+  <text x="100" y="648" text-anchor="end" class="tiny muted">50%</text>
+  <text x="100" y="581" text-anchor="end" class="tiny muted">100%</text>
+  <text x="120" y="744" class="small muted">1985</text><text x="985" y="744" class="small muted">2024</text>
+  <text x="580" y="774" text-anchor="middle" class="tiny muted">Release year</text>
+  <text x="76" y="642" text-anchor="middle" transform="rotate(-90 76 642)" class="tiny muted">Share of selected releases</text>
+  <rect x="760" y="470" width="20" height="20" fill="#7656a8"/><text x="790" y="487" class="small ink">Vinyl</text>
+  <rect x="870" y="470" width="20" height="20" fill="#6f91a8"/><text x="900" y="487" class="small ink">CD</text>
+  <rect x="960" y="470" width="20" height="20" fill="#c56d2d"/><text x="990" y="487" class="small ink">File</text>
 
   <rect x="60" y="830" width="1080" height="370" rx="12" class="panel"/>
   <text x="95" y="885" class="small muted">3 · STYLES MAY DIFFER</text>

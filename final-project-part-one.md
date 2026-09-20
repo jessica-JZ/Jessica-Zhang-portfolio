@@ -26,7 +26,7 @@ Planned visual: a simple annotated timeline showing when Vinyl, CD, and File rel
 
 ### 2. The transition: the format mix changes
 
-Next, I will show the annual share of selected electronic releases tagged Vinyl, CD, and File. The measure will be a percentage as well as a count so that growth in the size of the Discogs catalog does not automatically look like growth in every format.
+Next, I will show the annual share of selected electronic releases tagged Vinyl, CD, and File. For each style and year, the denominator is the number of distinct Discogs release versions that contain at least one of those three selected formats. Releases available only on other formats, such as cassette, are outside this comparison. The measure will be shown as a percentage as well as a count so that growth in the size of the Discogs catalog does not automatically look like growth in every format.
 
 Planned visual: aligned lines for format share, paired with a small line chart for total cataloged releases. The lines are more accurate than a 100% stacked chart because 2,001 releases in the cleaned data have more than one selected format. The total-count chart supplies the denominator context needed to interpret the shares.
 
@@ -44,13 +44,13 @@ The ending will return to the opening question. The conclusion will describe the
 
 The sketches below show the planned order of the story and the role of each chart. They are structural drafts; the lines and values are placeholders, not results.
 
-![Storyboard sketch showing the opening question, format transition, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg)
+![Storyboard sketch showing the opening question, format transition, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=4)
 
 ### Preliminary evidence check
 
-I created a preliminary chart to test whether the proposed story is supported by the data. File releases became the largest category in all three selected styles. Vinyl did not disappear. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. These percentages describe cataloged release versions and may overlap slightly when one release contains multiple formats.
+I created a preliminary chart to test whether the proposed story is supported by the data. File releases became the largest category in all three selected styles. Vinyl did not disappear. In 2024, 25.8% of House releases, 23.6% of Techno releases, and 22.4% of Ambient releases in the filtered Discogs data were tagged Vinyl. For each style and year, the denominator contains distinct release versions tagged with at least one selected format: Vinyl, CD, or File. Because a release may carry more than one format tag, the three percentages are not parts of a mutually exclusive 100% total.
 
-![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg)
+![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=4)
 
 ## Data
 

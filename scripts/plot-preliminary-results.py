@@ -15,7 +15,7 @@ with open(source, newline="", encoding="utf-8") as handle:
     for row in csv.DictReader(handle):
         values[(row["style"], row["format"])][int(row["year"])] = float(row["share"])
 
-width, height = 1200, 1100
+width, height = 1200, 1160
 left, right = 110, 50
 top = 175
 panel_height = 235
@@ -68,9 +68,11 @@ for panel_index, style in enumerate(styles):
             'stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>'
         )
 
-parts.append('<text x="630" y="1045" text-anchor="middle" class="subtitle">Release year</text>')
+parts.append('<text x="630" y="1055" text-anchor="middle" class="subtitle">Release year</text>')
 parts.append('<text x="28" y="585" text-anchor="middle" transform="rotate(-90 28 585)" class="subtitle">Share of filtered releases tagged with each format</text>')
-parts.append('<text x="70" y="1080" class="note">Source: Discogs December 2025 release dump. Styles and formats can overlap; these are catalog records, not sales or listening data.</text>')
+parts.append('<line x1="70" y1="1090" x2="1150" y2="1090" stroke="#ddd9d0" stroke-width="1"/>')
+parts.append('<text x="70" y="1125" class="note">Source: Discogs December 2025 release dump. Denominator: distinct releases tagged Vinyl, CD, or File.</text>')
+parts.append('<text x="70" y="1148" class="note">Styles and formats can overlap; these are catalog records, not sales or listening data.</text>')
 parts.append('</svg>')
 
 with open(destination, "w", encoding="utf-8") as target:

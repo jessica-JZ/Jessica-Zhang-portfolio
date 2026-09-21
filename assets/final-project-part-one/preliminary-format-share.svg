@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1160" viewBox="0 0 1200 1160">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <style>text{font-family:Arial,sans-serif;fill:#252525}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:21px;font-weight:700}.tick{font-size:14px;fill:#666}.note{font-size:14px;fill:#555}.annotation{font-size:13px;font-weight:700;fill:#8e4c1e;paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}.grid{stroke:#ddd9d0;stroke-width:1}</style>
-<text x="70" y="58" class="title">Three formats did not simply replace one another</text>
+<text x="70" y="58" class="title">File dominated release-version counts; Vinyl remained</text>
 <text x="70" y="91" class="subtitle">Share among filtered Discogs releases with Vinyl, CD, or File, 1985–2024</text>
 <line x1="760" y1="126" x2="788" y2="126" stroke="#7656A8" stroke-width="5"/>
 <text x="796" y="132" class="tick">Vinyl</text>
@@ -78,8 +78,8 @@
 <circle cx="590.0" cy="955.6" r="5" fill="#C56D2D" stroke="#fff" stroke-width="2"/>
 <text x="600.0" y="945.6" class="annotation">File first exceeds Vinyl: 2003</text>
 <text x="630" y="1055" text-anchor="middle" class="subtitle">Release year</text>
-<text x="28" y="585" text-anchor="middle" transform="rotate(-90 28 585)" class="subtitle">Share of filtered releases tagged with each format</text>
+<text x="28" y="585" text-anchor="middle" transform="rotate(-90 28 585)" class="subtitle">Percentage of release versions that include each format</text>
 <line x1="70" y1="1090" x2="1150" y2="1090" stroke="#ddd9d0" stroke-width="1"/>
 <text x="70" y="1125" class="note">Source: Discogs December 2025 release dump. Denominator: distinct releases tagged Vinyl, CD, or File.</text>
-<text x="70" y="1148" class="note">Styles and formats can overlap; these are catalog records, not sales or listening data.</text>
+<text x="70" y="1148" class="note">Formats overlap for 0.16% of filtered release versions; these are catalog records, not market share or listening data.</text>
 </svg>

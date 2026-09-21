@@ -10,7 +10,7 @@
 
   <rect x="60" y="150" width="1080" height="260" rx="12" class="panel"/>
   <text x="95" y="205" class="small muted">1 · OPENING DISTINCTION</text>
-  <text x="95" y="270" class="head ink">Files took over. Vinyl remained.</text>
+  <text x="95" y="270" class="head ink">File versions led. Vinyl remained.</text>
   <text x="95" y="315" class="sub ink">Three styles followed different paths.</text>
   <text x="95" y="360" class="label muted">Release format is not recording technology.</text>
   <circle cx="920" cy="280" r="82" fill="#2c2c2c"/>

@@ -21,6 +21,7 @@ The filtered file contains 1,345,791 data rows and 1,247,145 distinct Discogs re
 - `discogs-annual-style-format-counts.csv`
 - `discogs-annual-style-format-shares.csv`
 - `discogs-2024-master-sensitivity.csv`
+- `discogs-2022-2024-format-coverage.csv`
 - `data-quality-summary.txt`
 
 The repository stores the detailed CSV with gzip compression. Its SHA-256 checksum is `1ff94bad0a6c5b18dfb73e7a1720b7c3b6ba20783e394963109d51271547e015`.
@@ -76,6 +77,7 @@ Because formats can overlap, format percentages should be shown as separate line
 - `scripts/extract-discogs-electronic.py` filters the official release dump.
 - `scripts/summarize-discogs.py` creates the annual count and share tables.
 - `scripts/plot-preliminary-results.py` creates the preliminary SVG evidence check.
+- `scripts/audit-discogs-format-coverage.py` measures how much of each style is covered by the three selected formats and reports Cassette separately.
 
 ## Interpretation
 

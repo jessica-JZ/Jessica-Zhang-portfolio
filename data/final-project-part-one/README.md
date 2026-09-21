@@ -78,6 +78,7 @@ Because formats can overlap, format percentages should be shown as separate line
 - `scripts/summarize-discogs.py` creates the annual count and share tables.
 - `scripts/plot-preliminary-results.py` creates the preliminary SVG evidence check.
 - `scripts/audit-discogs-format-coverage.py` measures how much of each style is covered by the three selected formats and reports Cassette separately.
+- `scripts/plot-supporting-evidence.py` creates the five-panel storyboard and the recent-period, Vinyl-count, and master-level SVG sketches used on the Part I page.
 
 ## Interpretation
 

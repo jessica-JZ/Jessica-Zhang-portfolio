@@ -1,70 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
-  <title id="title">Initial storyboard for an electronic music format data story</title>
-  <desc id="desc">Four stacked wireframe panels distinguish release format from recording technology, then show a format timeline, paired share and release-count charts, small multiples comparing three electronic styles, and a limited conclusion.</desc>
-  <style>
-    .bg{fill:#f7f5f0}.panel{fill:#fff;stroke:#c9c5bb;stroke-width:2}.ink{fill:#252525}.muted{fill:#666}.line{fill:none;stroke:#7656a8;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.line2{fill:none;stroke:#c56d2d;stroke-width:7}.grid{stroke:#ddd9d0;stroke-width:2}.axis{stroke:#918d84;stroke-width:2}.label{font-family:Arial,sans-serif;font-size:23px}.small{font-family:Arial,sans-serif;font-size:19px}.tiny{font-family:Arial,sans-serif;font-size:15px}.head{font-family:Georgia,serif;font-size:44px;font-weight:bold}.sub{font-family:Georgia,serif;font-size:29px}.note{fill:#fff8dc;stroke:#d6bc55;stroke-width:2}.vinyl{fill:#7656a8}.cd{fill:#6f91a8}.file{fill:#c56d2d}
-  </style>
-  <rect class="bg" width="1200" height="1500"/>
-  <text x="70" y="70" class="head ink">Music-history story sketch</text>
-  <text x="70" y="110" class="label muted">A small digital exhibition — placeholder lines are not findings</text>
-
-  <rect x="60" y="150" width="1080" height="260" rx="12" class="panel"/>
-  <text x="95" y="205" class="small muted">1 · OPENING DISTINCTION</text>
-  <text x="95" y="270" class="head ink">File versions led. Vinyl remained.</text>
-  <text x="95" y="315" class="sub ink">Three styles followed different paths.</text>
-  <text x="95" y="360" class="label muted">Release format is not recording technology.</text>
-  <circle cx="920" cy="280" r="82" fill="#2c2c2c"/>
-  <circle cx="920" cy="280" r="27" fill="#f7f5f0"/>
-  <circle cx="920" cy="280" r="8" fill="#7656a8"/>
-  <text x="690" y="374" class="tiny muted">FORMAT TIMELINE</text>
-  <line x1="690" y1="390" x2="1070" y2="390" class="axis"/>
-  <circle cx="700" cy="390" r="6" fill="#7656a8"/><circle cx="880" cy="390" r="6" fill="#c56d2d"/><circle cx="1060" cy="390" r="6" fill="#918d84"/>
-  <text x="700" y="402" text-anchor="middle" class="tiny muted">1985: study begins</text><text x="880" y="402" text-anchor="middle" class="tiny muted">1993: File in sample</text><text x="1060" y="402" text-anchor="middle" class="tiny muted">2024</text>
-
-  <rect x="60" y="445" width="1080" height="350" rx="12" class="panel"/>
-  <text x="95" y="500" class="small muted">2 · THE FORMAT MIX CHANGES</text>
-  <text x="95" y="545" class="sub ink">Share of cataloged releases by format</text>
-  <text x="120" y="570" class="tiny muted">Share of selected releases</text>
-  <line x1="120" y1="590" x2="120" y2="710" class="axis"/>
-  <line x1="120" y1="710" x2="800" y2="710" class="axis"/>
-  <line x1="120" y1="710" x2="800" y2="710" class="grid"/>
-  <line x1="120" y1="650" x2="800" y2="650" class="grid"/>
-  <line x1="120" y1="590" x2="800" y2="590" class="grid"/>
-  <path d="M120 605 C260 620 360 655 470 670 S650 675 800 665" fill="none" stroke="#7656a8" stroke-width="7"/>
-  <path d="M120 688 C260 665 360 620 470 635 S650 678 800 696" fill="none" stroke="#6f91a8" stroke-width="7"/>
-  <path d="M120 710 C260 710 360 698 470 660 S650 610 800 596" fill="none" stroke="#c56d2d" stroke-width="7"/>
-  <text x="100" y="716" text-anchor="end" class="tiny muted">0%</text>
-  <text x="100" y="656" text-anchor="end" class="tiny muted">50%</text>
-  <text x="100" y="596" text-anchor="end" class="tiny muted">100%</text>
-  <text x="120" y="744" class="small muted">1985</text><text x="745" y="744" class="small muted">2024</text>
-  <text x="460" y="774" text-anchor="middle" class="tiny muted">Release year</text>
-  <text x="850" y="570" class="tiny muted">Total cataloged releases</text>
-  <rect x="850" y="590" width="190" height="120" fill="#fafafa" stroke="#ddd9d0"/>
-  <line x1="870" y1="690" x2="1020" y2="690" class="axis"/>
-  <line x1="870" y1="610" x2="870" y2="690" class="axis"/>
-  <path d="M870 680 C910 675 930 655 955 640 S990 615 1020 605" fill="none" stroke="#918d84" stroke-width="5"/>
-  <text x="870" y="730" class="tiny muted">1985</text><text x="985" y="730" class="tiny muted">2024</text>
-  <rect x="760" y="470" width="20" height="20" fill="#7656a8"/><text x="790" y="487" class="small ink">Vinyl</text>
-  <rect x="870" y="470" width="20" height="20" fill="#6f91a8"/><text x="900" y="487" class="small ink">CD</text>
-  <rect x="960" y="470" width="20" height="20" fill="#c56d2d"/><text x="990" y="487" class="small ink">File</text>
-
-  <rect x="60" y="830" width="1080" height="370" rx="12" class="panel"/>
-  <text x="95" y="885" class="small muted">3 · STYLES MAY DIFFER</text>
-  <text x="95" y="930" class="sub ink">Percentage of releases tagged Vinyl</text>
-  <g transform="translate(105 980)">
-    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">House</text><text x="4" y="54" class="tiny muted">100%</text><text x="15" y="132" class="tiny muted">0%</text><text x="45" y="146" class="tiny muted">1985</text><text x="245" y="146" class="tiny muted">2024</text><path d="M45 120 C100 100 170 55 280 70" class="line"/>
-  </g>
-  <g transform="translate(450 980)">
-    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">Techno</text><text x="4" y="54" class="tiny muted">100%</text><text x="15" y="132" class="tiny muted">0%</text><text x="45" y="146" class="tiny muted">1985</text><text x="245" y="146" class="tiny muted">2024</text><path d="M45 125 C100 80 175 105 280 45" class="line"/>
-  </g>
-  <g transform="translate(795 980)">
-    <rect width="300" height="150" fill="#fafafa" stroke="#ddd9d0"/><text x="12" y="30" class="small ink">Ambient</text><text x="4" y="54" class="tiny muted">100%</text><text x="15" y="132" class="tiny muted">0%</text><text x="45" y="146" class="tiny muted">1985</text><text x="245" y="146" class="tiny muted">2024</text><path d="M45 80 C110 110 185 65 280 95" class="line"/>
-  </g>
-  <text x="105" y="1170" class="small muted">Same scale and date range in all three panels</text>
-
-  <rect x="60" y="1235" width="1080" height="210" rx="12" class="panel"/>
-  <text x="95" y="1290" class="small muted">4 · CONCLUSION AND LIMIT</text>
-  <text x="95" y="1335" class="sub ink">A format shift, not a production story.</text>
-  <rect x="95" y="1365" width="970" height="52" rx="7" class="note"/>
-  <text x="115" y="1398" class="small ink">Discogs does not reveal whether a vinyl release used an analog or digital master.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1880" viewBox="0 0 1200 1880" role="img" aria-labelledby="title desc">
+<title id="title">Five-part storyboard for an electronic music format history</title>
+<desc id="desc">Five stacked panels distinguish format from recording technology, show annual change, summarize recent years and counts, compare masters, and close with scope limits.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#252525}.title{font-size:32px;font-weight:700}.subtitle{font-size:18px;fill:#555}.label{font-size:17px}.small{font-size:14px;fill:#666}.style{font-size:21px;font-weight:700}.grid{stroke:#ddd9d0;stroke-width:1}.axis{stroke:#918d84;stroke-width:1.5}.noteBox{fill:#fff8dc;stroke:#d6bc55;stroke-width:1.5}</style>
+<rect width="100%" height="100%" fill="#f7f5f0"/>
+<text x="70" y="70" class="title">Music-history story sketch</text>
+<text x="70" y="106" class="subtitle">Five steps, with each chart answering one question</text>
+<rect x="60" y="145" width="1080" height="255" rx="12" fill="#fff" stroke="#c9c5bb" stroke-width="2"/>
+<rect x="60" y="430" width="1080" height="300" rx="12" fill="#fff" stroke="#c9c5bb" stroke-width="2"/>
+<rect x="60" y="760" width="1080" height="300" rx="12" fill="#fff" stroke="#c9c5bb" stroke-width="2"/>
+<rect x="60" y="1090" width="1080" height="300" rx="12" fill="#fff" stroke="#c9c5bb" stroke-width="2"/>
+<rect x="60" y="1420" width="1080" height="360" rx="12" fill="#fff" stroke="#c9c5bb" stroke-width="2"/>
+<text x="95" y="198" class="small">1 · DEFINE THE TERMS</text>
+<text x="95" y="255" class="title">Release format is not recording technology</text>
+<text x="95" y="300" class="subtitle">A Vinyl release may use a digital master; File describes how a release was issued.</text>
+<line x1="680" y1="365" x2="1070" y2="365" class="axis"/>
+<circle cx="700" cy="365" r="6" fill="#918d84"/><circle cx="880" cy="365" r="6" fill="#C56D2D"/><circle cx="1060" cy="365" r="6" fill="#918d84"/>
+<text x="700" y="388" text-anchor="middle" class="small">1985: study begins</text>
+<text x="880" y="388" text-anchor="middle" class="small">1993: File in sample</text>
+<text x="1060" y="388" text-anchor="middle" class="small">2024</text>
+<text x="95" y="485" class="small">2 · SHOW THE HISTORICAL CHANGE</text>
+<text x="95" y="532" class="style">Annual percentage of release versions that include each format</text>
+<line x1="115" y1="680" x2="795" y2="680" class="axis"/>
+<path d="M115 565 C270 590 390 645 520 660 S690 650 795 640" fill="none" stroke="#7656A8" stroke-width="7"/>
+<path d="M115 650 C280 615 390 570 520 600 S690 660 795 674" fill="none" stroke="#6F91A8" stroke-width="7"/>
+<path d="M115 680 C320 680 430 660 535 625 S670 565 795 550" fill="none" stroke="#C56D2D" stroke-width="7"/>
+<text x="115" y="710" class="small">1985</text><text x="755" y="710" class="small">2024</text>
+<rect x="850" y="565" width="210" height="115" fill="#fafafa" stroke="#ddd9d0"/>
+<path d="M875 660 C920 650 955 620 1035 585" fill="none" stroke="#918d84" stroke-width="5"/>
+<text x="850" y="550" class="small">Pair share with total catalog counts</text>
+<text x="95" y="815" class="small">3 · SUMMARIZE THE RECENT STATE</text>
+<text x="95" y="862" class="style">2022–2024 pooled comparison plus Vinyl counts</text>
+<text x="95" y="905" class="subtitle">File: 69.8%–75.2% · Vinyl: 19.8%–25.1%</text>
+<line x1="120" y1="980" x2="540" y2="980" stroke="#d8d4cb" stroke-width="6"/>
+<circle cx="225" cy="980" r="11" fill="#7656A8"/><circle cx="435" cy="980" r="11" fill="#C56D2D"/>
+<rect x="650" y="900" width="410" height="120" fill="#fafafa" stroke="#ddd9d0"/>
+<path d="M680 980 L730 950 L780 960 L830 940 L880 955 L930 950 L1015 970" fill="none" stroke="#7656A8" stroke-width="6"/>
+<text x="650" y="890" class="small">Vinyl remains in thousands of cataloged versions</text>
+<text x="95" y="1145" class="small">4 · CHANGE THE UNIT OF ANALYSIS</text>
+<text x="95" y="1192" class="style">Does an identifiable master have a File or Vinyl version?</text>
+<text x="95" y="1235" class="subtitle">Separate paired dots; never place these values on the release-version axis.</text>
+<line x1="230" y1="1320" x2="1000" y2="1320" stroke="#d8d4cb" stroke-width="6"/>
+<circle cx="610" cy="1320" r="12" fill="#7656A8"/><circle cx="820" cy="1320" r="12" fill="#C56D2D"/>
+<text x="610" y="1293" text-anchor="middle" class="label">Vinyl version</text>
+<text x="820" y="1293" text-anchor="middle" class="label">File version</text>
+<text x="95" y="1475" class="small">5 · CLOSE WITH SCOPE AND LIMITS</text>
+<text x="95" y="1522" class="style">A catalog history with an incomplete view of Ambient formats</text>
+<rect x="95" y="1560" width="970" height="84" rx="8" class="noteBox"/>
+<text x="118" y="1594" class="label">Ambient: selected formats cover 76.9% of 2024 records; Cassette appears on 13.3%.</text>
+<text x="118" y="1623" class="small">Discogs records do not measure sales, listening, sound quality, or analog versus digital mastering.</text>
+<text x="95" y="1695" class="subtitle">Audience takeaway</text>
+<text x="95" y="1735" class="style">File versions became dominant in the catalog, while Vinyl remained visible.</text>
 </svg>

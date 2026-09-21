@@ -38,17 +38,23 @@ The project will then compare House, Techno, and Ambient. Small-multiple line ch
 
 Planned visual: three aligned line charts showing the percentage of releases tagged with each selected format. Annotations will mark when File first exceeds Vinyl in the filtered data: 2003 for Ambient and 2008 for House and Techno. These are transitions within the selected Discogs records, not dates for the music industry as a whole.
 
-### 4. The conclusion: a format shift, not a production story
+### 4. The second lens: versions and works answer different questions
+
+Before the conclusion, I will compare the release-version result with a 2024 master-level check. The first measure asks how many separately cataloged versions include a format. The second asks whether an identifiable work has at least one version in that format. Showing these views separately will make clear why Vinyl can represent a smaller share of release versions while still being available for a substantial share of works.
+
+Planned visual: a paired-dot chart for File and Vinyl at the master level, clearly separated from the annual release-version chart. A note will explain that the percentages can overlap and that only records with a usable `master_id` are included.
+
+### 5. The conclusion: a format shift, not a production story
 
 The ending will show that File became the largest of the three selected format categories in release-version counts, while Vinyl remained present in thousands of cataloged versions each year. Across 2022–2024, File appeared on 69.8%–75.2% of filtered release versions across the three styles, while Vinyl appeared on 19.8%–25.1%. This is evidence of coexistence in cataloged release formats, not evidence about sound quality, consumer preference, or whether a vinyl release came from an analog or digital master. A second, master-level view will answer a different question: whether a cataloged work had at least one version in a format.
 
 ## Initial sketches
 
-The two sketches below show the planned order of the story and the role of each chart. The first is a structural storyboard; its lines and values are placeholders, not results. The second refines the planned comparison using preliminary data.
+The storyboard and chart sketches below show how the evidence will unfold. The first maps the five-part reading sequence. The remaining sketches use preliminary results to test the planned comparisons, labels, scales, and qualifications before I build the final Tableau views.
 
 ### Sketch 1: Overall story flow
 
-![Storyboard sketch showing the opening distinction, timeline, paired share and count charts, style comparison, and conclusion](assets/final-project-part-one/storyboard.svg?v=13)
+![Five-panel storyboard showing the definition, historical transition, recent summary, master-level check, and qualified conclusion](assets/final-project-part-one/storyboard.svg?v=14)
 
 ### Sketch 2: Preliminary chart refinement
 
@@ -57,6 +63,24 @@ I refined the second chart idea with preliminary data to test whether the propos
 The percentages measure whether a release version includes each format. They are not mutually exclusive: 2,001 of the 1,247,145 filtered release versions, or 0.16%, contain more than one selected format. The lines therefore should not be read as components that must add to exactly 100%, although the overlap at the release-version level is small.
 
 ![Preliminary line chart comparing Vinyl, CD, and File shares for House, Techno, and Ambient](assets/final-project-part-one/preliminary-format-share.svg?v=7)
+
+### Sketch 3: The recent result and its denominator
+
+This compact view will summarize the most recent complete three-year period without relying on a single endpoint. File and Vinyl are shown as separate, overlapping attributes rather than slices of one whole. The note under Ambient makes the narrower coverage visible at the moment the reader encounters that result.
+
+![Paired-dot sketch comparing pooled 2022–2024 File and Vinyl percentages in House, Techno, and Ambient](assets/final-project-part-one/recent-format-summary.svg?v=1)
+
+### Sketch 4: “Vinyl remained” in absolute counts
+
+A percentage alone cannot show whether Vinyl disappeared. This count view therefore accompanies the share chart. It shows that Discogs still contains thousands of Vinyl-tagged release versions in recent years, while avoiding a claim that the count is currently rising. The panels use the same scale so that the styles can be compared honestly.
+
+![Small-multiple sketch of annual Vinyl-tagged release-version counts from 2015 through 2024](assets/final-project-part-one/vinyl-absolute-counts.svg?v=1)
+
+### Sketch 5: A different unit of analysis
+
+The master-level chart is intentionally separate because it answers a different question. Its percentages can overlap: one work may have both a File version and a Vinyl version. This view will help readers understand that File dominates the count of individual versions, while Vinyl is still available for many identifiable works in the 2024 subset.
+
+![Paired-dot sketch showing the percentage of 2024 Discogs masters with at least one File or Vinyl version](assets/final-project-part-one/master-format-view.svg?v=1)
 
 ## Data
 

@@ -109,11 +109,11 @@ def plot_vinyl_counts(rows):
     parts = svg_start(
         width,
         height,
-        "Vinyl remained present in thousands of cataloged versions",
+        "Vinyl releases remained present in thousands of cataloged versions",
         "Three aligned line charts show annual Vinyl release-version counts for House, Techno, and Ambient from 2015 through 2024.",
     )
     parts += [
-        '<text x="70" y="58" class="title" style="font-size:28px">Vinyl remained present in thousands of cataloged versions</text>',
+        '<text x="70" y="58" class="title" style="font-size:27px">Vinyl releases remained present in thousands of cataloged versions</text>',
         '<text x="70" y="91" class="subtitle">Distinct Vinyl-tagged Discogs release versions, 2015–2024</text>',
     ]
 
@@ -239,7 +239,7 @@ def plot_storyboard():
         '<circle cx="225" cy="980" r="11" fill="#7656A8"/><circle cx="435" cy="980" r="11" fill="#C56D2D"/>',
         '<rect x="650" y="900" width="410" height="120" fill="#fafafa" stroke="#ddd9d0"/>',
         '<path d="M680 980 L730 950 L780 960 L830 940 L880 955 L930 950 L1015 970" fill="none" stroke="#7656A8" stroke-width="6"/>',
-        '<text x="650" y="890" class="small">Vinyl remains in thousands of cataloged versions</text>',
+        '<text x="650" y="890" class="small">Vinyl releases remain in thousands of cataloged versions</text>',
 
         '<text x="95" y="1145" class="small">4 · CHANGE THE UNIT OF ANALYSIS</text>',
         '<text x="95" y="1192" class="style">Does an identifiable master have a File or Vinyl version?</text>',
@@ -255,7 +255,7 @@ def plot_storyboard():
         '<text x="118" y="1594" class="label">Ambient: selected formats cover 76.9% of 2024 records; Cassette appears on 13.3%.</text>',
         '<text x="118" y="1623" class="small">Discogs records do not measure sales, listening, sound quality, or analog versus digital mastering.</text>',
         '<text x="95" y="1695" class="subtitle">Audience takeaway</text>',
-        '<text x="95" y="1735" class="style">File versions became dominant in the catalog, while Vinyl remained visible.</text>',
+        '<text x="95" y="1735" class="style">File versions became dominant in the catalog, while vinyl releases remained visible.</text>',
     ]
     write_svg(ASSETS / "storyboard.svg", parts)
 

@@ -1,6 +1,6 @@
 | [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
-# In the Discogs Catalog, File Releases Became Dominant—but Vinyl Remained
+# In the Discogs Catalog, File Releases Became Dominant—but Vinyl Releases Remained
 
 *A Discogs comparison of Vinyl, CD, and File releases in House, Techno, and Ambient, 1985–2024*
 
@@ -12,11 +12,11 @@ My intended audience is music-history enthusiasts and electronic-music listeners
 
 ### One-sentence summary
 
-This project shows how File releases became dominant in Discogs release-version counts while Vinyl remained present, with House, Techno, and Ambient following different paths between 1985 and 2024.
+This project shows how File releases became dominant in Discogs release-version counts while vinyl releases remained present, with House, Techno, and Ambient following different paths between 1985 and 2024.
 
 ### Audience and purpose
 
-The primary audience is music-history enthusiasts and electronic-music listeners, including collectors, who are curious about how release formats changed but may not have a technical data background. After viewing the project, they should understand four ideas: release format is different from recording technology; the main chart counts cataloged release versions rather than listeners or sales; growth in File releases can coexist with continued Vinyl releases; and House, Techno, and Ambient did not follow identical format transitions.
+The primary audience is music-history enthusiasts and electronic-music listeners, including collectors, who are curious about how release formats changed but may not have a technical data background. After viewing the project, they should understand four ideas: release format is different from recording technology; the main chart counts cataloged release versions rather than listeners or sales; growth in File releases can coexist with continued vinyl releases; and House, Techno, and Ambient did not follow identical format transitions.
 
 ## Story structure
 
@@ -46,7 +46,7 @@ Planned visual: a paired-dot chart for File and Vinyl at the master level, clear
 
 ### 5. The conclusion: a format shift, not a production story
 
-The ending will show that File became the largest of the three selected format categories in release-version counts, while Vinyl remained present in thousands of cataloged versions each year. Across 2022–2024, File appeared on 69.8%–75.2% of filtered release versions across the three styles, while Vinyl appeared on 19.8%–25.1%. This is evidence of coexistence in cataloged release formats, not evidence about sound quality, consumer preference, or whether a vinyl release came from an analog or digital master. A second, master-level view will answer a different question: whether a cataloged work had at least one version in a format.
+The ending will show that File became the largest of the three selected format categories in release-version counts, while vinyl releases remained present in thousands of cataloged versions each year. Across 2022–2024, File appeared on 69.8%–75.2% of filtered release versions across the three styles, while Vinyl appeared on 19.8%–25.1%. This is evidence of coexistence in cataloged release formats, not evidence about sound quality, consumer preference, or whether a vinyl record was made from an analog or digital master. A second, master-level view will answer a different question: whether a cataloged work had at least one version in a format.
 
 ## Initial sketches
 
@@ -70,9 +70,9 @@ This compact view will summarize the most recent complete three-year period with
 
 ![Paired-dot sketch comparing pooled 2022–2024 File and Vinyl percentages in House, Techno, and Ambient](assets/final-project-part-one/recent-format-summary.svg?v=1)
 
-### Sketch 4: “Vinyl remained” in absolute counts
+### Sketch 4: Vinyl releases remained in absolute counts
 
-A percentage alone cannot show whether Vinyl disappeared. This count view therefore accompanies the share chart. It shows that Discogs still contains thousands of Vinyl-tagged release versions in recent years, while avoiding a claim that the count is currently rising. The panels use the same scale so that the styles can be compared honestly.
+A percentage alone cannot show whether vinyl releases disappeared. This count view therefore accompanies the share chart. It shows that Discogs still contains thousands of Vinyl-tagged release versions in recent years, while avoiding a claim that the count is currently rising. The panels use the same scale so that the styles can be compared honestly.
 
 ![Small-multiple sketch of annual Vinyl-tagged release-version counts from 2015 through 2024](assets/final-project-part-one/vinyl-absolute-counts.svg?v=1)
 
@@ -192,7 +192,7 @@ Before Part II is finalized, I will ask several people in the intended audience 
 1. What do `File` and `Vinyl` measure in this project?
 2. Do you expect the three format percentages to add to exactly 100%? Why or why not?
 3. What is the difference between the release-version chart and the master-level table?
-4. After viewing the story, would you describe Vinyl as disappearing, growing, or remaining present?
+4. After viewing the story, would you describe vinyl releases as disappearing, growing, or remaining present?
 5. What limitation would you mention before applying the Ambient result to all of its physical formats?
 
 ## References

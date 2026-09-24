@@ -4,41 +4,45 @@
 
 ## Selected story direction
 
-My Part I sketches explored several questions about release formats. When I presented them together, the main story was difficult to identify. For Part II, I am narrowing the project to one question: as File releases became dominant in the Discogs catalog, what happened to vinyl releases?
+My Part I sketches explored several questions about release formats. When I presented them together, the main story was difficult to identify. For Part II, every section will contribute to one central tension: File releases came to dominate the Discogs catalog, yet vinyl releases remained visible. Did digital distribution replace vinyl, or did the two formats begin to coexist in a different way?
 
-In one sentence, the story is:
+The guiding idea is that format change is not always a simple replacement story. A falling percentage can easily be mistaken for disappearance, especially when the total number of releases is also changing. The story will first establish that File overtook Vinyl, then test whether vinyl releases actually vanished by looking at their annual counts. House, Techno, and Ambient provide three cases for seeing whether that transition followed the same path across electronic music.
 
-> For electronic-music listeners used to streaming, this story uses Discogs records to show that File releases overtook Vinyl releases, yet thousands of vinyl release versions remained across House, Techno, and Ambient.
+This framing gives each visualization a specific job. The percentage chart establishes the shift toward File releases. The count chart tests the disappearance assumption. The style comparison adds variation without starting a separate story. Together, they support one conclusion: digital dominance and the continued presence of vinyl releases can occur at the same time in a catalog.
 
-The story matters because a falling percentage can easily be mistaken for disappearance. Showing both format percentages and release-version counts will let the reader distinguish a change in the format mix from the continued presence of vinyl releases. The project describes Discogs catalog records. It does not measure listening, sales, sound quality, or whether a vinyl record was produced from an analog or digital master.
+The project describes Discogs catalog records. It does not measure listening, sales, sound quality, or whether a vinyl record was produced from an analog or digital master.
 
 ## Target audience
 
-The primary audience is electronic-music listeners who usually encounter music through streaming but are curious about why vinyl releases still exist. They may recognize House, Techno, or Ambient, but they are not expected to know how Discogs organizes release versions and master releases.
+The primary audience is electronic-music listeners who discovered much of their music through streaming or downloads but still encounter vinyl editions through DJs, record shops, or artist releases. They are interested enough to recognize styles such as House, Techno, and Ambient, but they are not expected to understand Discogs database terms.
 
-This audience begins with a familiar experience: music is easy to access as a file or stream, yet vinyl records remain visible in record stores, DJ culture, and new releases. The story gives them a way to examine that apparent contradiction without assuming that catalog records represent popularity or sales.
+These listeners may carry a simple story of technological change: a newer format arrives and the older one disappears. Electronic music makes that expectation worth examining because digital files and vinyl records can both remain visible to the same listener. The project gives this audience historical evidence for thinking about that overlap while making clear that catalog records are not popularity or sales data.
 
-After reading the story, the audience should be able to explain that File became the dominant selected format in the Discogs release-version data, while vinyl releases remained present. They should also understand that the three styles did not follow exactly the same timeline.
+After reading the story, the audience should understand why “File became dominant” and “vinyl releases remained” are not contradictory claims. They should also be able to point to the percentage and count evidence behind that conclusion.
 
 ## Draft storyboard
 
-The Part II draft will use one continuous storyboard rather than five separate story directions.
+The Part II draft will use one continuous storyboard rather than five separate story directions. Each scene advances the same replacement-versus-coexistence question.
 
-### 1. Begin with the reader's question
+### 1. Begin with a familiar contradiction
 
-The opening will ask: if digital distribution became dominant, did vinyl releases disappear? A short definition will explain that `File` and `Vinyl` are Discogs release-format labels. They do not describe recording or mastering technology.
+The opening will place the reader in a recognizable situation: electronic music is immediately available as a stream or file, yet new and older music can still appear on vinyl. The story will ask whether the continued visibility of vinyl is exceptional or part of a broader catalog pattern. A short definition will explain that `File` and `Vinyl` are Discogs release-format labels. They do not describe recording or mastering technology.
 
-### 2. Show when File overtook Vinyl
+### 2. Establish that File took the lead
 
 The main visualization will compare File and Vinyl release-version percentages from 1985 through 2024. House, Techno, and Ambient will appear in aligned panels with the same axes. File and Vinyl will receive the strongest colors and direct labels. CD may appear as a thin gray contextual line if it helps explain the transition; otherwise it will be removed from the main chart. Annotations will identify the year when File first exceeded Vinyl in each style.
 
-### 3. Test whether vinyl releases disappeared
+### 3. Challenge the replacement assumption
 
-A second visualization will show the annual number of Vinyl-tagged release versions. This chart answers a different question from the percentage chart: whether vinyl releases were still being cataloged in substantial numbers. The text will avoid claiming that vinyl sales or listening increased.
+A second visualization will show the annual number of Vinyl-tagged release versions. This chart asks whether vinyl releases were still being cataloged in substantial numbers even after their percentage declined. The text will avoid claiming that vinyl sales or listening increased.
 
-### 4. End with a bounded conclusion
+### 4. Show that the transition was not identical across styles
 
-The ending will return to the opening question. File releases became dominant in this Discogs sample, while vinyl releases remained present. A visible source note will explain the unit of analysis, selected formats, overlapping categories, and the lower three-format coverage for Ambient. The master-level analysis from Part I will remain a methodological check rather than a separate chapter in the main story.
+The same evidence will be read across House, Techno, and Ambient. Rather than introducing a new comparison, this section will use a few annotations to show that File overtook Vinyl at different times and that recent vinyl counts followed different paths. The styles act as cases within the larger story.
+
+### 5. Resolve the question without overstating it
+
+The ending will return to the opening tension. File releases became dominant in this Discogs sample, while vinyl releases remained present in thousands of cataloged versions. The evidence supports coexistence in the catalog, not a claim about a vinyl revival or listener preference. A visible source note will explain the unit of analysis, selected formats, overlapping categories, and the lower three-format coverage for Ambient. The master-level analysis from Part I will remain a methodological check rather than a separate chapter in the main story.
 
 The high-fidelity visualizations are still in development. They will be added to this page after the main comparison and labels are revised.
 

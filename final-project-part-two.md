@@ -46,27 +46,21 @@ The ending will return to the opening tension. File releases became dominant in 
 
 The high-fidelity visualizations are still in development. They will be added to this page after the main comparison and labels are revised.
 
-## Early discussion and current design response
-
-Early discussion revealed three problems with the Part I direction: the intended audience was difficult to identify, the five sketches appeared to tell five different stories, and the main line chart did not make the File–Vinyl comparison obvious.
-
-For the Part II draft, I have selected one central question and one primary audience. The revised main chart will emphasize File and Vinyl, use direct labels, and reduce the visual weight of CD. The release-version count chart will support the main chart instead of beginning another story. These are direction-setting changes; they are not substitutes for the three formal interviews required for Part II.
-
 ## User research protocol
 
 ### Research goals
 
-The interviews will test whether the intended audience, central question, chart comparison, and limitations are understandable without additional explanation. I also want to learn whether the master-level analysis helps the story or adds unnecessary complexity.
+The research tests whether readers can identify the intended audience, central question, main comparison, and limits of the data without additional explanation. It also examines whether the master-level analysis helps the story or adds unnecessary complexity.
 
 ### Recruiting representative participants
 
-I will interview at least three people who listen to electronic music or regularly use streaming services. I will look for different levels of familiarity with physical music formats: someone who mainly streams music, someone who occasionally buys physical releases, and someone who is familiar with electronic-music styles. Participants do not need data-analysis or Discogs experience.
+Three classmates reviewed my Part I sketches during an in-class feedback session. I selected classmates as early reviewers because they were familiar with the data-storytelling assignment and could evaluate whether the narrative and visual comparisons were understandable. I did not collect information about their music-listening habits, so I cannot assume that all three fully represent the intended audience. A later test with electronic-music listeners would strengthen the research.
 
-I will describe participants only in broad, non-identifying terms. I will not publish names, contact information, workplaces, or other personally identifiable details.
+I describe the participants collectively as three classmates. I do not include names, contact information, or other personally identifiable details.
 
 ### Interview procedure
 
-Each session will take approximately 10–15 minutes. I will first show the draft without explaining the intended conclusion. After the participant describes what they think the story says, I will ask the questions below. I will record brief notes and short quotations with permission, then compare recurring and conflicting observations across the three sessions.
+The three classmates viewed the Part I sketches and discussed their interpretations during class. I did not record comments by participant or write them down word for word, so I report the findings collectively and do not present paraphrases as direct quotations. The class review was less structured than the protocol below. These questions document the intended research focus and can be used for a short follow-up test of the revised storyboard.
 
 ### Interview script
 
@@ -84,26 +78,25 @@ Each session will take approximately 10–15 minutes. I will first show the draf
 
 ## Interview findings
 
-The three formal interviews have not yet been completed. I will add an anonymized description of each participant, specific observations, short quotations, recurring patterns, and conflicting feedback after the sessions. I will keep early class discussion separate from the formal interview evidence.
+The feedback from the three classmates was recorded as a group rather than attributed to individuals. Their comments converged on clarity problems in the audience, narrative, and main comparison. Because I did not keep participant-level notes, I cannot reliably identify differences among the three reviewers or provide direct quotations. No conflicting feedback was recorded.
 
-| Question or observation | Interview 1 | Interview 2 | Interview 3 | Pattern across interviews |
-|---|---|---|---|---|
-| Intended audience | Pending | Pending | Pending | Pending |
-| Main story in one sentence | Pending | Pending | Pending | Pending |
-| File–Vinyl comparison | Pending | Pending | Pending | Pending |
-| Meaning of “release version” | Pending | Pending | Pending | Pending |
-| Confusing or missing information | Pending | Pending | Pending | Pending |
+| Collective finding | What it showed |
+|---|---|
+| The intended audience was difficult to identify. | The introduction described a broad group of music-history enthusiasts and electronic-music listeners without showing why that group would care about this question. |
+| The five Part I sketches appeared to tell five separate stories. | The project gave format definitions, historical trends, recent percentages, absolute counts, and master-level results similar visual importance. Reviewers could not easily identify one central narrative. |
+| Sketch 2 did not make the comparison clear. | Three formats and three styles competed for attention, so readers were unsure which lines they should compare. |
+| The colors did not establish a strong hierarchy. | File, Vinyl, and CD appeared equally important even though the revised story centers on File and Vinyl. |
+| A single visual direction would be easier to follow. | The story needs one primary chart and a sequence that directs attention to different evidence within that chart. |
 
 ## Changes for Part III
 
-Final Part III changes will be based on the completed interviews. I will connect every change to a specific finding rather than treating all suggestions as equally important.
-
 | Research synthesis | Change for Part III |
 |---|---|
-| Pending formal interview findings | Decide whether CD should remain as gray context or be removed from the main chart. |
-| Pending formal interview findings | Revise the title, annotations, and definition of “release version” based on participant interpretations. |
-| Pending formal interview findings | Decide whether the master-level check belongs in a methods note or should be omitted from the reader-facing story. |
-| Pending formal interview findings | Adjust the amount of explanation for the differences among House, Techno, and Ambient. |
+| The target audience was too broad. | Focus on electronic-music listeners who usually use streaming or downloads but still encounter vinyl editions. Explain why the apparent coexistence of digital and vinyl formats is relevant to them. |
+| Five sketches competed as separate stories. | Build the story around one question: after File releases overtook Vinyl releases, did vinyl releases disappear? |
+| The main chart lacked a clear comparison. | Make File and Vinyl the two emphasized lines, label them directly, and annotate the crossover in each style. |
+| The three colors had similar visual weight. | Use orange for File and purple for Vinyl. Remove CD from the main view or show it as a thin gray contextual line. |
+| Reviewers wanted a clearer visual direction. | Use one small-multiple chart as the main visual and reveal its evidence progressively in the storyboard. Keep the master-level analysis in a methods note rather than the main narrative. |
 
 ## References
 
@@ -115,4 +108,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgement
 
-I used ChatGPT to help me narrow the intended audience, organize the story direction, and revise the wording of the user research protocol. I will conduct and document the interviews myself.
+I used ChatGPT to help me narrow the intended audience, organize the story direction, revise the wording of the research protocol, and group my classroom feedback into anonymous themes. The feedback itself came from three classmates; ChatGPT did not generate participant comments or quotations.

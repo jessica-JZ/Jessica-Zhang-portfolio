@@ -54,13 +54,13 @@ The research tests whether readers can identify the intended audience, central q
 
 ### Recruiting representative participants
 
-Three classmates reviewed my Part I sketches during an in-class feedback session. I selected classmates as early reviewers because they were familiar with the data-storytelling assignment and could evaluate whether the narrative and visual comparisons were understandable. I did not collect information about their music-listening habits, so I cannot assume that all three fully represent the intended audience. A later test with electronic-music listeners would strengthen the research.
+I gathered feedback in two settings. First, I discussed my Part I sketches in a four-person classroom group that included me and three classmates. Second, one classmate provided a more detailed review of the sketches. I selected classmates as early reviewers because they were familiar with the data-storytelling assignment and could evaluate whether the narrative and visual comparisons were understandable. I did not collect information about the reviewers’ music-listening habits, so I cannot assume that they fully represent the intended audience. A later test with electronic-music listeners would strengthen the research.
 
 I describe the participants collectively as three classmates. I do not include names, contact information, or other personally identifiable details.
 
 ### Interview procedure
 
-The three classmates viewed the Part I sketches and discussed their interpretations during class. I did not record comments by participant or write them down word for word, so I report the findings collectively and do not present paraphrases as direct quotations. The class review was less structured than the protocol below. These questions document the intended research focus and can be used for a short follow-up test of the revised storyboard.
+During the four-person classroom discussion, the group reviewed my Part I sketches and discussed the audience and central story. The second source was a more detailed review from one classmate covering chart labels, unclear sketches, visual encoding, and cognitive load. I did not record either source word for word, so I do not present paraphrases as direct quotations. The reviews were less structured than the protocol below. These questions document the intended research focus and can be used for a short follow-up test of the revised storyboard.
 
 ### Interview script
 
@@ -78,25 +78,29 @@ The three classmates viewed the Part I sketches and discussed their interpretati
 
 ## Interview findings
 
-The feedback from the three classmates was recorded as a group rather than attributed to individuals. Their comments converged on clarity problems in the audience, narrative, and main comparison. Because I did not keep participant-level notes, I cannot reliably identify differences among the three reviewers or provide direct quotations. No conflicting feedback was recorded.
+The findings come from two sources: the four-person classroom discussion and the separate detailed classmate review. I recorded the classroom discussion at the group level, so I cannot assign those comments to individual classmates or identify disagreement within that group. The detailed review is summarized separately below.
 
-| Collective finding | What it showed |
-|---|---|
-| The intended audience was difficult to identify. | The introduction described a broad group of music-history enthusiasts and electronic-music listeners without showing why that group would care about this question. |
-| The five Part I sketches appeared to tell five separate stories. | The project gave format definitions, historical trends, recent percentages, absolute counts, and master-level results similar visual importance. Reviewers could not easily identify one central narrative. |
-| Sketch 2 did not make the comparison clear. | Three formats and three styles competed for attention, so readers were unsure which lines they should compare. |
-| The colors did not establish a strong hierarchy. | File, Vinyl, and CD appeared equally important even though the revised story centers on File and Vinyl. |
-| A single visual direction would be easier to follow. | The story needs one primary chart and a sequence that directs attention to different evidence within that chart. |
+| Source | Observation | What it showed |
+|---|---|---|
+| Detailed review from one classmate | Sketch 2 was clear and easy to follow. | The historical line-chart direction is the strongest foundation for the revised story. |
+| Detailed review from one classmate | The sketches need legends, axes, units, and necessary annotations in the finished version. | Readers should be able to understand the main visualization without relying on the surrounding explanation. |
+| Detailed review from one classmate | The small Vinyl-count line and the gray total-catalog line were difficult to interpret. | Unlabeled placeholder lines do not communicate their measure, time range, or relationship to the main comparison. |
+| Detailed review from one classmate | The master-level chart was difficult to understand. | Changing from release versions to masters introduces a second unit of analysis that interrupts the main story. |
+| Detailed review from one classmate | Connecting the dots in Sketches 3 and 5 suggested that the distance or midpoint had meaning, or that the two percentages should total 100%. | The connector adds an inaccurate visual implication because File and Vinyl categories can overlap. |
+| Detailed review from one classmate | The project was detailed but could create too much cognitive load as a story. | Technical checks and secondary findings need less visual emphasis or should move to a methods note. |
+| Four-person classroom discussion, recorded at group level | The intended audience and central story were difficult to identify. | The project needs a more specific reader and one question that organizes the visual evidence. |
 
 ## Changes for Part III
 
 | Research synthesis | Change for Part III |
 |---|---|
-| The target audience was too broad. | Focus on electronic-music listeners who usually use streaming or downloads but still encounter vinyl editions. Explain why the apparent coexistence of digital and vinyl formats is relevant to them. |
-| Five sketches competed as separate stories. | Build the story around one question: after File releases overtook Vinyl releases, did vinyl releases disappear? |
-| The main chart lacked a clear comparison. | Make File and Vinyl the two emphasized lines, label them directly, and annotate the crossover in each style. |
-| The three colors had similar visual weight. | Use orange for File and purple for Vinyl. Remove CD from the main view or show it as a thin gray contextual line. |
-| Reviewers wanted a clearer visual direction. | Use one small-multiple chart as the main visual and reveal its evidence progressively in the storyboard. Keep the master-level analysis in a methods note rather than the main narrative. |
+| Sketch 2 was the clearest direction. | Use one File-versus-Vinyl small-multiple line chart as the main visual and reveal its evidence progressively in the storyboard. |
+| The finished chart must work without a long explanation. | Add a claim-based title, subtitle, labeled axes, units, direct line labels, crossover annotations, caption, and source. |
+| The two miniature supporting lines were unclear. | Remove both placeholders. Let the main count-based chart show that File overtook Vinyl while Vinyl remained above zero in substantial numbers. |
+| The master-level chart changed the unit of analysis. | Move the master-level sensitivity check to a methods note rather than the main narrative. |
+| Connecting lines implied a continuum or a 100% total. | Remove the connected-dot charts from the main story. If a dot comparison is retained in the methods section, show the points independently. |
+| The amount of detail increased cognitive load. | Keep the reader-facing story focused on one question and move overlap, coverage, and data-processing details into a short methods section. |
+| The audience and story were difficult to identify. | Focus on electronic-music listeners who use streaming or downloads but still encounter vinyl editions. Organize the story around whether File’s rise meant the disappearance of vinyl releases. |
 
 ## References
 
@@ -108,4 +112,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgement
 
-I used ChatGPT to help me narrow the intended audience, organize the story direction, revise the wording of the research protocol, and group my classroom feedback into anonymous themes. The feedback itself came from three classmates; ChatGPT did not generate participant comments or quotations.
+I used ChatGPT to help me narrow the intended audience, organize the story direction, revise the wording of the research protocol, and organize feedback without personal information. The findings came from a four-person classroom discussion and a separate detailed classmate review. ChatGPT did not generate participant comments or quotations.

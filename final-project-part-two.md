@@ -54,13 +54,13 @@ The research tests whether readers can identify the intended audience, central q
 
 ### Recruiting representative participants
 
-I gathered feedback in two settings. First, I discussed my Part I sketches in a four-person classroom group that included me and three classmates. Second, one classmate provided a more detailed review of the sketches. I selected classmates as early reviewers because they were familiar with the data-storytelling assignment and could evaluate whether the narrative and visual comparisons were understandable. I did not collect information about the reviewers’ music-listening habits, so I cannot assume that they fully represent the intended audience. A later test with electronic-music listeners would strengthen the research.
+I gathered feedback from four classmates in two settings. First, I discussed my Part I sketches in a four-person classroom group that included me and three classmates. I retained only the group’s overall feedback and cannot identify which classmate made each comment. Second, a fourth classmate who was not part of that group provided a more detailed review of the sketches. I selected classmates as early reviewers because they were familiar with the data-storytelling assignment and could evaluate whether the narrative and visual comparisons were understandable. I did not collect information about the reviewers’ music-listening habits, so I cannot assume that they fully represent the intended audience. A later test with electronic-music listeners would strengthen the research.
 
 I describe the participants collectively as three classmates. I do not include names, contact information, or other personally identifiable details.
 
 ### Interview procedure
 
-During the four-person classroom discussion, the group reviewed my Part I sketches and discussed the audience and central story. The second source was a more detailed review from one classmate covering chart labels, unclear sketches, visual encoding, and cognitive load. I did not record either source word for word, so I do not present paraphrases as direct quotations. The reviews were less structured than the protocol below. These questions document the intended research focus and can be used for a short follow-up test of the revised storyboard.
+During the four-person classroom discussion, the three classmates reviewed my Part I sketches and gave one overall response about the audience and central story. I did not retain enough detail to assign individual comments within that group. The second source was a detailed review from a fourth classmate covering chart labels, unclear sketches, visual encoding, and cognitive load. I did not record either source word for word, so I do not present paraphrases as direct quotations. The reviews were less structured than the protocol below. These questions document the intended research focus and can be used for a short follow-up test of the revised storyboard.
 
 ### Interview script
 
@@ -78,7 +78,7 @@ During the four-person classroom discussion, the group reviewed my Part I sketch
 
 ## Interview findings
 
-The findings come from two sources: the four-person classroom discussion and the separate detailed classmate review. I recorded the classroom discussion at the group level, so I cannot assign those comments to individual classmates or identify disagreement within that group. The detailed review is summarized separately below.
+The findings come from two sources and four different classmates: one overall response from the three classmates in my classroom group, and a detailed review from a fourth classmate outside that group. I cannot assign the group response to one person or identify disagreement within the group. The fourth classmate’s review is summarized separately below.
 
 | Source | Observation | What it showed |
 |---|---|---|
@@ -112,4 +112,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgement
 
-I used ChatGPT to help me narrow the intended audience, organize the story direction, revise the wording of the research protocol, and organize feedback without personal information. The findings came from a four-person classroom discussion and a separate detailed classmate review. ChatGPT did not generate participant comments or quotations.
+I used ChatGPT to help me narrow the intended audience, organize the story direction, revise the wording of the research protocol, and organize feedback without personal information. The findings came from four classmates: three in my classroom discussion group and a fourth classmate who provided a separate detailed review. ChatGPT did not generate participant comments or quotations.

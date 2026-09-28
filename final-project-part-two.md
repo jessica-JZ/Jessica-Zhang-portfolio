@@ -46,6 +46,20 @@ The ending will return to the opening question: File releases took the lead in t
 
 The high-fidelity chart is still in development. Before submission, this section will include the three storyboard states rendered with the real data, including the claim-based title, direct labels, axes, units, annotations, caption, and source.
 
+## How Part I feedback shaped this storyboard
+
+The comments below were made about my Part I sketches. I used them as preliminary design input for the revised Part II storyboard. They are separate from the Part II interviews described later on this page.
+
+| Feedback on the Part I sketches | Change made in the Part II storyboard |
+|---|---|
+| The intended audience and central story were difficult to identify. | I defined the audience as electronic-music listeners who mainly use digital access but still encounter vinyl editions. Every stage now asks whether the rise of File releases meant that Vinyl releases disappeared. |
+| Sketch 2 was the clearest direction. | I selected one File-versus-Vinyl time-series figure as the main visual instead of carrying five competing directions forward. |
+| The sketches needed clearer legends, axes, units, and annotations. | The revised plan specifies direct line labels, named axes, a shared scale, crossover annotations, a caption, and the Discogs source. |
+| The miniature Vinyl-count and total-catalog lines were difficult to interpret. | I removed both placeholders. The main chart will use annual counts to show the crossover and Vinyl's continued presence. |
+| The master-level comparison was difficult to understand. | I moved the master-level sensitivity check to a methods note so the main story keeps one unit of analysis. |
+| Connectors between File and Vinyl dots implied a continuum or a 100% total. | I removed the connected-dot designs because the format categories can overlap. |
+| The amount of detail created too much cognitive load. | I reduced the reader-facing story to one chart revealed in three stages and moved technical detail below the main narrative. |
+
 # User research
 
 ## Target audience
@@ -54,19 +68,17 @@ The primary audience is electronic-music listeners who usually access music thro
 
 These listeners may carry a simple story of technological change: a newer format arrives and the older one disappears. Electronic music makes that expectation worth examining because digital files and vinyl records can both remain visible to the same listener. After reading the story, the audience should understand why “File became dominant” and “Vinyl releases remained” are not contradictory claims. They should be able to point to the two lines in the main chart as evidence and explain why the chart does not prove that vinyl became more popular.
 
-I gathered feedback from four classmates in two settings. First, I discussed my Part I sketches in a four-person classroom group that included me and three classmates. I retained only the group’s overall feedback and cannot identify which classmate made each comment. Second, a fourth classmate who was not part of that group provided a more detailed review of the sketches. I selected classmates as early reviewers because they were familiar with the data-storytelling assignment and could evaluate whether the narrative and visual comparisons were understandable. I did not collect information about the reviewers’ music-listening habits, so I cannot assume that they fully represent the intended audience. A later test with electronic-music listeners would strengthen the research.
-
-I describe the participants only as classmates and keep both feedback sources anonymous. I do not include names, contact information, or other personally identifiable details.
+For the Part II interviews, I will recruit at least three people who have not helped design the revised storyboard. I will try to include electronic-music listeners who mainly use streaming or downloads, because they are closest to the intended audience. A participant does not need to be enrolled in this course. I may also include one data-visualization classmate to check whether the chart can be read without additional explanation. I will describe participants only in broad terms and will not record names or other identifying information on this page.
 
 ## Interview script
 
 ### Research goals
 
-The completed review focused on whether my Part I sketches communicated a clear audience, central question, and visual comparison. The follow-up protocol below is designed to test whether readers can understand the revised Part II storyboard without additional explanation. It also asks whether the master-level analysis helps the story or adds unnecessary complexity.
+The protocol tests whether readers can identify the intended audience, central question, and main comparison in the revised Part II storyboard. It also tests whether readers understand the unit of analysis and the limits of the data.
 
 ### Interview procedure
 
-During the four-person classroom discussion, the three classmates reviewed my Part I sketches and gave one overall response about the audience and central story. I did not retain enough detail to assign individual comments within that group. The second source was a detailed review from a fourth classmate covering chart labels, unclear sketches, visual encoding, and cognitive load. I did not record either source word for word, so I do not present paraphrases as direct quotations. The reviews were less structured than the protocol below. These questions document the intended research focus and can be used for a short follow-up test of the revised storyboard.
+Each participant will view the revised storyboard before I explain the intended conclusion. I will ask the same core questions, take anonymous notes, and record exact wording only when the participant agrees. After the interviews, I will compare repeated observations with conflicting interpretations rather than treating every suggestion as a required change.
 
 ### Questions
 
@@ -84,34 +96,11 @@ During the four-person classroom discussion, the three classmates reviewed my Pa
 
 ## Interview findings
 
-The findings come from two sources and four different classmates: one overall response from the three classmates in my classroom group, and a detailed review from a fourth classmate outside that group. Both sources reviewed my Part I sketches, not the revised Part II storyboard. I cannot assign the group response to one person or identify disagreement within the group. Because I did not record exact wording, the table reports paraphrased observations rather than direct quotations.
-
-| Source | Observation | What it showed |
-|---|---|---|
-| Detailed review from one classmate | Sketch 2 was clear and easy to follow. | The historical line-chart direction is the strongest foundation for the revised story. |
-| Detailed review from one classmate | The sketches need legends, axes, units, and necessary annotations in the finished version. | Readers should be able to understand the main visualization without relying on the surrounding explanation. |
-| Detailed review from one classmate | The small Vinyl-count line and the gray total-catalog line were difficult to interpret. | Unlabeled placeholder lines do not communicate their measure, time range, or relationship to the main comparison. |
-| Detailed review from one classmate | The master-level chart was difficult to understand. | Changing from release versions to masters introduces a second unit of analysis that interrupts the main story. |
-| Detailed review from one classmate | Connecting the dots in Sketches 3 and 5 suggested that the distance or midpoint had meaning, or that the two percentages should total 100%. | The connector adds an inaccurate visual implication because File and Vinyl categories can overlap. |
-| Detailed review from one classmate | The project was detailed but could create too much cognitive load as a story. | Technical checks and secondary findings need less visual emphasis or should move to a methods note. |
-| Four-person classroom discussion, recorded at group level | The intended audience and central story were difficult to identify. | The project needs a more specific reader and one question that organizes the visual evidence. |
+The Part II interviews have not yet been conducted. The comments in the wireframes section concern the Part I sketches and are not counted here as findings about the revised storyboard. After at least three participants review the Part II version, I will document their broad descriptions, specific observations, any exact quotations I recorded with permission, similarities or disagreements across interviews, and what each finding means for the design.
 
 # Identified changes for Part III
 
-The feedback below concerns my Part I sketches. During Part II, I used it to choose one story direction, define the audience more precisely, and plan a revised storyboard. The final rendering and Shorthand implementation are planned for Part III. I did not apply every suggestion literally because some details still matter for evaluating the evidence.
-
-| Feedback on Part I | Part II decision | Planned implementation in Part III | Reason |
-|---|---|---|---|
-| Sketch 2 was the clearest direction. | **Adopt:** use one File-versus-Vinyl count chart as the central visual. | Build the small-multiple chart with real data and reveal it progressively in Shorthand. | It provides the clearest time-based comparison and supports the central question. |
-| The finished chart needs a legend and necessary chart information. | **Adapt:** use direct line labels instead of a separate legend. | Add a claim-based title, labeled axes, units, annotations, caption, and source. | Direct labels serve the same purpose with less eye movement. |
-| The two miniature supporting lines were unclear. | **Adopt:** remove both placeholders from the revised storyboard. | Let the main annual-count chart show both the crossover and Vinyl's continued presence. | A single measure eliminates two competing visuals. |
-| The master-level chart was difficult to understand. | **Adapt:** keep the analysis but remove it from the main story. | Present the master-level sensitivity check in a concise methods note. | The check supports transparency, but a second unit of analysis interrupts the main story. |
-| Connecting lines implied a continuum or a 100% total. | **Adopt:** remove the connected-dot charts from the reader-facing storyboard. | If independent dots are needed in the methods note, show them without a connector. | File and Vinyl can overlap, so the connector suggests a relationship the data does not contain. |
-| The amount of detail increased cognitive load. | **Adapt:** keep one question and one main chart. | Move overlap, coverage, and processing details below the main story. | Simplifying the reading path should not mean removing evidence needed to evaluate the analysis. |
-| The audience and central story were difficult to identify. | **Adopt:** focus on electronic-music listeners who mainly use digital access but still encounter vinyl editions. | Frame the final story around whether File's rise meant Vinyl disappeared. | A specific reader and one repeated question give the project a clear purpose. |
-| Keeping all five sketches would preserve too many competing directions. | **Do not adopt:** do not carry all five directions forward. | Build only the selected storyboard and its supporting methods note. | More charts would recreate the confusion identified in the classroom discussion. |
-
-I will also not remove the data limitations or turn catalog records into claims about sales, listening, popularity, or sound quality. Those boundaries remain necessary even when they are moved out of the main reading path.
+I will complete this section after the Part II interviews. For each repeated or conflicting observation, I will state whether I plan to adopt it, adapt it, or leave the design unchanged, and explain why. The resulting Part III changes may affect the annotations, reading order, amount of methodological detail, or wording of the conclusion. I will keep the data limitations and will not turn catalog records into claims about sales, listening, popularity, or sound quality.
 
 ## References
 

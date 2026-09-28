@@ -62,7 +62,7 @@ I describe the participants only as classmates and keep both feedback sources an
 
 ### Research goals
 
-The research tests whether readers can identify the intended audience, central question, main comparison, and limits of the data without additional explanation. It also examines whether the master-level analysis helps the story or adds unnecessary complexity.
+The completed review focused on whether my Part I sketches communicated a clear audience, central question, and visual comparison. The follow-up protocol below is designed to test whether readers can understand the revised Part II storyboard without additional explanation. It also asks whether the master-level analysis helps the story or adds unnecessary complexity.
 
 ### Interview procedure
 
@@ -84,7 +84,7 @@ During the four-person classroom discussion, the three classmates reviewed my Pa
 
 ## Interview findings
 
-The findings come from two sources and four different classmates: one overall response from the three classmates in my classroom group, and a detailed review from a fourth classmate outside that group. I cannot assign the group response to one person or identify disagreement within the group. The fourth classmate’s review is summarized separately below.
+The findings come from two sources and four different classmates: one overall response from the three classmates in my classroom group, and a detailed review from a fourth classmate outside that group. Both sources reviewed my Part I sketches, not the revised Part II storyboard. I cannot assign the group response to one person or identify disagreement within the group. Because I did not record exact wording, the table reports paraphrased observations rather than direct quotations.
 
 | Source | Observation | What it showed |
 |---|---|---|
@@ -98,18 +98,18 @@ The findings come from two sources and four different classmates: one overall re
 
 # Identified changes for Part III
 
-I did not apply every suggestion literally. I used the feedback to identify the reader's problem, then chose the smallest set of changes that strengthens the story without hiding important limits.
+The feedback below concerns my Part I sketches. During Part II, I used it to choose one story direction, define the audience more precisely, and plan a revised storyboard. The final rendering and Shorthand implementation are planned for Part III. I did not apply every suggestion literally because some details still matter for evaluating the evidence.
 
-| Feedback or issue | Decision | Planned response | Reason |
+| Feedback on Part I | Part II decision | Planned implementation in Part III | Reason |
 |---|---|---|---|
-| Sketch 2 was the clearest direction. | **Adopt** | Build the story around one File-versus-Vinyl small-multiple line chart and reveal it progressively. | It provides the clearest time-based comparison and supports the central question. |
-| The finished chart needs a legend and necessary chart information. | **Adapt** | Use direct line labels instead of a separate legend, plus a claim-based title, labeled axes, units, annotations, caption, and source. | Direct labels serve the same purpose with less eye movement. |
-| The two miniature supporting lines were unclear. | **Adopt** | Remove both placeholders. Use annual counts in the main chart to show both the crossover and Vinyl's continued presence. | A single measure eliminates two competing visuals. |
-| The master-level chart was difficult to understand. | **Adapt** | Move the master-level sensitivity check to a concise methods note. | The check is important for transparency, but a second unit of analysis interrupts the main story. |
-| Connecting lines implied a continuum or a 100% total. | **Adopt** | Remove the connected-dot charts from the reader-facing story. If independent dots are needed in the methods note, do not connect them. | File and Vinyl can overlap, so the connector suggests a relationship the data does not contain. |
-| The amount of detail increased cognitive load. | **Adapt** | Keep one question and one hero chart in the main narrative; move overlap, coverage, and processing details below it. | Simplifying the reading path should not mean removing the evidence needed to evaluate the analysis. |
-| The audience and central story were difficult to identify. | **Adopt** | Write for electronic-music listeners who mainly use digital access but still encounter vinyl editions. Frame every stage around whether File's rise meant Vinyl disappeared. | A specific reader and one repeated question give the project a clear purpose. |
-| All five Part I sketches could remain as separate story sections. | **Do not adopt** | Do not carry all five directions into Part II. | More charts would recreate the confusion identified in the classroom discussion. |
+| Sketch 2 was the clearest direction. | **Adopt:** use one File-versus-Vinyl count chart as the central visual. | Build the small-multiple chart with real data and reveal it progressively in Shorthand. | It provides the clearest time-based comparison and supports the central question. |
+| The finished chart needs a legend and necessary chart information. | **Adapt:** use direct line labels instead of a separate legend. | Add a claim-based title, labeled axes, units, annotations, caption, and source. | Direct labels serve the same purpose with less eye movement. |
+| The two miniature supporting lines were unclear. | **Adopt:** remove both placeholders from the revised storyboard. | Let the main annual-count chart show both the crossover and Vinyl's continued presence. | A single measure eliminates two competing visuals. |
+| The master-level chart was difficult to understand. | **Adapt:** keep the analysis but remove it from the main story. | Present the master-level sensitivity check in a concise methods note. | The check supports transparency, but a second unit of analysis interrupts the main story. |
+| Connecting lines implied a continuum or a 100% total. | **Adopt:** remove the connected-dot charts from the reader-facing storyboard. | If independent dots are needed in the methods note, show them without a connector. | File and Vinyl can overlap, so the connector suggests a relationship the data does not contain. |
+| The amount of detail increased cognitive load. | **Adapt:** keep one question and one main chart. | Move overlap, coverage, and processing details below the main story. | Simplifying the reading path should not mean removing evidence needed to evaluate the analysis. |
+| The audience and central story were difficult to identify. | **Adopt:** focus on electronic-music listeners who mainly use digital access but still encounter vinyl editions. | Frame the final story around whether File's rise meant Vinyl disappeared. | A specific reader and one repeated question give the project a clear purpose. |
+| Keeping all five sketches would preserve too many competing directions. | **Do not adopt:** do not carry all five directions forward. | Build only the selected storyboard and its supporting methods note. | More charts would recreate the confusion identified in the classroom discussion. |
 
 I will also not remove the data limitations or turn catalog records into claims about sales, listening, popularity, or sound quality. Those boundaries remain necessary even when they are moved out of the main reading path.
 

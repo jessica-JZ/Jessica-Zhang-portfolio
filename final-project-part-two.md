@@ -123,4 +123,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgements
 
-I used ChatGPT to help me narrow the project topic, critique the clarity of the story and visual plan, revise the writing, and organize and anonymize the peer feedback I collected. The feedback itself came from my classmates; ChatGPT did not generate comments or quotations.
+I used ChatGPT to critique my initial project direction, which helped me narrow the topic to one central story and one main chart. I also used it to revise and polish the writing and to organize and anonymize the peer feedback I collected. The feedback itself came from my classmates; ChatGPT did not generate comments or quotations.

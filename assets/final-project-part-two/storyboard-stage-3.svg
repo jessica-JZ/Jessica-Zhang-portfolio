@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1465" height="851" viewBox="0 0 1465 851" role="img" aria-labelledby="title desc">
-<title id="title">Digital File releases overtook Vinyl, but Discogs still contained thousands of Vinyl release versions in 2024</title>
-<desc id="desc">The uploaded Tableau chart with neutral crossover-year annotations for House, Techno, and Ambient.</desc>
+<title id="title">Annotated Tableau chart showing when Digital file first exceeded Vinyl</title>
+<desc id="desc">The uploaded Tableau chart with crossover annotations for House, Techno, and Ambient.</desc>
 <image href="discogs-digital-file-vinyl-counts.png" xlink:href="discogs-digital-file-vinyl-counts.png" width="1465" height="851"/>
-<style>.chart-title{font-family:Arial,sans-serif;font-size:23px;font-weight:700;fill:#222}.chart-subtitle{font-family:Arial,sans-serif;font-size:16px;fill:#555}.cross{stroke:#9a612f;stroke-width:2;stroke-dasharray:6 5}.marker{fill:#fff;stroke:#9a612f;stroke-width:3}.box{fill:#fff;fill-opacity:.94;stroke:#c99a70;stroke-width:1.5}.label{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#7a4b25}.year{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#7a4b25}</style>
-<rect x="0" y="0" width="1100" height="58" fill="#ffffff"/>
-<text x="5" y="24" class="chart-title">Digital File Releases Overtook Vinyl</text>
-<text x="5" y="48" class="chart-subtitle">Discogs still contained thousands of Vinyl release versions in 2024.</text>
+<style>.cross{stroke:#9a612f;stroke-width:2;stroke-dasharray:6 5}.marker{fill:#fff;stroke:#9a612f;stroke-width:3}.box{fill:#fff;fill-opacity:.94;stroke:#c99a70;stroke-width:1.5}.label{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#7a4b25}.year{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#7a4b25}</style>
 <line x1="832.8" y1="59" x2="832.8" y2="289" class="cross"/>
 <circle cx="832.8" cy="212.9" r="6" class="marker"/>
 <circle cx="832.8" cy="230.8" r="6" class="marker"/>
@@ -23,5 +20,5 @@
 <circle cx="682.4" cy="744.6" r="6" class="marker"/>
 <rect x="457.4" y="534" width="210" height="58" rx="6" class="box"/>
 <text x="468.4" y="556" class="label">Digital first exceeds Vinyl</text>
-<text x="468.4" y="581" class="year">2003</text>
+<text x="468.4" y="581" class="year">2003 — 5 years earlier</text>
 </svg>

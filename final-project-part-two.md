@@ -2,7 +2,7 @@
 
 # Wireframes / storyboards
 
-**Working story title:** *Digital File Releases Overtook Vinyl, but Discogs Still Contained Thousands of Vinyl Release Versions in 2024.*
+**Working story title:** *In the Discogs Catalog, Digital Files Took the Lead—but Vinyl Records Remained.*
 
 ## Story direction
 
@@ -10,7 +10,7 @@ My Part I sketches explored several questions about release formats. When I pres
 
 The guiding idea is that format change is not always a simple replacement story. I use annual counts of cataloged release versions because one measure can show both parts of the story: when the Digital File line moved above Vinyl and whether Vinyl later fell to zero. House, Techno, and Ambient appear as three cases within the same visual rather than as three separate stories.
 
-The current design centers on one small-multiple line chart. Within each style panel, the comparison is Digital File versus Vinyl across time. House, Techno, and Ambient are three supporting cases for the same pattern. The story does not rank the styles or treat differences in crossover timing as its main result. Progressive states and annotations show when Digital File overtook Vinyl and whether Vinyl later approached zero. The intended conclusion is narrow: digital-file dominance and the continued presence of Vinyl releases can occur at the same time in a catalog.
+The current design centers on one small-multiple line chart. Within each style panel, the comparison is Digital File versus Vinyl across time. The reader is not being asked to rank the three styles. Progressive states and annotations show when Digital File overtook Vinyl and whether Vinyl later approached zero. The intended conclusion is narrow: digital-file dominance and the continued presence of Vinyl releases can occur at the same time in a catalog.
 
 In the source data, `Vinyl` and `File` are Discogs format labels. The Tableau chart labels them “Vinyl Record” and “Digital File.” Here, Digital File means a downloadable file release. A release version is one particular edition of a recording. For example, a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. These labels describe release formats, not how the audio was recorded or mastered. The project does not measure listening, sales, or sound quality.
 
@@ -46,9 +46,11 @@ The second state adds Digital File without changing the axes. Readers can now se
 
 ![Storyboard frame 3 of 3 annotating when Digital file first exceeded Vinyl for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-3.svg)
 
-The final state marks the first year Digital File exceeded Vinyl: 2003 for Ambient and 2008 for House and Techno. The labels help readers interpret each panel independently; the difference in timing is secondary to the shared pattern.
+The final state marks the first year Digital File exceeded Vinyl: 2003 for Ambient and 2008 for House and Techno. The repeated annotation also makes the main difference among the three panels explicit: Ambient crossed five years earlier.
 
-CD does not appear in the main chart because the central comparison is Digital File versus Vinyl. The chart does not connect the two values at a given year because the categories can overlap and do not form two ends of a 100% scale. Context about other formats appears with the limitations rather than interrupting the main comparison.
+> Ambient context: in 2024, Vinyl, CD, or File appeared on 76.9% of the Ambient records in scope, while cassette appeared on 13.3%. The two-line chart therefore does not represent Ambient's full physical-format mix.
+
+CD does not appear in the main chart because the central comparison is Digital File versus Vinyl. The chart does not connect the two values at a given year because the categories can overlap and do not form two ends of a 100% scale. The Ambient context note keeps that limitation visible without adding another chart.
 
 **Storyboard structure:** consistent axes and colors make the sequence one visual explanation rather than three separate analyses.
 
@@ -56,7 +58,7 @@ CD does not appear in the main chart because the central comparison is Digital F
 
 The proposed ending returns to the opening question: Digital File releases took the lead in this Discogs sample while Vinyl releases continued to appear in thousands of cataloged versions. It avoids claims about a vinyl revival or listener preference. The chart note names Discogs as the source and explains the unit of analysis. In the filtered data, 0.16% of release versions contain more than one selected format tag, so the categories should not be read as two parts of a 100% total. The master-level sensitivity check remains on the Part I page rather than becoming another visual chapter.
 
-The limitations note explains that Discogs is a user-contributed collector database. Physical releases may be more likely to be cataloged than digital-only releases, so the catalog may make Vinyl look more persistent than the full release market. This is a possible source of bias, not a measured correction factor. The two-line comparison also omits other formats. In 2024, Vinyl, CD, or File appeared on 76.9% of the Ambient records in scope, while cassette appeared on 13.3%.
+The limitations note explains that Discogs is a user-contributed collector database. Physical releases may be more likely to be cataloged than digital-only releases, so the catalog may make Vinyl look more persistent than the full release market. This is a possible source of bias, not a measured correction factor.
 
 **Scenario of use:** a reader should be able to scroll through the three states, identify the two formats without outside explanation, and summarize the conclusion in one sentence. A methods-minded reader can then continue to the limitations without interrupting the main story.
 
@@ -81,8 +83,8 @@ The comments below were made about my Part I sketches. I used them as preliminar
 | The amount of detail created too much cognitive load. | I reduced the reader-facing story to one chart shown in three progressive states and moved technical detail below the main narrative. |
 | “File” and “release version” were difficult for a general reader to interpret. | The Tableau chart uses the reader-facing labels “Digital File” and “Vinyl Record,” and the definition above explains “release version” with a concrete album-edition example. |
 | Definitions and methodology delayed the main evidence. | I shortened the definitions and placed them immediately before the storyboard, while keeping the detailed limitations below the frames. |
-| The title made Vinyl's continued presence sound more positive than the comparison warranted. | The working title now states the 2024 evidence directly: thousands of Vinyl release versions were still cataloged. |
-| Ambient's cassette releases and Discogs's collector-community coverage could change the interpretation. | The storyboard keeps the Ambient cassette detail and possible cataloging bias in the limitations rather than the main visual sequence. |
+| The title made Vinyl's continued presence sound more positive than the comparison warranted. | The working title now states that Digital files overtook Vinyl before stating that Vinyl did not disappear. |
+| Ambient's cassette releases and Discogs's collector-community coverage could change the interpretation. | The storyboard adds an Ambient context note and a concise limitation about possible cataloging bias. |
 
 # User research
 
@@ -121,21 +123,21 @@ Each participant will view the revised storyboard before I explain the intended 
 
 ## Interview findings
 
-One Part II interview has been completed with a classmate enrolled in the course. The table paraphrases the written feedback; it does not present any statement as a direct quotation.
+One Part II interview has been completed with a classmate enrolled in the course. The table paraphrases the written feedback; it does not present any statement as a direct quotation. I have kept the storyboard in the form this participant reviewed. The possible responses below are suggestions for Part III, not changes already made to the Part II draft.
 
-| Interview 1 observation | What I learned | Response |
+| Interview 1 observation | What I learned | Possible Part III response |
 |---|---|---|
 | The central storyline and three progressive states were easy to follow. | The reveal sequence answers the main question without adding separate charts. | Keep the current sequence. |
-| The phrase “Vinyl Records Remained” was ambiguous. | The title should say what remained and identify the endpoint. | Revised the title to state that Discogs still contained thousands of Vinyl release versions in 2024. |
-| The Ambient cassette percentages interrupted the main File-versus-Vinyl comparison. | The context is useful, but it belongs with the limitations. | Moved the cassette detail below the main visual sequence. |
-| The role of House, Techno, and Ambient was unclear, especially when Ambient was highlighted as crossing five years earlier. | The panels should read as three supporting cases rather than a genre ranking. | Added that explanation and removed the comparative “five years earlier” callout. |
+| The phrase “Vinyl Records Remained” was ambiguous. | The title should say what remained and identify the endpoint. | Test a more specific title that states that Discogs still contained thousands of Vinyl release versions in 2024. |
+| The Ambient cassette percentages interrupted the main File-versus-Vinyl comparison. | The context is useful, but it may belong with the limitations. | Consider moving the cassette detail below the main visual sequence. |
+| The role of House, Techno, and Ambient was unclear, especially when Ambient was highlighted as crossing five years earlier. | The panels may need to read more clearly as three supporting cases rather than a genre ranking. | Consider clarifying the role of the panels and reducing the emphasis on the five-year difference. |
 | The restrained conclusion and Discogs collector-bias note made the claim more credible. | The limits help prevent catalog counts from being read as popularity, sales, or listening behavior. | Keep the cautious conclusion and bias note. |
 
-Two more interviews are required before this section is complete. I will compare repeated observations and disagreements after all three participants have reviewed the storyboard.
+Two more interviews are required before I decide which suggestions to implement. After all three participants have reviewed the same storyboard, I will compare repeated observations and disagreements.
 
 # Identified changes for Part III
 
-I made four revisions after Interview 1: clarified the title, moved the Ambient cassette detail to the limitations, explained the role of the three style panels, and removed the emphasis on Ambient crossing five years earlier. I kept the progressive reveal and the cautious conclusion because the participant found both effective. After two additional interviews, I will compare patterns in the feedback and document any remaining changes for Part III.
+Interview 1 produced three preliminary possibilities for Part III: make the title more specific, move the Ambient cassette detail to the limitations, and clarify that the three style panels support the same overall pattern. These are not final decisions and have not been applied to the Part II storyboard. I will complete two additional interviews using the same version, compare consistent and conflicting feedback, and then decide which changes to adopt, adapt, or leave unchanged. I will keep the data limitations and will not turn catalog records into claims about sales, listening, popularity, or sound quality.
 
 ## References
 

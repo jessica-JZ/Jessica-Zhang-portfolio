@@ -123,7 +123,7 @@ Each participant will view the revised storyboard before I explain the intended 
 
 ## Interview findings
 
-One Part II interview has been completed with a classmate enrolled in the course. The table paraphrases the written feedback; it does not present any statement as a direct quotation. I have kept the storyboard in the form this participant reviewed. The possible responses below are suggestions for Part III, not changes already made to the Part II draft.
+Two Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. The tables paraphrase their written feedback because permission to publish direct quotations has not been confirmed. I have kept the storyboard in the form both participants reviewed. The possible responses below are suggestions for Part III, not changes already made to the Part II draft.
 
 | Interview 1 observation | What I learned | Possible Part III response |
 |---|---|---|
@@ -133,11 +133,26 @@ One Part II interview has been completed with a classmate enrolled in the course
 | The role of House, Techno, and Ambient was unclear, especially when Ambient was highlighted as crossing five years earlier. | The panels may need to read more clearly as three supporting cases rather than a genre ranking. | Consider clarifying the role of the panels and reducing the emphasis on the five-year difference. |
 | The restrained conclusion and Discogs collector-bias note made the claim more credible. | The limits help prevent catalog counts from being read as popularity, sales, or listening behavior. | Keep the cautious conclusion and bias note. |
 
-Two more interviews are required before I decide which suggestions to implement. After all three participants have reviewed the same storyboard, I will compare repeated observations and disagreements.
+### Interview 2
+
+| Question area | Interview 2 observation | Possible Part III response |
+|---|---|---|
+| Intended audience | The story appeared to be for readers interested in music formats, Discogs data, or changes in release formats over time. | No change planned at this stage. |
+| Main story | The participant understood that Digital File releases became more common in the Discogs catalog while Vinyl releases did not disappear. | Keep the central story. |
+| Main chart takeaway | The participant focused on the crossover and Vinyl's continued presence afterward. | Keep the progressive reveal and crossover annotations. |
+| Evidence about Vinyl | The blue Vinyl line continues through 2024 in all three panels and never falls to zero. | Keep the common time range and end labels. |
+| Meaning of “release version” | The participant understood it as a format-specific edition rather than a unique song or album, but was initially unsure whether the counts represented albums, sales, or editions. | Consider placing the definition closer to the chart. |
+| Differences among the styles | The participant noticed that Ambient crossed around 2003, earlier than House and Techno around 2008. | Use Interview 3 to test whether this comparison is clear without distracting from the shared pattern. |
+| Techno crossover | The participant correctly identified approximately 2008. | Keep the annotation. |
+| Limits of the data | The participant understood that the chart shows Discogs catalog patterns, not sales, listener preferences, streaming behavior, or a broad Vinyl revival. | Keep the current limitations. |
+| Main uncertainty | The unit of analysis took some effort to understand even though the definition helped. | Test whether a shorter, more prominent unit note would help. |
+| First suggested change | Add a short subtitle under the title that states the conclusion more directly. | Consider the subtitle after comparing all three interviews. |
+
+The first two interviews show a preliminary pattern: both participants understood the crossover story and the limits of the Discogs data. Both also raised an issue with how quickly the opening wording communicates the takeaway. Their readings of the three style panels differed. Interview 1 was unsure whether the styles should be compared, while Interview 2 correctly identified the earlier Ambient crossover. One more interview is required before I decide which suggestions to implement.
 
 # Identified changes for Part III
 
-Interview 1 produced three preliminary possibilities for Part III: make the title more specific, move the Ambient cassette detail to the limitations, and clarify that the three style panels support the same overall pattern. These are not final decisions and have not been applied to the Part II storyboard. I will complete two additional interviews using the same version, compare consistent and conflicting feedback, and then decide which changes to adopt, adapt, or leave unchanged. I will keep the data limitations and will not turn catalog records into claims about sales, listening, popularity, or sound quality.
+The first two interviews produced several preliminary possibilities for Part III: make the opening takeaway more specific, place the definition of “release version” closer to the chart, move the Ambient cassette detail to the limitations, and clarify how readers should use the three style panels. These are not final decisions and have not been applied to the Part II storyboard. I will complete one additional interview using the same version, compare consistent and conflicting feedback, and then decide which changes to adopt, adapt, or leave unchanged. I will keep the data limitations and will not turn catalog records into claims about sales, listening, popularity, or sound quality.
 
 ## References
 

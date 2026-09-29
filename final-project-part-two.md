@@ -123,7 +123,7 @@ Each participant viewed the revised page through the Part II participant instruc
 
 ## Interview findings
 
-Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. The tables use specific paraphrases because permission to publish direct quotations has not been confirmed. The three storyboard images remain in the form the participants reviewed. The responses below are plans for Part III, not changes already applied to those images.
+Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. The tables use specific paraphrases, followed by one anonymous quotation from each participant. Permission to publish these quotations anonymously has been confirmed. Interview 3's quotation was translated from Chinese by the author. The three storyboard images remain in the form the participants reviewed. The responses below are plans for Part III, not changes already applied to those images.
 
 | Interview 1 observation | What I learned | Possible Part III response |
 |---|---|---|
@@ -132,6 +132,8 @@ Three Part II interviews have been completed. Interview 1 was with a classmate e
 | The Ambient cassette percentages interrupted the main File-versus-Vinyl comparison. | The context is useful, but it may belong with the limitations. | Consider moving the cassette detail below the main visual sequence. |
 | The role of House, Techno, and Ambient was unclear, especially when Ambient was highlighted as crossing five years earlier. | The panels may need to read more clearly as three supporting cases rather than a genre ranking. | Consider clarifying the role of the panels and reducing the emphasis on the five-year difference. |
 | The restrained conclusion and Discogs collector-bias note made the claim more credible. | The limits help prevent catalog counts from being read as popularity, sales, or listening behavior. | Keep the cautious conclusion and bias note. |
+
+> Interview 1: “The three progressive states—showing Vinyl first, then adding Digital File, and finally marking the crossover years—make the story easy to follow and gradually answer the central question.”
 
 ### Interview 2
 
@@ -148,6 +150,8 @@ Three Part II interviews have been completed. Interview 1 was with a classmate e
 | Main uncertainty | The unit of analysis took some effort to understand even though the definition helped. | Test whether a shorter, more prominent unit note would help. |
 | First suggested change | Add a short subtitle under the title that states the conclusion more directly. | Consider the subtitle after comparing all three interviews. |
 
+> Interview 2: “I would add a short subtitle directly under the title stating the conclusion: Digital files overtook Vinyl, but Vinyl remained present. That would make the takeaway faster to grasp.”
+
 ### Interview 3
 
 | Question area | Interview 3 observation | Possible Part III response |
@@ -162,6 +166,8 @@ Three Part II interviews have been completed. Interview 1 was with a classmate e
 | Meaning of “remained” | The title communicated persistence, but it could understate the large decline in House Vinyl release versions. | Revise the title or nearby text so persistence does not obscure the decline. |
 | Interview method | The text before the storyboard explained the intended conclusion and the earlier Ambient crossover, which may have influenced the participant's answers. | In future testing, show the visual before the explanatory text. |
 | First suggested change | The participant would first redraw state 3 to match states 1 and 2 while changing only the annotation layer. | Adopt this change in Part III. |
+
+> Interview 3, translated from Chinese: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
 
 ### Patterns across the three interviews
 

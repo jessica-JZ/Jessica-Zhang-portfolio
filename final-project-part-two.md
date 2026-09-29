@@ -121,7 +121,7 @@ Each participant viewed the revised page through the Part II participant instruc
 
 ## Interview findings
 
-Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Interviews 4 and 5 were with classmates enrolled in the course who provided focused critiques, so I report only the observations they actually made. The first three tables include specific paraphrases and one anonymous quotation used with permission. I did not create quotations for Interviews 4 and 5. The participants reviewed the storyboard shown above; planned responses appear in the final Part III decision table.
+Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Interviews 4 and 5 were with classmates enrolled in the course who provided focused critiques, so I report only the observations they actually made. Interviews 1 through 4 include one anonymous quotation used with permission. I did not create a quotation for Interview 5. The participants reviewed the storyboard shown above; planned responses appear in the final Part III decision table.
 
 ### Interview 1
 
@@ -180,6 +180,8 @@ Five people provided Part II feedback. Interviews 1 through 3 followed the full 
 | Meaning of “release version” | The concrete example helped, but the term could still slow down a general reader. A shorter note near the axis may help. |
 | Ambient context | The two-line comparison does not represent Ambient's full physical-format mix. The participant wanted this limitation to remain visible. |
 | Closing language | The participant suggested a cultural conclusion about digital convenience and vinyl persistence. That interpretation goes beyond what catalog counts can establish, so I will keep the ending limited to the Discogs evidence. |
+
+> Interview 4: “It guides the reader smoothly through the narrative arc without overwhelming them with data all at once.”
 
 ### Interview 5: classmate's focused visual critique
 

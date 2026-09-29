@@ -28,15 +28,29 @@ The opening will place the main chart near the beginning and ask readers what ha
 
 The hero visual will be one figure with aligned House, Techno, and Ambient panels. Each panel will show annual numbers of cataloged Digital file and Vinyl release versions from 1985 through 2024. Vinyl will use blue, while Digital file will use a quiet warm gray. The lines will be labeled directly so the reader does not have to move between the chart and a separate legend. The x-axis will read “Release year,” and the y-axis will read “Number of cataloged release versions.” All panels and progressive states will use the same time range and count scale.
 
-The chart will be revealed in three steps:
+The three frames below show the actual progressive walkthrough. They use the same real data, 1985–2024 time range, and count scale so that only the intended story layer changes from one frame to the next.
 
-1. Show the Vinyl lines first and ask whether they approach zero.
-2. Add the Digital file lines so readers can see when they moved above Vinyl within each style.
-3. Add concise annotations for the crossover years and the most important difference among the three panels.
+#### Frame 1 — Establish that Vinyl remained
+
+![Storyboard frame 1 of 3 showing annual Vinyl release-version counts for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-1.svg)
+
+The first frame asks one question: did Vinyl approach zero? The blue lines remain visible through 2024 in all three panels.
+
+#### Frame 2 — Add the format that took the lead
+
+![Storyboard frame 2 of 3 adding annual Digital file release-version counts to the Vinyl lines](assets/final-project-part-two/storyboard-stage-2.svg)
+
+The second frame adds Digital file without changing the axes. Readers can now see both the crossover and the continued presence of Vinyl rather than interpreting the change as complete replacement.
+
+#### Frame 3 — Annotate the crossovers
+
+![Storyboard frame 3 of 3 annotating when Digital file first exceeded Vinyl for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-3.svg)
+
+The final frame marks the first year Digital file exceeded Vinyl: 2003 for Ambient and 2008 for House and Techno. The repeated annotation also makes the main difference among the three panels explicit: Ambient crossed five years earlier.
 
 CD will not appear in the main chart because the central comparison is Digital file versus Vinyl. No connector will join the format values at a given year because the categories can overlap and do not form two ends of a 100% scale. A short Ambient callout will note that cassette releases are unusually important for that style, so the two-line comparison does not describe its full physical-format story.
 
-**Storyboard frames:** the same chart in the three states above. The repeated structure should feel like one visual explanation, not three new analyses.
+**Storyboard structure:** the repeated chart, axes, and colors make these frames one visual explanation rather than three separate analyses.
 
 ### Stage 3: Resolve the question and define its limits
 
@@ -48,9 +62,7 @@ The limitations note will also explain that Discogs is a user-contributed collec
 
 ### High-fidelity draft
 
-![Small-multiple line chart comparing annual cataloged Digital File and Vinyl Record release versions for House, Techno, and Ambient from 1985 through 2024](assets/final-project-part-two/discogs-digital-file-vinyl-counts.png)
-
-This draft uses the real Discogs data and a shared count scale. Its claim-based title limits the conclusion to the Discogs catalog, while the direct 2024 labels, axes, legend, and source note allow the chart to be understood on its own. The next version will add only the annotations needed for the progressive story states described above.
+The third frame uses my uploaded Tableau chart as the high-fidelity base and adds only the crossover annotation layer needed for the storyboard. It uses the real Discogs data and a shared count scale. Its claim-based title limits the conclusion to the Discogs catalog, while the direct 2024 labels, axes, legend, crossover annotations, and source note allow the chart to be understood on its own.
 
 ## How Part I feedback shaped this storyboard
 
@@ -123,4 +135,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgements
 
-I used ChatGPT to critique my initial project direction, which helped me narrow the topic to one central story and one main chart. I also used it for a simulated target-audience critique, to revise and polish the writing, to organize and anonymize the peer feedback I collected, and to refine the Tableau chart title, axis range, labels, and source note. The simulated critique is labeled separately and is not counted as an interview. The human feedback came from my classmates; ChatGPT did not generate or alter their comments or quotations.
+I used ChatGPT to critique my initial project direction, which helped me narrow the topic to one central story and one main chart. I also used it for a simulated target-audience critique, to revise and polish the writing, to organize and anonymize the peer feedback I collected, to refine the Tableau chart title, axis range, labels, and source note, to create the first two progressive storyboard frames from the same extracted Discogs data, and to add a draft crossover annotation layer to my uploaded Tableau chart. The simulated critique is labeled separately and is not counted as an interview. The human feedback came from my classmates; ChatGPT did not generate or alter their comments or quotations.

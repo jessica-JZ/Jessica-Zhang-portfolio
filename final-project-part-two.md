@@ -92,7 +92,7 @@ The primary audience is electronic-music listeners who mainly use streaming or d
 
 These listeners may assume that a newer format replaces an older one. After reading the story, they should be able to explain how digital files became the dominant cataloged format while vinyl records remained present. They should also be able to use the chart as evidence without treating catalog counts as proof that vinyl became more popular.
 
-I first interviewed three people with different levels of familiarity with the course: a current classmate, a former student, and a Data Science student who is not enrolled in the class. Two additional participants later provided focused critiques of the page. I did not record background details for Participants 4 and 5, so I do not use their responses as evidence that the sample represents the target audience. I treat all five responses as usability feedback on the story and charts. I do not include names or other identifying information.
+I first interviewed three people with different levels of familiarity with the course: a current classmate, a former student, and a Data Science student who is not enrolled in the class. Two additional classmates enrolled in the course later provided focused critiques of the page. This mix let me test the story with readers who understand the course's visualization principles and with a reader outside the course. I treat all five responses as usability feedback on the story and charts rather than a representative audience sample. I do not include names or other identifying information.
 
 ## Interview script
 
@@ -121,7 +121,7 @@ Each participant viewed the revised page through the Part II participant instruc
 
 ## Interview findings
 
-Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Participants 4 and 5 provided focused critiques, so I report only the observations they actually made. The first three tables include specific paraphrases and one anonymous quotation used with permission. I did not create quotations for Participants 4 and 5. The participants reviewed the storyboard shown above; planned responses appear in the final Part III decision table.
+Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Interviews 4 and 5 were with classmates enrolled in the course who provided focused critiques, so I report only the observations they actually made. The first three tables include specific paraphrases and one anonymous quotation used with permission. I did not create quotations for Interviews 4 and 5. The participants reviewed the storyboard shown above; planned responses appear in the final Part III decision table.
 
 ### Interview 1
 
@@ -169,7 +169,7 @@ Five people provided Part II feedback. Interviews 1 through 3 followed the full 
 
 > Interview 3: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
 
-### Participant 4: focused written critique
+### Interview 4: classmate's focused written critique
 
 | Question area | Observation |
 |---|---|
@@ -181,7 +181,7 @@ Five people provided Part II feedback. Interviews 1 through 3 followed the full 
 | Ambient context | The two-line comparison does not represent Ambient's full physical-format mix. The participant wanted this limitation to remain visible. |
 | Closing language | The participant suggested a cultural conclusion about digital convenience and vinyl persistence. That interpretation goes beyond what catalog counts can establish, so I will keep the ending limited to the Discogs evidence. |
 
-### Participant 5: focused visual critique
+### Interview 5: classmate's focused visual critique
 
 | Question area | Observation |
 |---|---|
@@ -189,9 +189,9 @@ Five people provided Part II feedback. Interviews 1 through 3 followed the full 
 
 ### Patterns across the five responses
 
-Participants 1 through 3 understood the main claim: Digital File release versions overtook Vinyl in the Discogs catalog, while Vinyl continued through 2024. They also understood that the chart does not measure sales, listening, or popularity. Participant 4 independently identified the progressive reveal and data limits as strengths. Participant 5 commented only on label readability, so I do not infer story comprehension from that response.
+Participants 1 through 3 understood the main claim: Digital File release versions overtook Vinyl in the Discogs catalog, while Vinyl continued through 2024. They also understood that the chart does not measure sales, listening, or popularity. Interview 4 independently identified the progressive reveal and data limits as strengths. Interview 5 commented only on label readability, so I do not infer story comprehension from that response.
 
-The opening wording still needs revision. Interview 1 found “remained” ambiguous, Interview 2 wanted a faster statement of the takeaway, and Interview 3 thought the wording could understate the decline in House Vinyl releases. The Ambient cassette note distracted Participants 1 and 3, while Participant 4 wanted the limitation to remain visible. I will therefore move the detail out of the main sequence but keep it in the limitations. Participants 2 and 4 both identified “release version” as a possible source of hesitation. Participant 4 raised line contrast, and Participant 5 found the labels too small. These two observations make visual accessibility a Part III priority.
+The opening wording still needs revision. Interview 1 found “remained” ambiguous, Interview 2 wanted a faster statement of the takeaway, and Interview 3 thought the wording could understate the decline in House Vinyl releases. The Ambient cassette note distracted Interviews 1 and 3, while Interview 4 wanted the limitation to remain visible. I will therefore move the detail out of the main sequence but keep it in the limitations. Interviews 2 and 4 both identified “release version” as a possible source of hesitation. Interview 4 raised line contrast, and Interview 5 found the labels too small. These two observations make visual accessibility a Part III priority.
 
 # Identified changes for Part III
 

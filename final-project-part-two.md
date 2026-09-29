@@ -6,29 +6,27 @@
 
 ## Story direction
 
-Electronic-music listeners can encounter the same release as both a download and a 12-inch record. This project asks what that coexistence looks like in the Discogs catalog: once digital-file releases became more common, did vinyl-record releases disappear?
+Electronic-music listeners can encounter the same release as both a download and a 12-inch record. For listeners who use digital access but still see vinyl in record shops and label catalogs, format history shows whether digital distribution replaced physical editions or changed how the two coexist. This project asks: once digital-file releases became more common, did vinyl-record releases disappear?
 
-For listeners who still encounter both options in record shops and label catalogs, the chart provides historical context. I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. The story shows when digital files took the lead and whether vinyl records continued afterward. It does not recommend one format or compare sound quality.
-
-One small-multiple line chart carries the story. Each panel compares digital-file and vinyl-record releases over time, and the three styles provide separate cases rather than a ranking. The evidence supports a narrow conclusion: in the Discogs catalog, digital-file dominance coexisted with continuing vinyl releases. “Continued” does not mean stable or growing. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
+I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. One small-multiple line chart compares the two formats, with the three styles serving as supporting cases rather than a ranking. In the Discogs catalog, digital files took the lead while vinyl continued at a lower level. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
 
 I created the high-fidelity chart in Tableau. The final reader-facing story will use Shorthand as a scroll-based presentation, while this GitHub page documents the Part II storyboard, data decisions, and user-research plan.
 
-`File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one particular edition of a recording. For example, a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium, not how the audio was recorded or mastered. These counts do not measure sales, listening, popularity, or sound quality.
+`File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one edition of a recording: a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium rather than the recording technology. These counts do not measure sales, listening, or popularity.
 
 ## Storyboard
 
-This Part II storyboard shows the main chart in three progressive states. The first two are simplified reveal frames generated from the same data; the third is the high-fidelity Tableau endpoint. All three keep the panel order, time range, count scale, and color meaning constant. Their typography and legend treatment differ because the endpoint was produced in Tableau, so the sequence should be read as a storyboard progression rather than a literal animation.
+This Part II storyboard shows one chart in three progressive states. The first two are simplified reveal frames, and the third is the high-fidelity Tableau endpoint. The panel order, time range, count scale, and color meaning remain constant. The endpoint uses Tableau typography and legend styling, so these frames represent the planned progression rather than a literal animation.
 
 ### Story beat 1: Begin with the visual contradiction
 
-The opening places the chart near the beginning and asks what happened to vinyl records after digital-file releases moved ahead. The definition above explains “release version” with a concrete album-edition example and clarifies that format does not describe recording or mastering technology.
+The opening places the chart near the beginning and asks what happened to vinyl records after digital-file releases moved ahead.
 
 ### Story beat 2: Reveal the evidence in one main chart
 
 The main visual has aligned House, Techno, and Ambient panels. Each panel shows annual numbers of cataloged Digital File and Vinyl Record release versions from 1985 through 2024. Vinyl uses blue, while Digital File uses a quiet warm gray. Direct 2024 labels reduce eye travel between the lines and legend. All panels use the same time range and count scale.
 
-The three states below use the same real data and analytical structure. One release version is one format-specific edition, not a sale or a unique album.
+A note beside the chart defines one release version as a format-specific edition rather than a sale or a unique album.
 
 #### Progressive state 1: Establish that vinyl remained
 
@@ -54,7 +52,7 @@ CD does not appear in the main chart because the central comparison is Digital F
 
 ### Story beat 3: Resolve the question and define its limits
 
-The proposed ending returns to the opening question: Digital File releases took the lead in this Discogs sample while vinyl records continued to appear in thousands of cataloged versions. It avoids claims about a vinyl revival or listener preference. The chart note names Discogs as the source and explains the unit of analysis. In the filtered data, 0.16% of release versions contain more than one selected format tag, so the categories should not be read as two parts of a 100% total. The master-level sensitivity check remains on the Part I page rather than becoming another visual chapter.
+The ending answers the opening question: Digital File releases took the lead in this Discogs sample while vinyl records continued to appear in thousands of cataloged versions. The chart note identifies Discogs and the unit of analysis. The master-level sensitivity check remains on the Part I page.
 
 The limitations note explains that Discogs is a user-contributed collector database. Physical releases may be more likely to be cataloged than digital-only releases, so the catalog may make vinyl look more persistent than the full release market. This is a possible source of bias, not a measured correction factor.
 
@@ -64,7 +62,7 @@ In the final Shorthand story, a reader should be able to scroll through the thre
 
 ### High-fidelity draft
 
-The third frame uses my uploaded Tableau chart as the high-fidelity endpoint and adds the crossover annotation layer needed for the storyboard. The first two frames prototype the earlier reveal steps without pretending to be final Tableau exports. Across the sequence, the real data, panel order, time range, shared scale, and color meaning stay constant. The direct 2024 labels, axes, legend, crossover annotations, and source note allow the endpoint to be understood on its own.
+The third frame uses my Tableau chart as the high-fidelity endpoint and adds the crossover annotations. Its direct 2024 labels, axes, legend, and source note allow it to be understood on its own.
 
 > Part II participant instruction: please stop here after reviewing the storyboard. I will ask the interview questions before you read the process notes and research plan below.
 
@@ -123,49 +121,51 @@ Each participant viewed the revised page through the Part II participant instruc
 
 ## Interview findings
 
-Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. The tables use specific paraphrases, followed by one anonymous quotation from each participant. Permission to publish these quotations anonymously has been confirmed. The three storyboard images remain in the form the participants reviewed. The responses below are plans for Part III, not changes already applied to those images.
+Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. Each table records specific paraphrases, followed by one anonymous quotation used with permission. The participants reviewed the three storyboard images shown above; planned responses appear in the final Part III decision table.
 
-| Interview 1 observation | What I learned | Possible Part III response |
-|---|---|---|
-| The central storyline and three progressive states were easy to follow. | The reveal sequence answers the main question without adding separate charts. | Keep the current sequence. |
-| The phrase “Vinyl Records Remained” was ambiguous. | The title should say what remained and identify the endpoint. | Test a more specific title that states that Discogs still contained thousands of Vinyl release versions in 2024. |
-| The Ambient cassette percentages interrupted the main File-versus-Vinyl comparison. | The context is useful, but it may belong with the limitations. | Consider moving the cassette detail below the main visual sequence. |
-| The role of House, Techno, and Ambient was unclear, especially when Ambient was highlighted as crossing five years earlier. | The panels may need to read more clearly as three supporting cases rather than a genre ranking. | Consider clarifying the role of the panels and reducing the emphasis on the five-year difference. |
-| The restrained conclusion and Discogs collector-bias note made the claim more credible. | The limits help prevent catalog counts from being read as popularity, sales, or listening behavior. | Keep the cautious conclusion and bias note. |
+### Interview 1
+
+| Question area | Observation |
+|---|---|
+| Story clarity | The central storyline and three progressive states were easy to follow. |
+| Title | “Vinyl Records Remained” was ambiguous. |
+| Ambient context | The cassette percentages interrupted the main File-versus-Vinyl comparison. |
+| Role of the styles | Highlighting Ambient's earlier crossover made the three panels seem like a genre ranking. |
+| Data limits | The restrained conclusion and collector-bias note made the claim more credible. |
 
 > Interview 1: “The three progressive states—showing Vinyl first, then adding Digital File, and finally marking the crossover years—make the story easy to follow and gradually answer the central question.”
 
 ### Interview 2
 
-| Question area | Interview 2 observation | Possible Part III response |
-|---|---|---|
-| Intended audience | The story appeared to be for readers interested in music formats, Discogs data, or changes in release formats over time. | No change planned at this stage. |
-| Main story | The participant understood that Digital File releases became more common in the Discogs catalog while Vinyl releases did not disappear. | Keep the central story. |
-| Main chart takeaway | The participant focused on the crossover and Vinyl's continued presence afterward. | Keep the progressive reveal and crossover annotations. |
-| Evidence about Vinyl | The blue Vinyl line continues through 2024 in all three panels and never falls to zero. | Keep the common time range and end labels. |
-| Meaning of “release version” | The participant understood it as a format-specific edition rather than a unique song or album, but was initially unsure whether the counts represented albums, sales, or editions. | Consider placing the definition closer to the chart. |
-| Differences among the styles | The participant noticed that Ambient crossed around 2003, earlier than House and Techno around 2008. | Interview 3 also noticed the earlier crossover but found the emphasis distracting, so Part III should treat the timing difference as secondary. |
-| Techno crossover | The participant correctly identified approximately 2008. | Keep the annotation. |
-| Limits of the data | The participant understood that the chart shows Discogs catalog patterns, not sales, listener preferences, streaming behavior, or a broad Vinyl revival. | Keep the current limitations. |
-| Main uncertainty | The unit of analysis took some effort to understand even though the definition helped. | Test whether a shorter, more prominent unit note would help. |
-| First suggested change | Add a short subtitle under the title that states the conclusion more directly. | Consider the subtitle after comparing all three interviews. |
+| Question area | Observation |
+|---|---|
+| Intended audience | The story appeared to be for readers interested in music formats, Discogs data, or changes in release formats over time. |
+| Main story | The participant understood that Digital File releases became more common while Vinyl releases did not disappear. |
+| Main chart takeaway | The participant focused on the crossover and Vinyl's continued presence afterward. |
+| Evidence about Vinyl | The blue line continues through 2024 in all three panels and never falls to zero. |
+| Meaning of “release version” | The participant understood it as a format-specific edition but initially wondered whether the counts represented albums, sales, or editions. |
+| Differences among the styles | Ambient crossed around 2003, earlier than House and Techno around 2008. |
+| Techno crossover | The participant correctly identified approximately 2008. |
+| Data limits | The participant understood that the chart shows Discogs catalog patterns rather than sales, listening, or a broad Vinyl revival. |
+| Main uncertainty | The unit of analysis took some effort to understand. |
+| First suggested change | Add a subtitle that states the conclusion more directly. |
 
 > Interview 2: “I would add a short subtitle directly under the title stating the conclusion: Digital files overtook Vinyl, but Vinyl remained present. That would make the takeaway faster to grasp.”
 
 ### Interview 3
 
-| Question area | Interview 3 observation | Possible Part III response |
-|---|---|---|
-| Main story | The participant understood the story as Digital File releases overtaking Vinyl while both formats continued to appear in the Discogs catalog. | Keep the central story and the progression. |
-| First visual impressions | The warm crossover annotations drew attention first. The sharp House Vinyl decline and the post-2020 Digital File decline were also prominent. | Make sure the annotations do not overpower the trends they explain. |
-| Progressive states | The first two states built the comparison clearly, but the third state looked like a different chart because its type, labels, legend, and panel styling changed. | Rebuild the third state in the same visual style as the first two, then add only the crossover layer. |
-| Crossover meaning | The participant correctly understood the crossover as the first year Digital File release versions exceeded Vinyl, rather than a measure of sales or listening. | Keep the crossover explanation and data limits. |
-| Unexplained data patterns | The post-2020 Digital File decline and the first Digital File points around 1993 raised questions about data completeness and retrospective cataloging. | Investigate these patterns before Part III and add a data-coverage note if the source supports one. |
-| Ambient context | The CD and cassette percentages felt disconnected from a chart showing only Digital File and Vinyl. | Move this detail to the limitations or explain its purpose more directly. |
-| Wording about overlapping formats | The sentence about not connecting values at a given year was hard to interpret. | Rewrite the overlap note in plainer language. |
-| Meaning of “remained” | The title communicated persistence, but it could understate the large decline in House Vinyl release versions. | Revise the title or nearby text so persistence does not obscure the decline. |
-| Interview method | The text before the storyboard explained the intended conclusion and the earlier Ambient crossover, which may have influenced the participant's answers. | In future testing, show the visual before the explanatory text. |
-| First suggested change | The participant would first redraw state 3 to match states 1 and 2 while changing only the annotation layer. | Adopt this change in Part III. |
+| Question area | Observation |
+|---|---|
+| Main story | The participant understood that Digital File releases overtook Vinyl while both formats remained in the catalog. |
+| First visual impressions | The crossover annotations drew attention first, followed by the House Vinyl decline and the post-2020 Digital File decline. |
+| Progressive states | The first two states built the comparison clearly, but the third looked like a different chart because its type, labels, legend, and panel styling changed. |
+| Crossover meaning | The participant understood the crossover as the first year Digital File release versions exceeded Vinyl, rather than a measure of sales or listening. |
+| Unexplained patterns | The early File records and post-2020 decline raised questions about completeness and retrospective cataloging. |
+| Ambient context | The CD and cassette percentages felt disconnected from a two-format chart. |
+| Overlapping formats | The sentence about not connecting values at a given year was hard to interpret. |
+| Meaning of “remained” | The title could understate the large decline in House Vinyl releases. |
+| Interview method | The explanatory text before the charts may have influenced the participant's answers. |
+| First suggested change | Redraw State 3 to match States 1 and 2, changing only the annotation layer. |
 
 > Interview 3: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
 

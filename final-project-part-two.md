@@ -92,7 +92,7 @@ The primary audience is electronic-music listeners who mainly use streaming or d
 
 These listeners may assume that a newer format replaces an older one. After reading the story, they should be able to explain how digital files became the dominant cataloged format while vinyl records remained present. They should also be able to use the chart as evidence without treating catalog counts as proof that vinyl became more popular.
 
-I recruited three people with different levels of familiarity with the course: a current classmate, a former student, and a Data Science student who is not enrolled in the class. This mix let me test the story with readers who understand data visualization and with a reader outside the course. The available notes do not establish that all three participants match the primary audience, so I treat these interviews as usability tests of the story and charts rather than a representative audience sample. I describe participants only in broad terms and do not include names or other identifying information.
+I first interviewed three people with different levels of familiarity with the course: a current classmate, a former student, and a Data Science student who is not enrolled in the class. Two additional participants later provided focused critiques of the page. I did not record background details for Participants 4 and 5, so I do not use their responses as evidence that the sample represents the target audience. I treat all five responses as usability feedback on the story and charts. I do not include names or other identifying information.
 
 ## Interview script
 
@@ -121,7 +121,7 @@ Each participant viewed the revised page through the Part II participant instruc
 
 ## Interview findings
 
-Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. Each table records specific paraphrases, followed by one anonymous quotation used with permission. The participants reviewed the three storyboard images shown above; planned responses appear in the final Part III decision table.
+Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Participants 4 and 5 provided focused critiques, so I report only the observations they actually made. The first three tables include specific paraphrases and one anonymous quotation used with permission. I did not create quotations for Participants 4 and 5. The participants reviewed the storyboard shown above; planned responses appear in the final Part III decision table.
 
 ### Interview 1
 
@@ -169,25 +169,45 @@ Three Part II interviews have been completed. Interview 1 was with a classmate e
 
 > Interview 3: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
 
-### Patterns across the three interviews
+### Participant 4: focused written critique
 
-All three participants understood the main claim: Digital File release versions overtook Vinyl in the Discogs catalog, while Vinyl continued through 2024. They also understood that the chart does not measure sales, listening, or popularity. The progressive reveal and cautious limits worked well.
+| Question area | Observation |
+|---|---|
+| Progressive disclosure | The three-stage reveal reduced cognitive load and made the narrative progression easy to follow. |
+| Data transparency | The Discogs coverage note and distinction between catalog counts and audience behavior made the analysis more credible. |
+| Target audience | The focus on electronic-music listeners made the purpose and framing feel specific. |
+| Visual accessibility | The participant recommended checking whether the warm-gray Digital File line has enough contrast against the background. |
+| Meaning of “release version” | The concrete example helped, but the term could still slow down a general reader. A shorter note near the axis may help. |
+| Ambient context | The two-line comparison does not represent Ambient's full physical-format mix. The participant wanted this limitation to remain visible. |
+| Closing language | The participant suggested a cultural conclusion about digital convenience and vinyl persistence. That interpretation goes beyond what catalog counts can establish, so I will keep the ending limited to the Discogs evidence. |
 
-The opening wording needs revision. Interview 1 found “remained” ambiguous, Interview 2 wanted a faster statement of the takeaway, and Interview 3 thought the wording could understate the decline in House Vinyl releases. The Ambient cassette note distracted Interviews 1 and 3. Interviews 1 and 3 also questioned the emphasis placed on Ambient's earlier crossover, while Interview 2 interpreted the timing difference correctly. Interview 3 alone raised the visual discontinuity in state 3 and the unexplained early and post-2020 Digital File patterns. Interview 2 needed more help with the unit of analysis, while Interview 3 found the existing edition example sufficient.
+### Participant 5: focused visual critique
+
+| Question area | Observation |
+|---|---|
+| Label readability | The chart labels were too small to read comfortably. A label that is readable in Tableau may become difficult to read after the chart is scaled down on GitHub or in Shorthand. |
+
+### Patterns across the five responses
+
+Participants 1 through 3 understood the main claim: Digital File release versions overtook Vinyl in the Discogs catalog, while Vinyl continued through 2024. They also understood that the chart does not measure sales, listening, or popularity. Participant 4 independently identified the progressive reveal and data limits as strengths. Participant 5 commented only on label readability, so I do not infer story comprehension from that response.
+
+The opening wording still needs revision. Interview 1 found “remained” ambiguous, Interview 2 wanted a faster statement of the takeaway, and Interview 3 thought the wording could understate the decline in House Vinyl releases. The Ambient cassette note distracted Participants 1 and 3, while Participant 4 wanted the limitation to remain visible. I will therefore move the detail out of the main sequence but keep it in the limitations. Participants 2 and 4 both identified “release version” as a possible source of hesitation. Participant 4 raised line contrast, and Participant 5 found the labels too small. These two observations make visual accessibility a Part III priority.
 
 # Identified changes for Part III
 
-The three interviews produced the following plan. I added source and method clarifications to the Part II write-up, while the visible story changes remain decisions for Part III. None of the three storyboard images has been altered after the interviews.
+The five responses produced the following plan. The first three were full interviews, while the last two were focused critiques. I added source and method clarifications to the Part II write-up, while the visible story changes remain decisions for Part III. None of the three storyboard images has been altered after the interviews.
 
 | Finding | Part III decision | Reason |
 |---|---|---|
 | The opening takeaway was slow or ambiguous for all three participants. | Revise the title and subtitle to name both the decline and Vinyl's continued presence. | This was the clearest repeated issue. |
 | State 3 uses a different visual style. | Redraw state 3 to match states 1 and 2, changing only the crossover annotation layer. | A consistent frame makes the progressive reveal easier to follow. |
-| The Ambient cassette note distracted two participants. | Move the cassette detail to the limitations. | It is useful context but does not belong in the main two-format comparison. |
+| The Ambient cassette note distracted two participants, while another wanted the limitation to remain visible. | Move the cassette detail to the limitations rather than the Ambient panel. | This preserves the information without interrupting the main two-format comparison. |
 | The role of the three style panels was interpreted differently. | Explain that the styles are supporting cases and reduce the emphasis on Ambient being five years earlier. | The story is about a shared pattern rather than ranking genres. |
-| The unit of analysis was initially unclear to one participant. | The concrete edition example remains, with a short unit note added beside the storyboard. | This adds clarity without repeating the full methods section. |
+| The unit of analysis caused hesitation for two participants. | Keep the concrete edition example and the short unit note beside the storyboard. | This adds clarity without repeating the full methods section. |
 | The overlap sentence was difficult to understand. | The page now says that one release may have several format tags, so the lines are not parts of a 100% total. | The revised wording is more direct. |
 | The early Digital File points and post-2020 decline raised a new data question. | The limitations now identify 1993 as the first File-tagged year in the sample and treat the recent decline only as a catalog-snapshot pattern. | The source supports those boundaries but not a causal explanation. |
+| One participant questioned the gray-line contrast, and another found all chart labels too small. | Check the Digital File line against the background, enlarge the panel names, axes, end labels, legend, and source note, then test the chart at its actual Shorthand width. | The exported chart must remain readable after it is scaled for the final story. |
+| One participant suggested that digital convenience and vinyl persistence complement each other. | Do not make a claim about complementarity or consumer behavior. End with the catalog-bounded finding that Digital File versions became more numerous while Vinyl versions continued through 2024. | Discogs catalog counts cannot establish why listeners or labels use each format. |
 | The central story and data limitations were understood. | Keep the progressive sequence, crossover years, end labels, and cautious conclusion. | These elements worked across all three interviews. |
 
 ## References
@@ -200,4 +220,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgements
 
-I chose the topic, decided which feedback to use, created and reviewed the Tableau chart, and remain responsible for the interpretation. I used ChatGPT to help check the Discogs data-processing workflow, narrow the story, revise the writing, and organize and anonymize participant feedback. Separately, I used ChatGPT for a simulated target-audience critique. I did not count that simulation among the three interviews. All feedback counted as interview evidence came from human participants; ChatGPT did not generate or alter their comments.
+I chose the topic, decided which feedback to use, created and reviewed the Tableau chart, and remain responsible for the interpretation. I used ChatGPT to help check the Discogs data-processing workflow, narrow the story, revise the writing, and organize and anonymize participant feedback. Separately, I used ChatGPT for a simulated target-audience critique. I did not count that simulation among the five human feedback sources. ChatGPT did not generate or alter the participants' comments.

@@ -2,7 +2,7 @@
 
 # Wireframes / storyboards
 
-**Working story title:** *Digital Files Overtook Vinyl, but Vinyl Did Not Disappear*
+**Working story title:** *In the Discogs Catalog, Digital Files Took the Lead—but Vinyl Records Remained.*
 
 ## Story direction
 
@@ -26,7 +26,7 @@ The opening will place the main chart near the beginning and ask readers what ha
 
 ### Stage 2: Reveal the evidence in one main chart
 
-The hero visual will be one figure with aligned House, Techno, and Ambient panels. Each panel will show annual numbers of cataloged Digital file and Vinyl release versions from 1985 through 2024. Vinyl will use purple and Digital file will use orange throughout. The lines will be labeled directly so the reader does not have to move between the chart and a separate legend. The x-axis will read “Release year,” and the y-axis will read “Number of cataloged release versions.” All panels and progressive states will use the same time range and count scale.
+The hero visual will be one figure with aligned House, Techno, and Ambient panels. Each panel will show annual numbers of cataloged Digital file and Vinyl release versions from 1985 through 2024. Vinyl will use blue, while Digital file will use a quiet warm gray. The lines will be labeled directly so the reader does not have to move between the chart and a separate legend. The x-axis will read “Release year,” and the y-axis will read “Number of cataloged release versions.” All panels and progressive states will use the same time range and count scale.
 
 The chart will be revealed in three steps:
 
@@ -46,7 +46,11 @@ The limitations note will also explain that Discogs is a user-contributed collec
 
 **Scenario of use:** a reader should be able to scroll through the three states, identify the two formats without outside explanation, and summarize the conclusion in one sentence. A methods-minded reader can then continue to the limitations without interrupting the main story.
 
-The high-fidelity chart is still in development. Before submission, this section will include the three storyboard states rendered with the real data, including the claim-based title, direct labels, axes, units, annotations, caption, and source.
+### High-fidelity draft
+
+![Small-multiple line chart comparing annual cataloged Digital File and Vinyl Record release versions for House, Techno, and Ambient from 1985 through 2024](assets/final-project-part-two/discogs-digital-file-vinyl-counts.png)
+
+This draft uses the real Discogs data and a shared count scale. Its claim-based title limits the conclusion to the Discogs catalog, while the direct 2024 labels, axes, legend, and source note allow the chart to be understood on its own. The next version will add only the annotations needed for the progressive story states described above.
 
 ## How Part I feedback shaped this storyboard
 
@@ -119,4 +123,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgements
 
-I used ChatGPT to critique my initial project direction, which helped me narrow the topic to one central story and one main chart. I also used it for a simulated target-audience critique, to revise and polish the writing, and to organize and anonymize the peer feedback I collected. The simulated critique is labeled separately and is not counted as an interview. The human feedback came from my classmates; ChatGPT did not generate or alter their comments or quotations.
+I used ChatGPT to critique my initial project direction, which helped me narrow the topic to one central story and one main chart. I also used it for a simulated target-audience critique, to revise and polish the writing, to organize and anonymize the peer feedback I collected, and to refine the Tableau chart title, axis range, labels, and source note. The simulated critique is labeled separately and is not counted as an interview. The human feedback came from my classmates; ChatGPT did not generate or alter their comments or quotations.

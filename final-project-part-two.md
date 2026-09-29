@@ -10,7 +10,7 @@ Electronic-music listeners can encounter the same release as both a download and
 
 For listeners who still encounter both options in record shops and label catalogs, the chart provides historical context. I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. The story shows when digital files took the lead and whether vinyl records continued afterward. It does not recommend one format or compare sound quality.
 
-One small-multiple line chart carries the story. Each panel compares digital-file and vinyl-record releases over time, and the three styles provide separate cases rather than a ranking. The evidence supports a narrow conclusion: in the Discogs catalog, digital-file dominance coexisted with continuing vinyl releases.
+One small-multiple line chart carries the story. Each panel compares digital-file and vinyl-record releases over time, and the three styles provide separate cases rather than a ranking. The evidence supports a narrow conclusion: in the Discogs catalog, digital-file dominance coexisted with continuing vinyl releases. “Continued” does not mean stable or growing. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
 
 I created the high-fidelity chart in Tableau. The final reader-facing story will use Shorthand as a scroll-based presentation, while this GitHub page documents the Part II storyboard, data decisions, and user-research plan.
 
@@ -18,7 +18,7 @@ I created the high-fidelity chart in Tableau. The final reader-facing story will
 
 ## Storyboard
 
-This Part II storyboard shows the main chart in three progressive states. Each state changes one layer, while the surrounding text follows a setup, evidence, and resolution structure.
+This Part II storyboard shows the main chart in three progressive states. The first two are simplified reveal frames generated from the same data; the third is the high-fidelity Tableau endpoint. All three keep the panel order, time range, count scale, and color meaning constant. Their typography and legend treatment differ because the endpoint was produced in Tableau, so the sequence should be read as a storyboard progression rather than a literal animation.
 
 ### Story beat 1: Begin with the visual contradiction
 
@@ -28,7 +28,7 @@ The opening places the chart near the beginning and asks what happened to vinyl 
 
 The main visual has aligned House, Techno, and Ambient panels. Each panel shows annual numbers of cataloged Digital File and Vinyl Record release versions from 1985 through 2024. Vinyl uses blue, while Digital File uses a quiet warm gray. Direct 2024 labels reduce eye travel between the lines and legend. All panels use the same time range and count scale.
 
-The three states below use the same real data and axes. Only the intended story layer changes.
+The three states below use the same real data and analytical structure. One release version is one format-specific edition, not a sale or a unique album.
 
 #### Progressive state 1: Establish that vinyl remained
 
@@ -50,7 +50,7 @@ The final state marks the first year Digital File exceeded Vinyl Record: 2003 fo
 
 > Ambient context: in 2024, Vinyl, CD, or File appeared on 76.9% of the Ambient records in scope, while cassette appeared on 13.3%. The two-line chart therefore does not represent Ambient's full physical-format mix.
 
-CD does not appear in the main chart because the central comparison is Digital File versus Vinyl Record. The chart does not connect the two values at a given year because the categories can overlap and do not form two ends of a 100% scale. The Ambient context note keeps that limitation visible without adding another chart.
+CD does not appear in the main chart because the central comparison is Digital File versus Vinyl Record. One release may have more than one format tag, so the two lines are separate counts rather than parts of a 100% total.
 
 ### Story beat 3: Resolve the question and define its limits
 
@@ -58,11 +58,13 @@ The proposed ending returns to the opening question: Digital File releases took 
 
 The limitations note explains that Discogs is a user-contributed collector database. Physical releases may be more likely to be cataloged than digital-only releases, so the catalog may make vinyl look more persistent than the full release market. This is a possible source of bias, not a measured correction factor.
 
+The first File-tagged records in this filtered sample appear in 1993; that is not a claim about the first downloadable music release. The December 2025 snapshot may also receive additional community entries for recent release years. The post-2020 decline should therefore be read as a pattern in the catalog snapshot, not as proof that the broader market declined by the same amount.
+
 In the final Shorthand story, a reader should be able to scroll through the three states, identify both formats without outside explanation, and summarize the conclusion in one sentence. Readers who want the analytical details can continue to the limitations without interrupting the main story.
 
 ### High-fidelity draft
 
-The third frame uses my uploaded Tableau chart as the high-fidelity base and adds only the crossover annotation layer needed for the storyboard. It uses the real Discogs data and a shared count scale. Its claim-based title limits the conclusion to the Discogs catalog, while the direct 2024 labels, axes, legend, crossover annotations, and source note allow the chart to be understood on its own.
+The third frame uses my uploaded Tableau chart as the high-fidelity endpoint and adds the crossover annotation layer needed for the storyboard. The first two frames prototype the earlier reveal steps without pretending to be final Tableau exports. Across the sequence, the real data, panel order, time range, shared scale, and color meaning stay constant. The direct 2024 labels, axes, legend, crossover annotations, and source note allow the endpoint to be understood on its own.
 
 > Part II participant instruction: please stop here after reviewing the storyboard. I will ask the interview questions before you read the process notes and research plan below.
 
@@ -169,7 +171,7 @@ The opening wording needs revision. Interview 1 found “remained” ambiguous, 
 
 # Identified changes for Part III
 
-The three interviews produced the following plan. None of these planned visual changes has been applied to the three Part II storyboard images.
+The three interviews produced the following plan. I added source and method clarifications to the Part II write-up, while the visible story changes remain decisions for Part III. None of the three storyboard images has been altered after the interviews.
 
 | Finding | Part III decision | Reason |
 |---|---|---|
@@ -177,9 +179,9 @@ The three interviews produced the following plan. None of these planned visual c
 | State 3 uses a different visual style. | Redraw state 3 to match states 1 and 2, changing only the crossover annotation layer. | A consistent frame makes the progressive reveal easier to follow. |
 | The Ambient cassette note distracted two participants. | Move the cassette detail to the limitations. | It is useful context but does not belong in the main two-format comparison. |
 | The role of the three style panels was interpreted differently. | Explain that the styles are supporting cases and reduce the emphasis on Ambient being five years earlier. | The story is about a shared pattern rather than ranking genres. |
-| The unit of analysis was initially unclear to one participant. | Keep the concrete edition example and add a short unit note near the chart. | This adds clarity without repeating the full methods section. |
-| The overlap sentence was difficult to understand. | Rewrite it to say that one release may have more than one format tag, so the lines are not parts of a 100% total. | The current wording is more technical than necessary. |
-| The early Digital File points and post-2020 decline raised a new data question. | Check the source and extraction before deciding whether to add a coverage limitation. | I should not explain the pattern without evidence. |
+| The unit of analysis was initially unclear to one participant. | The concrete edition example remains, with a short unit note added beside the storyboard. | This adds clarity without repeating the full methods section. |
+| The overlap sentence was difficult to understand. | The page now says that one release may have several format tags, so the lines are not parts of a 100% total. | The revised wording is more direct. |
+| The early Digital File points and post-2020 decline raised a new data question. | The limitations now identify 1993 as the first File-tagged year in the sample and treat the recent decline only as a catalog-snapshot pattern. | The source supports those boundaries but not a causal explanation. |
 | The central story and data limitations were understood. | Keep the progressive sequence, crossover years, end labels, and cautious conclusion. | These elements worked across all three interviews. |
 
 ## References
@@ -192,4 +194,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgements
 
-I chose the topic, decided which feedback to use, created and reviewed the Tableau chart, and remain responsible for the interpretation. I used ChatGPT to help check the Discogs data-processing workflow, narrow the story, revise the writing, and organize and anonymize participant feedback. ChatGPT also helped refine the Tableau title, axis range, labels, and source note; create the first two progressive storyboard frames from the extracted data; and add a draft crossover annotation layer to my uploaded Tableau chart. Separately, I used ChatGPT for a simulated target-audience critique. I did not count that simulation among the three interviews. All feedback counted as interview evidence came from human participants; ChatGPT did not generate or alter their comments.
+I chose the topic, decided which feedback to use, created and reviewed the Tableau chart, and remain responsible for the interpretation. I used ChatGPT to help check the Discogs data-processing workflow, narrow the story, revise the writing, and organize and anonymize participant feedback. ChatGPT also helped create the first two progressive storyboard frames from the extracted data and add a draft crossover annotation layer to my uploaded Tableau chart. Separately, I used ChatGPT for a simulated target-audience critique. I did not count that simulation among the three interviews. All feedback counted as interview evidence came from human participants; ChatGPT did not generate or alter their comments.

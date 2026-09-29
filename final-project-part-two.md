@@ -123,7 +123,7 @@ Each participant viewed the revised page through the Part II participant instruc
 
 ## Interview findings
 
-Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. The tables use specific paraphrases, followed by one anonymous quotation from each participant. Permission to publish these quotations anonymously has been confirmed. Interview 3's quotation was translated from Chinese by the author. The three storyboard images remain in the form the participants reviewed. The responses below are plans for Part III, not changes already applied to those images.
+Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. The tables use specific paraphrases, followed by one anonymous quotation from each participant. Permission to publish these quotations anonymously has been confirmed. The three storyboard images remain in the form the participants reviewed. The responses below are plans for Part III, not changes already applied to those images.
 
 | Interview 1 observation | What I learned | Possible Part III response |
 |---|---|---|
@@ -167,7 +167,7 @@ Three Part II interviews have been completed. Interview 1 was with a classmate e
 | Interview method | The text before the storyboard explained the intended conclusion and the earlier Ambient crossover, which may have influenced the participant's answers. | In future testing, show the visual before the explanatory text. |
 | First suggested change | The participant would first redraw state 3 to match states 1 and 2 while changing only the annotation layer. | Adopt this change in Part III. |
 
-> Interview 3, translated from Chinese: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
+> Interview 3: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
 
 ### Patterns across the three interviews
 

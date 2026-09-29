@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import base64
 import csv
 from collections import defaultdict
 from pathlib import Path
@@ -126,14 +127,17 @@ def make_frame(stage):
 def make_annotated_tableau_frame():
     # Keep the uploaded Tableau export intact; this SVG adds only the storyboard annotation layer.
     width, height = 1465, 851
+    tableau_png = base64.b64encode(
+        (DESTINATION / "discogs-digital-file-vinyl-counts.png").read_bytes()
+    ).decode("ascii")
     plot_left, plot_width = 141, 1173
     panel_tops = {"House": 59, "Techno": 290, "Ambient": 520}
     panel_bottoms = {"House": 289, "Techno": 519, "Ambient": 750}
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         '<title id="title">Annotated Tableau chart showing when Digital file first exceeded Vinyl</title>',
         '<desc id="desc">The uploaded Tableau chart with crossover annotations for House, Techno, and Ambient.</desc>',
-        '<image href="discogs-digital-file-vinyl-counts.png" xlink:href="discogs-digital-file-vinyl-counts.png" width="1465" height="851"/>',
+        f'<image href="data:image/png;base64,{tableau_png}" width="1465" height="851"/>',
         '<style>.cross{stroke:#9a612f;stroke-width:2;stroke-dasharray:6 5}.marker{fill:#fff;stroke:#9a612f;stroke-width:3}.box{fill:#fff;fill-opacity:.94;stroke:#c99a70;stroke-width:1.5}.label{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#7a4b25}.year{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#7a4b25}</style>',
     ]
     for style in STYLES:
@@ -166,7 +170,7 @@ def main():
         assert f"STORYBOARD FRAME {stage} OF 3" in output and "Source: Discogs" in output
         (DESTINATION / f"storyboard-stage-{stage}.svg").write_text(output, encoding="utf-8")
     annotated = make_annotated_tableau_frame()
-    assert "discogs-digital-file-vinyl-counts.png" in annotated and "2003 — 5 years earlier" in annotated
+    assert "data:image/png;base64," in annotated and "2003 — 5 years earlier" in annotated
     (DESTINATION / "storyboard-stage-3.svg").write_text(annotated, encoding="utf-8")
 
 

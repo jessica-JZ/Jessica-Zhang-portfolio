@@ -104,7 +104,7 @@ The protocol tests whether readers can identify the intended audience, central q
 
 ### Interview procedure
 
-Each participant will view the revised storyboard before I explain the intended conclusion. I will ask the same core questions and take anonymous notes. For each question, I will record whether the answer showed clear, partial, or incorrect understanding and capture an exact quotation when the participant agrees. After the interviews, I will compare repeated observations with conflicting interpretations rather than treating every suggestion as a required change.
+Each participant viewed the revised page through the Part II participant instruction before reading the process notes or research plan. The page included story-direction text before the charts, so that framing may have influenced their interpretations. I asked the same core questions and took anonymous notes. I recorded whether each answer showed clear, partial, or incorrect understanding. I then compared repeated observations with conflicting interpretations rather than treating every suggestion as a required change.
 
 ### Questions
 
@@ -123,7 +123,7 @@ Each participant will view the revised storyboard before I explain the intended 
 
 ## Interview findings
 
-Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was submitted as an anonymous written review; no further participant description was provided. The tables paraphrase the feedback because permission to publish direct quotations has not been confirmed. I have kept the storyboard in the form the participants reviewed. The responses below are plans for Part III, not changes already made to the Part II draft.
+Three Part II interviews have been completed. Interview 1 was with a classmate enrolled in the course. Interview 2 was with someone who previously took the course. Interview 3 was with a Data Science student who is not enrolled in this course. The tables give specific paraphrases of the feedback because permission to publish direct quotations has not been confirmed. I have kept the storyboard in the form the participants reviewed. The responses below are plans for Part III, not changes already made to the Part II draft.
 
 | Interview 1 observation | What I learned | Possible Part III response |
 |---|---|---|
@@ -142,7 +142,7 @@ Three Part II interviews have been completed. Interview 1 was with a classmate e
 | Main chart takeaway | The participant focused on the crossover and Vinyl's continued presence afterward. | Keep the progressive reveal and crossover annotations. |
 | Evidence about Vinyl | The blue Vinyl line continues through 2024 in all three panels and never falls to zero. | Keep the common time range and end labels. |
 | Meaning of “release version” | The participant understood it as a format-specific edition rather than a unique song or album, but was initially unsure whether the counts represented albums, sales, or editions. | Consider placing the definition closer to the chart. |
-| Differences among the styles | The participant noticed that Ambient crossed around 2003, earlier than House and Techno around 2008. | Use Interview 3 to test whether this comparison is clear without distracting from the shared pattern. |
+| Differences among the styles | The participant noticed that Ambient crossed around 2003, earlier than House and Techno around 2008. | Interview 3 also noticed the earlier crossover but found the emphasis distracting, so Part III should treat the timing difference as secondary. |
 | Techno crossover | The participant correctly identified approximately 2008. | Keep the annotation. |
 | Limits of the data | The participant understood that the chart shows Discogs catalog patterns, not sales, listener preferences, streaming behavior, or a broad Vinyl revival. | Keep the current limitations. |
 | Main uncertainty | The unit of analysis took some effort to understand even though the definition helped. | Test whether a shorter, more prominent unit note would help. |

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
-<title id="title">Storyboard frame 1 of 3: Vinyl release versions continued through 2024</title>
+<title id="title">Storyboard frame 1 of 3: Discogs contained thousands of Vinyl release versions in 2024</title>
 <desc id="desc">Annual Discogs catalog counts for House, Techno, and Ambient release versions from 1985 through 2024.</desc>
 <rect width="100%" height="100%" fill="#ffffff"/>
 <style>text{font-family:Arial,sans-serif;fill:#262626}.eyebrow{font-size:15px;font-weight:700;letter-spacing:1.5px;fill:#6d6d6d}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:20px;font-weight:700}.axis{font-size:14px;fill:#666}.axis-title{font-size:16px;fill:#444}.end{font-size:14px;font-weight:700}.source{font-size:13px;fill:#666}.grid{stroke:#e6e3df;stroke-width:1}.baseline{stroke:#bdb8b3;stroke-width:1.2}.cross{stroke:#9a612f;stroke-width:1.5;stroke-dasharray:5 5}.callout{font-size:13px;font-weight:700;fill:#7a4b25}.callout-year{font-size:18px;font-weight:700;fill:#7a4b25}</style>
 <text x="55" y="38" class="eyebrow">STORYBOARD FRAME 1 OF 3</text>
-<text x="55" y="78" class="title">Vinyl release versions continued through 2024</text>
+<text x="55" y="78" class="title">Discogs contained thousands of Vinyl release versions in 2024</text>
 <text x="55" y="108" class="subtitle">First, follow the older format across all three styles.</text>
 <line x1="1040" y1="55" x2="1070" y2="55" stroke="#4C78A8" stroke-width="5"/>
 <text x="1080" y="60" class="axis">Vinyl</text>

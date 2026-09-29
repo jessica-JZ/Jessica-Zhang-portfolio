@@ -47,9 +47,8 @@ def text(x, y, content, css_class, anchor=None):
 
 def make_frame(stage):
     titles = {
-        1: ("Vinyl release versions continued through 2024", "First, follow the older format across all three styles."),
+        1: ("Discogs contained thousands of Vinyl release versions in 2024", "First, follow the older format across all three styles."),
         2: ("Digital files rose past vinyl", "The same axes show a transition, not a clean replacement."),
-        3: ("The crossover came earlier for Ambient", "Digital file first exceeded Vinyl in 2003 for Ambient and in 2008 for House and Techno."),
     }
     title, subtitle = titles[stage]
     visible_formats = ["Vinyl"] if stage == 1 else FORMATS
@@ -98,21 +97,6 @@ def make_frame(stage):
             label_y = final_y + (-8 if format_name == "File" else 16)
             parts.append(text(WIDTH - RIGHT + 14, f"{label_y:.1f}", f'{LABELS[format_name]}: {final_value:,}', "end"))
 
-        if stage == 3:
-            year = crossover_year(style)
-            x = x_position(year)
-            file_y = y_position(values[(style, "File")][year], panel_top)
-            vinyl_y = y_position(values[(style, "Vinyl")][year], panel_top)
-            parts.append(f'<line x1="{x:.1f}" y1="{panel_top}" x2="{x:.1f}" y2="{panel_top + PANEL_HEIGHT}" class="cross"/>')
-            for y in (file_y, vinyl_y):
-                parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5.5" fill="#ffffff" stroke="#9a612f" stroke-width="3"/>')
-            box_x = min(x + 12, WIDTH - RIGHT - 205)
-            box_y = panel_top + 12
-            parts.append(f'<rect x="{box_x:.1f}" y="{box_y:.1f}" width="195" height="52" rx="5" fill="#ffffff" fill-opacity="0.94" stroke="#c99a70"/>')
-            parts.append(text(f"{box_x + 10:.1f}", f"{box_y + 19:.1f}", "Digital first exceeds Vinyl", "callout"))
-            suffix = " — 5 years earlier" if style == "Ambient" else ""
-            parts.append(text(f"{box_x + 10:.1f}", f"{box_y + 42:.1f}", f"{year}{suffix}", "callout-year"))
-
     parts.extend([
         text(LEFT + PLOT_WIDTH / 2, 837, "Release year", "axis-title", "middle"),
         f'<text x="24" y="470" class="axis-title" text-anchor="middle" transform="rotate(-90 24 470)">Number of cataloged release versions</text>',
@@ -131,10 +115,13 @@ def make_annotated_tableau_frame():
     panel_bottoms = {"House": 289, "Techno": 519, "Ambient": 750}
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
-        '<title id="title">Annotated Tableau chart showing when Digital file first exceeded Vinyl</title>',
-        '<desc id="desc">The uploaded Tableau chart with crossover annotations for House, Techno, and Ambient.</desc>',
+        '<title id="title">Digital File releases overtook Vinyl, but Discogs still contained thousands of Vinyl release versions in 2024</title>',
+        '<desc id="desc">The uploaded Tableau chart with neutral crossover-year annotations for House, Techno, and Ambient.</desc>',
         '<image href="discogs-digital-file-vinyl-counts.png" xlink:href="discogs-digital-file-vinyl-counts.png" width="1465" height="851"/>',
-        '<style>.cross{stroke:#9a612f;stroke-width:2;stroke-dasharray:6 5}.marker{fill:#fff;stroke:#9a612f;stroke-width:3}.box{fill:#fff;fill-opacity:.94;stroke:#c99a70;stroke-width:1.5}.label{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#7a4b25}.year{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#7a4b25}</style>',
+        '<style>.chart-title{font-family:Arial,sans-serif;font-size:23px;font-weight:700;fill:#222}.chart-subtitle{font-family:Arial,sans-serif;font-size:16px;fill:#555}.cross{stroke:#9a612f;stroke-width:2;stroke-dasharray:6 5}.marker{fill:#fff;stroke:#9a612f;stroke-width:3}.box{fill:#fff;fill-opacity:.94;stroke:#c99a70;stroke-width:1.5}.label{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#7a4b25}.year{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#7a4b25}</style>',
+        '<rect x="0" y="0" width="1100" height="58" fill="#ffffff"/>',
+        '<text x="5" y="24" class="chart-title">Digital File Releases Overtook Vinyl</text>',
+        '<text x="5" y="48" class="chart-subtitle">Discogs still contained thousands of Vinyl release versions in 2024.</text>',
     ]
     for style in STYLES:
         year = crossover_year(style)
@@ -150,8 +137,7 @@ def make_annotated_tableau_frame():
         box_y = top + 14
         parts.append(f'<rect x="{box_x:.1f}" y="{box_y}" width="210" height="58" rx="6" class="box"/>')
         parts.append(f'<text x="{box_x + 11:.1f}" y="{box_y + 22}" class="label">Digital first exceeds Vinyl</text>')
-        suffix = " — 5 years earlier" if style == "Ambient" else ""
-        parts.append(f'<text x="{box_x + 11:.1f}" y="{box_y + 47}" class="year">{year}{suffix}</text>')
+        parts.append(f'<text x="{box_x + 11:.1f}" y="{box_y + 47}" class="year">{year}</text>')
     parts.append('</svg>')
     return "\n".join(parts)
 
@@ -166,7 +152,7 @@ def main():
         assert f"STORYBOARD FRAME {stage} OF 3" in output and "Source: Discogs" in output
         (DESTINATION / f"storyboard-stage-{stage}.svg").write_text(output, encoding="utf-8")
     annotated = make_annotated_tableau_frame()
-    assert "discogs-digital-file-vinyl-counts.png" in annotated and "2003 — 5 years earlier" in annotated
+    assert "discogs-digital-file-vinyl-counts.png" in annotated and ">2003<" in annotated
     (DESTINATION / "storyboard-stage-3.svg").write_text(annotated, encoding="utf-8")
 
 

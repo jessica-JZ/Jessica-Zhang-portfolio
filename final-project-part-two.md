@@ -4,13 +4,15 @@
 
 **Working story title:** *In the Discogs Catalog, Digital Files Took the Lead—but Vinyl Records Remained.*
 
+**On this page:** [Storyboard](#storyboard) · [Research protocol](#interview-script) · [Interview findings](#interview-findings) · [Changes planned for Part III](#identified-changes-for-part-iii)
+
 ## Story direction
 
 Electronic-music listeners can encounter the same release as both a download and a 12-inch record. For listeners who use digital access but still see vinyl in record shops and label catalogs, format history shows whether digital distribution replaced physical editions or changed how the two coexist. This project asks: once digital-file releases became more common, did vinyl-record releases disappear?
 
 I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. One small-multiple line chart compares the two formats, with the three styles serving as supporting cases rather than a ranking. In the Discogs catalog, digital files took the lead while vinyl continued at a lower level. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
 
-I created the high-fidelity chart in Tableau. The final reader-facing story will be published on GitHub Pages under the course template, while this page documents the Part II storyboard, data decisions, and user-research plan.
+I created the high-fidelity chart in Tableau. This page documents the Part II storyboard and research. The finished reader-facing story is on [Part III](final-project-part-three).
 
 `File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one edition of a recording: a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium rather than the recording technology. These counts do not measure sales, listening, or popularity.
 
@@ -58,7 +60,7 @@ The limitations note explains that Discogs is a user-contributed collector datab
 
 The first File-tagged records in this filtered sample appear in 1993; that is not a claim about the first downloadable music release. The December 2025 snapshot may also receive additional community entries for recent release years. The post-2020 decline should therefore be read as a pattern in the catalog snapshot, not as proof that the broader market declined by the same amount.
 
-In the final GitHub Pages story, a reader should be able to see the complete comparison near the top, identify both formats without outside explanation, and summarize the conclusion in one sentence. Readers who want the analytical details can continue to the limitations without interrupting the main story.
+The planned reader path was to see the complete comparison near the top, identify both formats without outside explanation, and summarize the conclusion in one sentence. Readers who wanted the analytical details could continue to the limitations. [Part III](final-project-part-three) shows the finished story.
 
 ### High-fidelity draft
 
@@ -90,9 +92,9 @@ The comments below were made about my Part I sketches. I used them as preliminar
 
 The primary audience is electronic-music listeners who mainly use streaming or downloads but still encounter vinyl through DJs, record shops, or label releases. They may recognize House, Techno, and Ambient, but they are not expected to know how Discogs organizes its database.
 
-These listeners may assume that a newer format replaces an older one. After reading the story, they should be able to explain how digital files became the dominant cataloged format while vinyl records remained present. They should also be able to use the chart as evidence without treating catalog counts as proof that vinyl became more popular.
+The story tests a question these listeners might have: did digital-file releases replace vinyl editions? After reading it, they should be able to explain that digital-file versions became more numerous than vinyl versions in this sample while vinyl remained present. They should also be able to use the chart as evidence without treating catalog counts as proof that vinyl became more popular.
 
-I first interviewed three people with different levels of familiarity with the course: a current classmate, a former student, and a Data Science student who is not enrolled in the class. Two additional classmates enrolled in the course later provided focused critiques of the page. This mix let me test the story with readers who understand the course's visualization principles and with a reader outside the course. I treat all five responses as usability feedback on the story and charts rather than a representative audience sample. I do not include names or other identifying information.
+I recruited a convenience sample with different levels of course familiarity: a current classmate, a former student, and a Data Science student who is not enrolled in the class. They completed the full interviews. Two additional classmates later provided focused critiques of the page. This mix included readers inside and outside the course, but I did not establish that they represent electronic-music listeners. I use their responses to identify problems in this draft, not to estimate how often the intended audience would have those problems. I do not include names or other identifying information.
 
 ## Interview script
 
@@ -102,7 +104,7 @@ The protocol tests whether readers can identify the intended audience, central q
 
 ### Interview procedure
 
-Each participant viewed the revised page through the Part II participant instruction before reading the process notes or research plan. The page included story-direction text before the charts, so that framing may have influenced their interpretations. I asked the same core questions and took anonymous notes. I recorded whether each answer showed clear, partial, or incorrect understanding. I then compared repeated observations with conflicting interpretations rather than treating every suggestion as a required change.
+For the three full interviews, participants viewed the revised page through the Part II participant instruction before reading the process notes or research plan. The page included story-direction text before the charts, so that framing may have influenced their interpretations. I asked the same core questions, took anonymous notes, and compared repeated observations with conflicting interpretations. The two later focused critiques are reported separately; I do not treat them as responses to the full script.
 
 ### Questions
 

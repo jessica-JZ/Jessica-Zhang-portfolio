@@ -4,7 +4,7 @@ This guide applies to the public [Jessica Zhang data visualization portfolio](ht
 
 ## Protect graded work
 
-Before an edit, check which pages or assets are still being graded. Do not move or change those pages, their data, images, or wording during a cleanup task. For the current assignment, leave `final-project-part-one.md`, `final-project-part-two.md`, `final-project-part-three.md`, and their supporting files unchanged. Improve the home page, gallery, or other finished work around them. If a graded page itself needs a substantial redesign, wait until grading ends or use a separate fork and share its URL.
+Before an edit, check which pages or assets are still being graded. Do not move or change those pages, their data, images, or wording during a cleanup task. For the current assignment, leave `final-project-part-one.md`, `final-project-part-two.md`, `final-project-part-three.md`, `final-data-story.md`, and their supporting files unchanged. Improve the home page, gallery, or other finished work around them. If a graded page itself needs a substantial redesign, wait until grading ends or use a separate fork and share its URL.
 
 ## Check the five rubric areas
 

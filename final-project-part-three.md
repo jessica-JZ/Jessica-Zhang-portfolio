@@ -40,7 +40,7 @@ Part II supplied three full interviews and two focused classmate critiques. Acro
 
 ## Final design decisions
 
-The final page uses one familiar line chart for change over time. Vinyl is blue and File is dark gray, with the format names repeated in the text. Direct 2024 counts and crossover annotations point to the evidence without making readers reconstruct it. The y-axis starts at zero and has the same scale in every panel. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
+The final page uses one familiar line chart for change over time. Vinyl is blue and File is warm gray, with the format names repeated in the text. Direct 2024 counts and crossover annotations point to the evidence without making readers reconstruct it. The y-axis starts at zero and has the same scale in every panel. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
 
 ## References
 

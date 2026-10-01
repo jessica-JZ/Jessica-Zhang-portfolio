@@ -1,4 +1,5 @@
 ---
+permalink: /
 redirect_from: /dataviz-examples
 ---
 

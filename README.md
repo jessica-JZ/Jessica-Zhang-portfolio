@@ -31,5 +31,4 @@ My goal is to create visualizations that are clear and credible without being mi
 - [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design)
 - [Final project, Part I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one)
 - [Final project, Part II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two)
-- [Final data story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-data-story)
 - [Final project, Part III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three)

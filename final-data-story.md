@@ -1,4 +1,4 @@
-| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Part III: behind the story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
+| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
 # Digital files took the lead. Vinyl releases continued.
 

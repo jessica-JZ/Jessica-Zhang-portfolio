@@ -1,4 +1,4 @@
-| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
+| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
 # The final data story
 
@@ -26,7 +26,7 @@ Discogs is a community-built catalog, and its coverage may differ across formats
 
 The first File-tagged records in this filtered sample appear in 1993. That is not the date of the first digital music release. The downward lines after 2020 describe this December 2025 snapshot; later catalog entries can change recent-year counts. These data cannot establish sales, listening, format preference, or sound quality.
 
-This Part III page is the [public final story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three#the-final-data-story) and process write-up. The [GitHub repository](https://github.com/jessica-JZ/Jessica-Zhang-portfolio) contains the chart source and data summary. [Part I](final-project-part-one) records the question and data preparation; [Part II](final-project-part-two) contains the storyboard and reader feedback.
+This Part III page presents the public final story and process write-up. The [GitHub repository](https://github.com/jessica-JZ/Jessica-Zhang-portfolio) contains the chart source and data summary. [Part I](final-project-part-one) records the question and data preparation; [Part II](final-project-part-two) contains the storyboard and reader feedback.
 
 # Changes made since Part II
 

@@ -46,21 +46,31 @@ def text(x, y, content, css_class, anchor=None):
     return f'<text x="{x}" y="{y}" class="{css_class}"{anchor_attr}>{escape(content)}</text>'
 
 
-def make_frame(stage):
-    titles = {
+def make_frame(stage, final=False):
+    titles = ({
+        1: ("Vinyl releases fell, but did not disappear", "Annual Discogs release-version counts, 1985–2024."),
+        2: ("Digital files took the lead", "The same axes show the change across three styles."),
+        3: ("Digital files took the lead; vinyl continued", "First File-over-Vinyl years are marked within this Discogs sample."),
+    } if final else {
         1: ("Vinyl release versions continued through 2024", "First, follow the older format across all three styles."),
         2: ("Digital files rose past vinyl", "The same axes show a transition, not a clean replacement."),
         3: ("The crossover came earlier for Ambient", "Digital file first exceeded Vinyl in 2003 for Ambient and in 2008 for House and Techno."),
-    }
+    })
     title, subtitle = titles[stage]
     visible_formats = ["Vinyl"] if stage == 1 else FORMATS
+    colors = {**COLORS, "File": "#635b55"} if final else COLORS
+    css = '<style>text{font-family:Arial,sans-serif;fill:#262626}.eyebrow{font-size:15px;font-weight:700;letter-spacing:1.5px;fill:#6d6d6d}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:20px;font-weight:700}.axis{font-size:14px;fill:#666}.axis-title{font-size:16px;fill:#444}.end{font-size:14px;font-weight:700}.source{font-size:13px;fill:#666}.grid{stroke:#e6e3df;stroke-width:1}.baseline{stroke:#bdb8b3;stroke-width:1.2}.cross{stroke:#9a612f;stroke-width:1.5;stroke-dasharray:5 5}.callout{font-size:13px;font-weight:700;fill:#7a4b25}.callout-year{font-size:18px;font-weight:700;fill:#7a4b25}</style>'
+    if final:
+        for old, new in (("font-size:13px", "font-size:19px"), ("font-size:14px", "font-size:20px"), ("font-size:15px", "font-size:18px"), ("font-size:16px", "font-size:20px"), ("font-size:18px", "font-size:22px"), ("font-size:20px", "font-size:24px"), ("font-size:31px", "font-size:36px")):
+            css = css.replace(old, new)
+        css = css.replace('.axis{font-size:24px', '.axis{font-size:20px').replace('.end{font-size:24px', '.end{font-size:21px').replace('.axis-title{font-size:24px', '.axis-title{font-size:20px')
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-labelledby="title desc">',
         f'<title id="title">Storyboard frame {stage} of 3: {escape(title)}</title>',
         f'<desc id="desc">Annual Discogs catalog counts for House, Techno, and Ambient release versions from 1985 through 2024.</desc>',
         '<rect width="100%" height="100%" fill="#ffffff"/>',
-        '<style>text{font-family:Arial,sans-serif;fill:#262626}.eyebrow{font-size:15px;font-weight:700;letter-spacing:1.5px;fill:#6d6d6d}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:20px;font-weight:700}.axis{font-size:14px;fill:#666}.axis-title{font-size:16px;fill:#444}.end{font-size:14px;font-weight:700}.source{font-size:13px;fill:#666}.grid{stroke:#e6e3df;stroke-width:1}.baseline{stroke:#bdb8b3;stroke-width:1.2}.cross{stroke:#9a612f;stroke-width:1.5;stroke-dasharray:5 5}.callout{font-size:13px;font-weight:700;fill:#7a4b25}.callout-year{font-size:18px;font-weight:700;fill:#7a4b25}</style>',
-        text(55, 38, f"STORYBOARD FRAME {stage} OF 3", "eyebrow"),
+        css,
+        text(55, 38, f"{'FINAL STORY' if final else 'STORYBOARD'} FRAME {stage} OF 3", "eyebrow"),
         text(55, 78, title, "title"),
         text(55, 108, subtitle, "subtitle"),
     ]
@@ -68,7 +78,7 @@ def make_frame(stage):
     legend_x = 1040
     for index, format_name in enumerate(visible_formats):
         y = 55 + index * 28
-        parts.append(f'<line x1="{legend_x}" y1="{y}" x2="{legend_x + 30}" y2="{y}" stroke="{COLORS[format_name]}" stroke-width="5"/>')
+        parts.append(f'<line x1="{legend_x}" y1="{y}" x2="{legend_x + 30}" y2="{y}" stroke="{colors[format_name]}" stroke-width="5"/>')
         parts.append(text(legend_x + 40, y + 5, LABELS[format_name], "axis"))
 
     for panel_index, style in enumerate(STYLES):
@@ -91,13 +101,14 @@ def make_frame(stage):
                 for year, value in sorted(values[(style, format_name)].items())
             )
             parts.append(
-                f'<polyline points="{points}" fill="none" stroke="{COLORS[format_name]}" '
+                f'<polyline points="{points}" fill="none" stroke="{colors[format_name]}" '
                 'stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>'
             )
             final_value = values[(style, format_name)][2024]
             final_y = y_position(final_value, panel_top)
             label_y = final_y + (-8 if format_name == "File" else 16)
-            parts.append(text(WIDTH - RIGHT + 14, f"{label_y:.1f}", f'{LABELS[format_name]}: {final_value:,}', "end"))
+            end_label = f'{format_name if format_name == "File" else "Vinyl"} {final_value:,}' if final else f'{LABELS[format_name]}: {final_value:,}'
+            parts.append(text(WIDTH - RIGHT + 14, f"{label_y:.1f}", end_label, "end"))
 
         if stage == 3:
             year = crossover_year(style)
@@ -110,8 +121,8 @@ def make_frame(stage):
             box_x = min(x + 12, WIDTH - RIGHT - 205)
             box_y = panel_top + 12
             parts.append(f'<rect x="{box_x:.1f}" y="{box_y:.1f}" width="195" height="52" rx="5" fill="#ffffff" fill-opacity="0.94" stroke="#c99a70"/>')
-            parts.append(text(f"{box_x + 10:.1f}", f"{box_y + 19:.1f}", "Digital first exceeds Vinyl", "callout"))
-            suffix = " — 5 years earlier" if style == "Ambient" else ""
+            parts.append(text(f"{box_x + 10:.1f}", f"{box_y + 19:.1f}", "File exceeds Vinyl" if final else "Digital first exceeds Vinyl", "callout"))
+            suffix = " — 5 years earlier" if style == "Ambient" and not final else ""
             parts.append(text(f"{box_x + 10:.1f}", f"{box_y + 42:.1f}", f"{year}{suffix}", "callout-year"))
 
     parts.extend([
@@ -172,6 +183,12 @@ def main():
     annotated = make_annotated_tableau_frame()
     assert "data:image/png;base64," in annotated and "2003 — 5 years earlier" in annotated
     (DESTINATION / "storyboard-stage-3.svg").write_text(annotated, encoding="utf-8")
+    final_destination = ROOT / "assets/final-project-part-three"
+    final_destination.mkdir(parents=True, exist_ok=True)
+    for stage in (1, 2, 3):
+        output = make_frame(stage, final=True)
+        assert f"FINAL STORY FRAME {stage} OF 3" in output and "Source: Discogs" in output
+        (final_destination / f"story-frame-{stage}.svg").write_text(output, encoding="utf-8")
 
 
 if __name__ == "__main__":

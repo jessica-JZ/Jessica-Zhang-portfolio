@@ -22,9 +22,11 @@ The Tableau chart adds Digital File to the same three styles. Open the **Style**
 
 As you switch styles, look for the first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.**
 
-[Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) for a larger view if the embed or its labels are too small on your screen.
+[Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) for a larger view, or scroll sideways through the chart on a narrow screen.
 
-<iframe title="Tableau chart with a Style menu for comparing cataloged Digital File and Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0;" loading="lazy" allowfullscreen></iframe>
+<div style="max-width: 100%; overflow-x: auto;">
+<iframe title="Tableau chart with a Style menu for comparing cataloged Digital File and Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0; min-width: 960px;" loading="lazy" allowfullscreen></iframe>
+</div>
 
 By 2024, File outnumbered Vinyl in each style: House had 8,428 File versions versus 3,022 Vinyl; Techno, 10,877 versus 3,442; Ambient, 7,418 versus 2,515. The file lines lead at the end of the period, while vinyl remains present.
 

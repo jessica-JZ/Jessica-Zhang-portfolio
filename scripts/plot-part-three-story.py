@@ -133,6 +133,11 @@ def main():
         output = make_frame(stage)
         assert f"FINAL STORY FRAME {stage} OF 3" in output and "Source: Discogs" in output
         (DESTINATION / f"story-frame-{stage}.svg").write_text(output, encoding="utf-8")
+    final_chart = make_frame(3).replace("Storyboard frame 3 of 3:", "Final chart:").replace(
+        "FINAL STORY FRAME 3 OF 3", "DISCOGS RELEASE FORMATS, 1985–2024"
+    )
+    assert "3 of 3" not in final_chart and "FINAL STORY FRAME" not in final_chart
+    (DESTINATION / "final-chart.svg").write_text(final_chart, encoding="utf-8")
 
 
 if __name__ == "__main__":

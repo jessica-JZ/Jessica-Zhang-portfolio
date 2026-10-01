@@ -59,13 +59,14 @@ def make_frame(stage, final=False):
     title, subtitle = titles[stage]
     visible_formats = ["Vinyl"] if stage == 1 else FORMATS
     colors = {**COLORS, "File": "#635b55"} if final else COLORS
+    canvas_height = 945 if final else HEIGHT
     css = '<style>text{font-family:Arial,sans-serif;fill:#262626}.eyebrow{font-size:15px;font-weight:700;letter-spacing:1.5px;fill:#6d6d6d}.title{font-size:31px;font-weight:700}.subtitle{font-size:18px;fill:#555}.panel{font-size:20px;font-weight:700}.axis{font-size:14px;fill:#666}.axis-title{font-size:16px;fill:#444}.end{font-size:14px;font-weight:700}.source{font-size:13px;fill:#666}.grid{stroke:#e6e3df;stroke-width:1}.baseline{stroke:#bdb8b3;stroke-width:1.2}.cross{stroke:#9a612f;stroke-width:1.5;stroke-dasharray:5 5}.callout{font-size:13px;font-weight:700;fill:#7a4b25}.callout-year{font-size:18px;font-weight:700;fill:#7a4b25}</style>'
     if final:
         for old, new in (("font-size:13px", "font-size:19px"), ("font-size:14px", "font-size:20px"), ("font-size:15px", "font-size:18px"), ("font-size:16px", "font-size:20px"), ("font-size:18px", "font-size:22px"), ("font-size:20px", "font-size:24px"), ("font-size:31px", "font-size:36px")):
             css = css.replace(old, new)
         css = css.replace('.axis{font-size:24px', '.axis{font-size:20px').replace('.end{font-size:24px', '.end{font-size:21px').replace('.axis-title{font-size:24px', '.axis-title{font-size:20px')
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-labelledby="title desc">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{canvas_height}" viewBox="0 0 {WIDTH} {canvas_height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">Storyboard frame {stage} of 3: {escape(title)}</title>',
         f'<desc id="desc">Annual Discogs catalog counts for House, Techno, and Ambient release versions from 1985 through 2024.</desc>',
         '<rect width="100%" height="100%" fill="#ffffff"/>',
@@ -126,10 +127,10 @@ def make_frame(stage, final=False):
             parts.append(text(f"{box_x + 10:.1f}", f"{box_y + 42:.1f}", f"{year}{suffix}", "callout-year"))
 
     parts.extend([
-        text(LEFT + PLOT_WIDTH / 2, 837, "Release year", "axis-title", "middle"),
+        text(LEFT + PLOT_WIDTH / 2, 867 if final else 837, "Release year", "axis-title", "middle"),
         f'<text x="24" y="470" class="axis-title" text-anchor="middle" transform="rotate(-90 24 470)">Number of cataloged release versions</text>',
-        '<line x1="55" y1="858" x2="1345" y2="858" stroke="#d7d3cf"/>',
-        text(55, 882, "Source: Discogs December 2025 release dump. Catalog records, not sales or listening. Formats may overlap.", "source"),
+        f'<line x1="55" y1="{895 if final else 858}" x2="1345" y2="{895 if final else 858}" stroke="#d7d3cf"/>',
+        text(55, 922 if final else 882, "Source: Discogs December 2025 release dump. Catalog records, not sales or listening. Formats may overlap.", "source"),
         '</svg>',
     ])
     return "\n".join(parts)

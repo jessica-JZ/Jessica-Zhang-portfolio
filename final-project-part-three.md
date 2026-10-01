@@ -4,7 +4,7 @@
 
 *House, Techno, and Ambient in the Discogs catalog, 1985–2024*
 
-When digital-file versions overtook vinyl versions in these Discogs records, did vinyl disappear? Files moved ahead in House, Techno, and Ambient, but vinyl versions continued. First, look at vinyl on its own. Then explore the final comparison in Tableau.
+When digital-file versions overtook vinyl versions in these Discogs records, did vinyl disappear? Files moved ahead in House, Techno, and Ambient, but vinyl versions continued. First, look at vinyl on its own. Then use the Tableau chart to focus on one style at a time.
 
 Each line counts **cataloged release versions**, not albums sold or people listening. A vinyl edition and a download of the same album count as two versions. Discogs labels the download format `File`; I call it “digital file” here. The format tag describes the release medium, not how the music was recorded or mastered.
 
@@ -18,11 +18,11 @@ House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. Vinyl a
 
 ## 2. Compare files and vinyl
 
-The final Tableau chart adds Digital File to the same three styles. Hover over a line to inspect a year, or select a format in the legend to highlight it.
+The Tableau chart adds Digital File to the same three styles. Open the **Style** menu and choose Ambient, House, or Techno to focus on one style. Choose **(All)** to return to the side-by-side comparison. Hover over a line for the count in a particular year.
 
-[Open the interactive chart on Tableau Public](https://public.tableau.com/views/FinalProjectChartfixed/03Finalannotatedchart) if the embed does not load or is too small on your screen.
+[Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) if the embed does not load or is too small on your screen.
 
-<iframe title="Interactive Tableau chart comparing cataloged Digital File and Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/FinalProjectChartfixed/03Finalannotatedchart?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0;" loading="lazy" allowfullscreen></iframe>
+<iframe title="Tableau chart with a Style menu for comparing cataloged Digital File and Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0;" loading="lazy" allowfullscreen></iframe>
 
 By 2024, File outnumbered Vinyl in each style: House had 8,428 File versions versus 3,022 Vinyl; Techno, 10,877 versus 3,442; Ambient, 7,418 versus 2,515. File first exceeded Vinyl in 2008 for House and Techno, and in 2003 for Ambient. The file lines lead at the end of the period, while vinyl remains present.
 
@@ -42,7 +42,7 @@ In Part I, I compared Vinyl, CD, and File and tested sketches using format share
 
 The title states the two-part result, and the first view shows Vinyl alone before readers compare it with File. House's decline from its 1996 peak appears beside that view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
 
-The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I kept the Vinyl-only frame to establish the baseline, then embedded my published Tableau comparison so readers can inspect individual years and highlight a format. The linked static export provides a fallback when the wide interactive chart is hard to read.
+The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I kept the Vinyl-only frame to establish the baseline, then embedded a copy of my Tableau comparison with a Style menu. Readers can isolate a style or return to all three. The linked static export provides a fallback when the wide chart is hard to read.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 
@@ -54,7 +54,7 @@ Part II supplied three full interviews and two focused classmate critiques. Acro
 
 ## Final design decisions
 
-The final page uses two views: a Vinyl-only introduction and the original Tableau comparison. Vinyl is blue and File is warm gray, with the format names repeated in the text. Direct 2024 counts and crossover years point to the evidence without making readers reconstruct it. The y-axis starts at zero and has the same scale in each style panel. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
+The final page uses two views: a Vinyl-only introduction and a Tableau comparison with a Style menu. Vinyl is blue and File is warm gray, with the format names repeated in the text. Direct 2024 counts and crossover years point to the evidence without making readers reconstruct it. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
 
 ## References
 
@@ -66,7 +66,7 @@ The final page uses two views: a Vinyl-only introduction and the original Tablea
 
 ## AI acknowledgements
 
-I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate the SVG introductory frame from the processed data, and revise this story and write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
+I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate the SVG introductory frame from the processed data, add the Style menu to a separate copy of my Tableau chart, and revise this story and write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
 
 # Final thoughts
 

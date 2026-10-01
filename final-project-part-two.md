@@ -1,20 +1,26 @@
 | [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
-# Wireframes / storyboards
+# Did digital files replace vinyl releases?
+
+*Part II: wireframes and storyboards*
 
 **Working story title:** *Digital files took the lead. Vinyl releases remained.*
 
 ## Story direction
 
-Electronic-music listeners can encounter the same release as both a download and a 12-inch record. For listeners who use digital access but still see vinyl in record shops and label catalogs, format history shows whether digital distribution replaced physical editions or changed how the two coexist. This project asks: once digital-file releases became more common, did vinyl-record releases disappear?
+Part I proposed a five-part story and named music-history enthusiasts and electronic-music listeners as its audience. The grading feedback asked why those readers would care about release formats and found the narrative hard to follow. Feedback on the sketches also showed that the central question was difficult to find. For Part II, I focus on electronic-music listeners who mainly use streaming or downloads but still encounter vinyl through DJs, record shops, or label releases. The rise of files can sound like the end of records; this story tests that assumption in the styles they follow. After digital-file versions outnumbered vinyl versions in the Discogs catalog, did vinyl versions disappear?
+
+The same recording can have both a download edition and a 12-inch edition. The storyboard follows cataloged release versions over time to test whether vinyl remained after files took the lead.
 
 I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. One small-multiple line chart compares the two formats, with the three styles serving as supporting cases rather than a ranking. In the Discogs catalog, digital files took the lead while vinyl continued at a lower level. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
 
 `File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one edition of a recording: a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium rather than the recording technology. These counts do not measure sales, listening, or popularity.
 
+I am building the final story as a scrolling GitHub Pages site with Tableau charts, the custom-website medium proposed in Part I. I am not using Shorthand.
+
 ## Storyboard
 
-This Part II storyboard shows one chart in three progressive states, all exported from the same Tableau workbook. The panel order, time range, count scale, typography, and color meaning remain constant. The images were updated after the interviews; the observations below refer to the earlier draft participants reviewed.
+This Part II storyboard tests the question in three progressive states of one chart, all exported from the same Tableau workbook. The reader first checks whether vinyl approaches zero, then compares it with digital files, and finally sees when the lines crossed. The panel order, time range, count scale, typography, and color meaning remain constant. The images were updated after the interviews; the observations below refer to the earlier draft participants reviewed.
 
 ### Story beat 1: Begin with the visual contradiction
 

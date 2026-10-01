@@ -9,7 +9,7 @@ Before an edit, check which pages or assets are still being graded. Do not move 
 ## Check the five rubric areas
 
 1. **Public access (1.25):** Open the `github.io` home page without signing in, then confirm each page opens.
-2. **Organization (2.5):** Keep the template's familiar home, About me, and Portfolio sections. Give each page a clear title and logical headings, and keep the work easy to find.
+2. **Organization (2.5):** Keep the template's familiar home, About me, What I hope to learn, and Portfolio sections, along with its theme and navigation style. Give each page a clear title and logical headings, and keep the work easy to find.
 3. **Content (2.5):** Remove template text and stale promises, correct typos, and keep claims, sources, and AI acknowledgements accurate. Do not invent project outcomes.
 4. **Links (2.5):** Keep a visible path from every page to Home and related work. Check internal and important external links on the published site.
 5. **Images and charts (1.25):** Confirm images render and interactive charts open; keep a readable static chart when an embed fails.

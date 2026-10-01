@@ -2,7 +2,7 @@
 
 # Jessica Zhang's data visualization portfolio
 
-Welcome! This is my portfolio for Telling Stories with Data at Carnegie Mellon University. I will use this site to document my work, reflect on what I learn, and share how my approach to data visualization develops throughout the course.
+Welcome! This portfolio brings together my work for Telling Stories with Data at Carnegie Mellon University. I use it to show the charts I made, how I revised them, and the reasoning behind my choices.
 
 # About me
 

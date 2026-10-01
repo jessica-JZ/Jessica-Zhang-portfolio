@@ -1,2 +1,4 @@
 title: Jessica-Zhang-portfolio
 description: Data visualization projects and design process by Jessica Zhang
+plugins:
+  - jekyll-redirect-from

@@ -4,11 +4,11 @@ This guide applies to the public [Jessica Zhang data visualization portfolio](ht
 
 ## Protect graded work
 
-Before an edit, check which pages or assets are still being graded. Do not move or change those pages, their data, images, or wording during a cleanup task. For the current assignment, leave `final-project-part-one.md`, `final-project-part-two.md`, `final-project-part-three.md`, `final-data-story.md`, and their supporting files unchanged. Improve the home page, gallery, or other finished work around them. If a graded page itself needs a substantial redesign, wait until grading ends or use a separate fork and share its URL.
+Before an edit, check which pages or assets are still being graded. Do not move or change those pages, their data, images, or wording during a cleanup task. For the current assignment, leave `final-project-part-one.md`, `final-project-part-two.md`, `final-project-part-three.md`, `final-data-story.md`, and their supporting files unchanged. Improve the home page or other finished work around them. If a graded page itself needs a substantial redesign, wait until grading ends or use a separate fork and share its URL.
 
 ## Check the five rubric areas
 
-1. **Public access (1.25):** Open the `github.io` home page without signing in, then confirm each page opens.
+1. **Public access (1.25):** Open the `github.io` home page without signing in, then confirm each page opens. Keep a redirect for a removed page while graded pages still link to its old URL.
 2. **Organization (2.5):** Keep the template's familiar home, About me, What I hope to learn, and Portfolio sections, along with its theme and navigation style. Give each page a clear title and logical headings, and keep the work easy to find.
 3. **Content (2.5):** Remove template text and stale promises, correct typos, and keep claims, sources, and AI acknowledgements accurate. Do not invent project outcomes.
 4. **Links (2.5):** Keep a visible path from every page to Home and related work. Check internal and important external links on the published site.

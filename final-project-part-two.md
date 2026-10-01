@@ -2,8 +2,6 @@
 
 # Wireframes / storyboards
 
-This page records the storyboard and reader feedback from Part II. The completed story appears in [Part III](final-project-part-three).
-
 **Working story title:** *In the Discogs Catalog, Digital Files Took the Lead—but Vinyl Records Remained.*
 
 ## Story direction
@@ -12,7 +10,7 @@ Electronic-music listeners can encounter the same release as both a download and
 
 I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. One small-multiple line chart compares the two formats, with the three styles serving as supporting cases rather than a ranking. In the Discogs catalog, digital files took the lead while vinyl continued at a lower level. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
 
-I created the high-fidelity chart in Tableau. The final reader-facing story will use Shorthand as a scroll-based presentation, while this GitHub page documents the Part II storyboard, data decisions, and user-research plan.
+I created the high-fidelity chart in Tableau. The final reader-facing story will be published on GitHub Pages under the course template, while this page documents the Part II storyboard, data decisions, and user-research plan.
 
 `File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one edition of a recording: a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium rather than the recording technology. These counts do not measure sales, listening, or popularity.
 
@@ -60,7 +58,7 @@ The limitations note explains that Discogs is a user-contributed collector datab
 
 The first File-tagged records in this filtered sample appear in 1993; that is not a claim about the first downloadable music release. The December 2025 snapshot may also receive additional community entries for recent release years. The post-2020 decline should therefore be read as a pattern in the catalog snapshot, not as proof that the broader market declined by the same amount.
 
-In the final Shorthand story, a reader should be able to scroll through the three states, identify both formats without outside explanation, and summarize the conclusion in one sentence. Readers who want the analytical details can continue to the limitations without interrupting the main story.
+In the final GitHub Pages story, a reader should be able to see the complete comparison near the top, identify both formats without outside explanation, and summarize the conclusion in one sentence. Readers who want the analytical details can continue to the limitations without interrupting the main story.
 
 ### High-fidelity draft
 
@@ -189,7 +187,7 @@ Five people provided Part II feedback. Interviews 1 through 3 followed the full 
 
 | Question area | Observation |
 |---|---|
-| Label readability | The chart labels were too small to read comfortably. A label that is readable in Tableau may become difficult to read after the chart is scaled down on GitHub or in Shorthand. |
+| Label readability | The chart labels were too small to read comfortably. A label that is readable in Tableau may become difficult to read after the chart is scaled down on GitHub Pages. |
 
 ### Patterns across the five responses
 
@@ -210,7 +208,7 @@ The five responses produced the following plan. The first three were full interv
 | The unit of analysis caused hesitation for two participants. | Keep the concrete edition example and the short unit note beside the storyboard. | This adds clarity without repeating the full methods section. |
 | The overlap sentence was difficult to understand. | The page now says that one release may have several format tags, so the lines are not parts of a 100% total. | The revised wording is more direct. |
 | The early Digital File points and post-2020 decline raised a new data question. | The limitations now identify 1993 as the first File-tagged year in the sample and treat the recent decline only as a catalog-snapshot pattern. | The source supports those boundaries but not a causal explanation. |
-| One participant questioned the gray-line contrast, and another found all chart labels too small. | Check the Digital File line against the background, enlarge the panel names, axes, end labels, legend, and source note, then test the chart at its actual Shorthand width. | The exported chart must remain readable after it is scaled for the final story. |
+| One participant questioned the gray-line contrast, and another found all chart labels too small. | Check the Digital File line against the background, enlarge the panel names, axes, end labels, legend, and source note, then test the chart at its published GitHub Pages width. | The exported chart must remain readable after it is scaled for the final story. |
 | One participant suggested that digital convenience and vinyl persistence complement each other. | Do not make a claim about complementarity or consumer behavior. End with the catalog-bounded finding that Digital File versions became more numerous while Vinyl versions continued through 2024. | Discogs catalog counts cannot establish why listeners or labels use each format. |
 | The central story and data limitations were understood. | Keep the progressive sequence, crossover years, end labels, and cautious conclusion. | These elements worked across all three interviews. |
 

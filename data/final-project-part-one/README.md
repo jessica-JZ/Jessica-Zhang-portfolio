@@ -1,18 +1,16 @@
-| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
-
-# Discogs electronic formats: data preparation and checks
+# Discogs electronic formats dataset: processing plan
 
 ## Source snapshot
 
 - Publisher: Discogs
 - Source page: https://data.discogs.com/
-- Source snapshot file: `discogs_20251201_releases.xml.gz`
+- Intended file: `discogs_20251201_releases.xml.gz`
 - Listed compressed size: approximately 10.2 GB
 - Verified SHA-256: `43c3c22173092bf4595249f33e1f045ba5d6ce434a36b7eb6fb4efb50ee04bc1`
 - License stated by publisher: CC0 No Rights Reserved
 - Analysis period: release years 1985–2024
 
-The monthly release file is a full database snapshot. I used one dated snapshot so the analysis does not combine different states of the catalog.
+The monthly release file is a full database snapshot. Only one snapshot should be used for this project.
 
 ## Output
 
@@ -51,7 +49,7 @@ Columns:
 7. Do not treat style totals as mutually exclusive.
 8. Record the number of excluded records and missing values after processing.
 
-## Quality-check plan
+## Required checks before analysis
 
 - Verify the downloaded file against the publisher's checksum.
 - Confirm that yearly counts are plausible and investigate sudden discontinuities.
@@ -72,7 +70,7 @@ Columns:
 - Releases with more than one selected style: 76,325.
 - A 2024 sensitivity check deduplicated records by `master_id` within each style and year. The direction of the main result did not change, although only records with a usable master ID could be included.
 
-Because formats can overlap, format percentages are shown as separate lines or bars rather than forced into a 100% stacked chart.
+Because formats can overlap, format percentages should be shown as separate lines or bars rather than forced into a 100% stacked chart.
 
 ## Reproduction scripts
 
@@ -84,4 +82,4 @@ Because formats can overlap, format percentages are shown as separate lines or b
 
 ## Interpretation
 
-The output describes release versions cataloged by Discogs. It does not measure listeners, streams, sales, production methods, or the source of audio uploaded to the internet.
+The output will describe release versions cataloged by Discogs. It will not measure listeners, streams, sales, production methods, or the source of audio uploaded to the internet.

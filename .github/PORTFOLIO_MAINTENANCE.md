@@ -4,13 +4,12 @@ This guide applies to the public [Jessica Zhang data visualization portfolio](ht
 
 ## Protect graded work
 
-Final project pages and charts may be revised during the current, user-requested adjustment. Once Jessica confirms the project is final, treat its prose, analysis, data, images, and charts as frozen during routine portfolio maintenance. Reopen them only for an explicit request. If a page is still being graded, keep substantive changes within the scope Jessica has authorized.
+Part I and its supporting data documentation have been graded; keep their content and assets fixed during portfolio cleanup. Part II remains open for the current, user-requested expectation updates, while its storyboard and research evidence must stay accurate. Part III may be revised during the current adjustment. Once Jessica confirms a part is final, treat its prose, analysis, data, images, and charts as frozen during routine maintenance. Reopen them only for an explicit request.
 
 ## Current site structure
 
 - Keep the course template's theme and page layout. Home links directly to Government Debt, Critique by Design, and Final project Parts I, II, and III. The same six links appear in one navigation row on each public project page; the three final parts are siblings, not a chain of landing pages.
 - Part III is the public final story. The old `/final-data-story` address redirects there, while its original Markdown remains in Git. The empty Data visualization examples page is removed and must not reappear as a placeholder.
-- Supporting Markdown pages linked from a project, such as the data documentation, need a visible route back to Home and the related project pages.
 - When changing a project later, update its existing page and preserve its public URL. Add a new Home and navigation link only for a real new page. Avoid duplicate public versions of the same story.
 
 ## Check the five rubric areas

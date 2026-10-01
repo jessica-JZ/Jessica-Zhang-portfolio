@@ -135,6 +135,11 @@ def main():
         (DESTINATION / f"story-frame-{stage}.svg").write_text(output, encoding="utf-8")
     final_chart = make_frame(3).replace("Storyboard frame 3 of 3:", "Final chart:").replace(
         "FINAL STORY FRAME 3 OF 3", "DISCOGS RELEASE FORMATS, 1985–2024"
+    ).replace(
+        "Digital files took the lead; vinyl continued", "Digital files took the lead. Vinyl releases remained."
+    ).replace(
+        "First File-over-Vinyl years are marked within this Discogs sample.",
+        "Each still had more than 2,500 vinyl release versions in 2024.",
     )
     assert "3 of 3" not in final_chart and "FINAL STORY FRAME" not in final_chart
     (DESTINATION / "final-chart.svg").write_text(final_chart, encoding="utf-8")

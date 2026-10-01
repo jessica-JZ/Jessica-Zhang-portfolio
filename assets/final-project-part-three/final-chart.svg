@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="945" viewBox="0 0 1400 945" role="img" aria-labelledby="title desc">
-<title id="title">Final chart: Digital files took the lead; vinyl continued</title>
+<title id="title">Final chart: Digital files took the lead. Vinyl releases remained.</title>
 <desc id="desc">Annual Discogs catalog counts for House, Techno, and Ambient release versions from 1985 through 2024.</desc>
 <rect width="100%" height="100%" fill="#ffffff"/>
 <style>text{font-family:Arial,sans-serif;fill:#262626}.eyebrow{font-size:22px;font-weight:700;letter-spacing:1.5px;fill:#6d6d6d}.title{font-size:36px;font-weight:700}.subtitle{font-size:22px;fill:#555}.panel{font-size:24px;font-weight:700}.axis{font-size:20px;fill:#666}.axis-title{font-size:20px;fill:#444}.end{font-size:21px;font-weight:700}.source{font-size:19px;fill:#666}.grid{stroke:#e6e3df;stroke-width:1}.baseline{stroke:#bdb8b3;stroke-width:1.2}.cross{stroke:#9a612f;stroke-width:1.5;stroke-dasharray:5 5}.callout{font-size:19px;font-weight:700;fill:#7a4b25}.callout-year{font-size:22px;font-weight:700;fill:#7a4b25}</style>
 <text x="55" y="38" class="eyebrow">DISCOGS RELEASE FORMATS, 1985–2024</text>
-<text x="55" y="78" class="title">Digital files took the lead; vinyl continued</text>
-<text x="55" y="108" class="subtitle">First File-over-Vinyl years are marked within this Discogs sample.</text>
+<text x="55" y="78" class="title">Digital files took the lead. Vinyl releases remained.</text>
+<text x="55" y="108" class="subtitle">Each still had more than 2,500 vinyl release versions in 2024.</text>
 <line x1="1040" y1="55" x2="1070" y2="55" stroke="#4C78A8" stroke-width="5"/>
 <text x="1080" y="60" class="axis">Vinyl</text>
 <line x1="1040" y1="83" x2="1070" y2="83" stroke="#635b55" stroke-width="5"/>

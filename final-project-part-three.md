@@ -28,7 +28,7 @@ In Part I, I compared Vinyl, CD, and File and tested sketches using format share
 
 The title now states the two-part result, and the chart subtitle gives the 2024 threshold of more than 2,500 Vinyl versions in each style. I put House's decline from its 1996 peak in the opening so “remained” does not sound like “held steady.” The definition of a release version appears before the chart, where readers need it.
 
-The refreshed [Part II storyboard](final-project-part-two#storyboard) reveals the comparison in three Tableau charts with consistent scales, panel order, colors, and typography. This final page shows only the complete comparison. The final Tableau workbook uses the processed Discogs release records documented in Part I. The full-size chart link lets readers inspect labels when a narrow page scales the image down.
+The [Part II storyboard](final-project-part-two#storyboard) reveals the comparison in three progressive Tableau views with the same scales, panel order, and colors. This page shows the complete comparison. I darkened the File line for legibility and kept a full-size chart link so readers can inspect the labels when the page is narrow.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 

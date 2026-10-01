@@ -6,7 +6,7 @@ Welcome! This portfolio brings together my work for Telling Stories with Data at
 
 # About me
 
-Hi, I'm Jessica Zhang. I am pursuing a Master of Information Systems Management in the Business Intelligence and Data Analytics (BIDA) track at Carnegie Mellon University's Heinz College and expect to graduate in December. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington.
+Hi, I'm Jessica Zhang. I am pursuing a Master of Information Systems Management in the Business Intelligence and Data Analytics (BIDA) track at Carnegie Mellon University's Heinz College. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington.
 
 My interest in data began with finance. Working with financial and risk information made me curious about how coding and analytical methods could reduce repetitive work and support better decisions. Later experiences involving customer insights, financial questions, operational decisions, and AI evaluation helped me recognize what I enjoy most: starting with an uncertain problem, investigating why a pattern exists, comparing possible approaches, and deciding how the findings can be useful.
 

@@ -2,6 +2,8 @@
 
 # Wireframes / storyboards
 
+This page records the storyboard and reader feedback from Part II. The completed story appears in [Part III](final-project-part-three).
+
 **Working story title:** *In the Discogs Catalog, Digital Files Took the Lead—but Vinyl Records Remained.*
 
 ## Story direction

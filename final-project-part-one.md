@@ -4,6 +4,8 @@
 
 *A Discogs comparison of Vinyl, CD, and File releases in House, Techno, and Ambient, 1985–2024*
 
+This page records my initial question, data work, and design plan. The completed story appears in [Part III](final-project-part-three).
+
 ## High-level summary
 
 File-based distribution changed how electronic music was released, but it did not eliminate physical formats. For this project, I want to examine how the mix of Vinyl, CD, and File releases changed between 1985 and 2024 within House, Techno, and Ambient. I selected these styles because they are three parts of electronic music that I am interested in exploring. They are focused case studies, not a representative sample of the entire genre.

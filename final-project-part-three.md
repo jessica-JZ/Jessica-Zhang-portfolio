@@ -1,12 +1,10 @@
 | [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
-# The final data story
-
-**Digital files took the lead. Vinyl releases remained.**
+# Digital files took the lead. Vinyl releases remained. {#the-final-data-story}
 
 *House, Techno, and Ambient in the Discogs catalog, 1985–2024*
 
-Digital-file releases became more numerous than vinyl releases in this Discogs sample. Vinyl did not disappear, although its count fell sharply in House. The final chart brings the two formats and their crossover years together in one view.
+Did vinyl disappear as digital files took the lead? In this Discogs sample, it remained in all three styles, although House vinyl releases fell sharply from their 1996 peak.
 
 Each line counts **cataloged release versions**, not albums sold or people listening. A vinyl edition and a download of the same album count as two versions. Discogs labels the download format `File`; I call it “digital file” here. The format tag describes the release medium, not how the music was recorded or mastered.
 
@@ -16,21 +14,21 @@ Each line counts **cataloged release versions**, not albums sold or people liste
 
 Vinyl versions are still cataloged in all three styles in 2024. That does not mean the counts held steady: House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. In that same year, House had 8,428 File versions. The other two styles show the same format ordering: Techno had 10,877 File and 3,442 Vinyl versions; Ambient had 7,418 File and 2,515 Vinyl versions.
 
-File first exceeded Vinyl in 2008 for House and Techno and in 2003 for Ambient. These are crossover years in the filtered Discogs catalog, not dates when listeners switched formats. The three styles are examples of the broader pattern in this sample, rather than a ranking of electronic music.
+File first exceeded Vinyl in 2008 for House and Techno and in 2003 for Ambient. These are crossover years in the filtered Discogs catalog, not dates when listeners switched formats. The three panels show the pattern in these selected styles; they do not rank electronic music as a whole.
 
 To read this evidence, start with what the lines count. I filtered the [December 2025 Discogs release dump](https://data.discogs.com/) to records dated 1985–2024, tagged `Electronic` and at least one of House, Techno, or Ambient, and issued in Vinyl, CD, or File. The lines count distinct release IDs within each style and format. A release can have more than one format tag, so these counts do not add up to a 100% whole. The [data documentation](data/final-project-part-one/README.md) records the full filters and exclusions.
 
-Discogs is a community-built catalog, and its coverage may differ across formats and years. The comparison excludes records that have only other formats. This matters for Ambient: Vinyl, CD, or File appeared on 76.9% of its 2024 records in scope, while cassette appeared on 13.3%. The chart is therefore not a full account of Ambient's physical releases. Physical editions may also be more likely to be cataloged than digital-only editions; I have not measured that possible bias.
+Discogs is a community-built catalog, and its coverage may differ across formats and years. The comparison excludes releases tagged only with other formats. Among all 2024 Ambient releases tagged Electronic in this snapshot, 76.9% had Vinyl, CD, or File and 13.3% had Cassette; those groups can overlap. The chart is therefore not a full account of Ambient's physical releases. Physical editions may also be more likely to be cataloged than digital-only editions; I have not measured that possible bias.
 
 The first File-tagged records in this filtered sample appear in 1993. That is not the date of the first digital music release. The downward lines after 2020 describe this December 2025 snapshot; later catalog entries can change recent-year counts. These data cannot establish sales, listening, format preference, or sound quality.
 
 # Changes made since Part II
 
-In Part I, I narrowed the question to release formats in House, Techno, and Ambient, checked one dated Discogs snapshot, and used sketches to test possible comparisons. In Part II, I built a Tableau chart and storyboard, then used three full interviews and two focused critiques to find where readers hesitated. The final page applies those findings to one published chart and a shorter explanation of what the data can show.
+In Part I, I compared Vinyl, CD, and File and tested sketches using format shares, release counts, and a master-level check. Part II narrowed the reader-facing question to whether vinyl disappeared after files took the lead. I built a three-frame Tableau storyboard, then used three full interviews and two focused critiques to test its wording and visual sequence. This page presents the complete comparison before the methods and design process.
 
-I changed the opening to state the result sooner: File versions overtook Vinyl, while each style still had more than 2,500 Vinyl versions in 2024. I added House's decline from its 1996 peak so the title does not suggest Vinyl counts held steady. The definition of a release version now appears before the chart, where readers need it.
+The title now states the two-part result, and the chart subtitle gives the 2024 threshold of more than 2,500 Vinyl versions in each style. I put House's decline from its 1996 peak in the opening so “remained” does not sound like “held steady.” The definition of a release version appears before the chart, where readers need it.
 
-The [Part II storyboard](final-project-part-two#storyboard) reveals the comparison in three Tableau charts with consistent scales, panel order, colors, and typography. For this final page, I show only the complete comparison. I darkened the File line, enlarged the labels, and marked the crossover years. The final Tableau workbook uses the processed Discogs release records documented in Part I.
+The refreshed [Part II storyboard](final-project-part-two#storyboard) reveals the comparison in three Tableau charts with consistent scales, panel order, colors, and typography. This final page shows only the complete comparison. The final Tableau workbook uses the processed Discogs release records documented in Part I. The full-size chart link lets readers inspect labels when a narrow page scales the image down.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 
@@ -58,4 +56,4 @@ I chose the topic, decided which feedback to use, and remain responsible for the
 
 # Final thoughts
 
-The most useful design lesson was how much the unit of analysis changes the claim. Release-version counts show that formats coexist in this catalog. They cannot explain why people choose vinyl, whether one format sounds better, or how many copies sold. I kept those limits beside the evidence. I would test the finished page with readers if I had another round; the feedback reported here came from Part II.
+I began with a wider format story that included CD, percentages, and a separate master-level view. Feedback on Part I and interviews in Part II helped me narrow the public story to File and Vinyl; the other measures remain in the data and methods pages. The release-version lines show coexistence in the catalog, but they cannot explain why people choose vinyl or how many copies sold. I would test this finished page with readers if I had another round; the feedback reported here came from Part II.

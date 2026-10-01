@@ -52,7 +52,7 @@ The final page uses one familiar line chart for change over time. Vinyl is blue 
 
 ## AI acknowledgements
 
-I chose the topic, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, revise the story, and this write-up. A separate simulated target-audience critique informed early design thinking. ChatGPT did not generate or alter participants' comments.
+I chose the topic, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow and revise the story and this write-up. A separate simulated target-audience critique informed early design thinking. ChatGPT did not generate or alter participants' comments.
 
 # Final thoughts
 

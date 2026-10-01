@@ -1,31 +1,27 @@
-| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final project III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
+| [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-data-story) | [Part III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
-# Jessica Zhang's data visualization portfolio
+# Jessica Zhang | Data visualization
 
-Welcome! This is my portfolio for Telling Stories with Data at Carnegie Mellon University. I will use this site to document my work, reflect on what I learn, and share how my approach to data visualization develops throughout the course.
+This portfolio brings together my work from Telling Stories with Data at Carnegie Mellon University. In each project, I try to make the main comparison easy to see and explain what the data can support.
 
-# About me
+## Selected work
 
-Hi, I'm Jessica Zhang. I am pursuing a Master of Information Systems Management in the Business Intelligence and Data Analytics (BIDA) track at Carnegie Mellon University's Heinz College and expect to graduate in December. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington.
+### Visualizing Government Debt
 
-My interest in data began with finance. Working with financial and risk information made me curious about how coding and analytical methods could reduce repetitive work and support better decisions. Later experiences involving customer insights, financial questions, operational decisions, and AI evaluation helped me recognize what I enjoy most: starting with an uncertain problem, investigating why a pattern exists, comparing possible approaches, and deciding how the findings can be useful.
+I used OECD data to compare how debt-to-GDP ratios changed from 2019 to 2023 across 36 countries. [See the chart and design notes](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt).
 
-I am especially interested in the people and business behavior behind the numbers. I enjoy the early stages of a project, when the team must decide what problem to solve, why it matters, and how to approach it. I also like translating technical results into language that a product or business team can act on while being honest about tradeoffs and limitations.
+### Critique by Design
 
-I am building toward human-centered data and AI work, with particular interest in product and financial analytics, including customer behavior. Outside the classroom, I enjoy following financial markets and learning about asset allocation and risk. I also draw inspiration from music, movies, and video games, especially the different ways they combine structure and design to shape an audience's experience. This portfolio gives me a place to strengthen another part of that work: using thoughtful visual storytelling to make an analysis clear and useful without sacrificing credibility.
+I redesigned a Harvard Business Review chart about AI-generated work after finding that its headline and bars used different reference groups. [Read the critique and redesign](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design).
 
-# What I hope to learn
+[Browse both visualizations](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples).
 
-I want to better understand how visualization can reveal patterns and make an analysis easier to follow. I also want to become a stronger data storyteller by learning how to choose the right chart, guide an audience through the evidence, and explain what the results do and do not show.
+### Final project: music formats in the Discogs catalog
 
-My goal is to create visualizations that are clear and credible without being misleading. I want readers to understand where my conclusions come from, trust the reasoning behind them, and see how the analysis can inform a decision.
+This course project examines File and Vinyl releases in House, Techno, and Ambient. [Read the final data story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-data-story), or follow its development through [Part I: research and sketches](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one), [Part II: storyboard and audience research](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two), and [Part III: behind the final story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three).
 
-# Portfolio
+## About me
 
-- [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples)
-- [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt)
-- [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design)
-- [Final project, Part I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one)
-- [Final project, Part II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two)
-- [Final data story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-data-story)
-- [Final project, Part III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three)
+I'm Jessica Zhang, a Master of Information Systems Management student in the Business Intelligence and Data Analytics track at Carnegie Mellon University's Heinz College. Before CMU, I studied Computational Finance & Risk Management: Data Science and Economics at the University of Washington.
+
+My interest in data began with finance. I enjoy investigating why a pattern appears, comparing possible explanations, and translating results into language a product or business team can use. I'm especially interested in product and financial analytics, customer behavior, and human-centered data and AI work.

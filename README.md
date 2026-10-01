@@ -1,7 +1,5 @@
 | [Home](https://jessica-jz.github.io/Jessica-Zhang-portfolio/) | [Data visualization examples](https://jessica-jz.github.io/Jessica-Zhang-portfolio/dataviz-examples) | [Visualizing Government Debt](https://jessica-jz.github.io/Jessica-Zhang-portfolio/visualizing-government-debt) | [Critique by Design](https://jessica-jz.github.io/Jessica-Zhang-portfolio/critique-by-design) | [Final project I](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-one) | [Final project II](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-two) | [Final story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-data-story) | [Part III](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three) |
 
-# Jessica Zhang | Data visualization
-
 This portfolio brings together my work from Telling Stories with Data at Carnegie Mellon University. In each project, I try to make the main comparison easy to see and explain what the data can support.
 
 ## Selected work

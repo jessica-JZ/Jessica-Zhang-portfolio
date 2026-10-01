@@ -10,9 +10,9 @@ Digital-file releases became more numerous than vinyl releases in this Discogs s
 
 Each line counts **cataloged release versions**, not albums sold or people listening. A vinyl edition and a download of the same album count as two versions. Discogs labels the download format `File`; I call it “digital file” here. The format tag describes the release medium, not how the music was recorded or mastered.
 
-![Final line chart of annual Vinyl and File release-version counts for House, Techno, and Ambient from 1985 to 2024. File first exceeds Vinyl in 2003 for Ambient and in 2008 for House and Techno; each style still has more than 2,500 Vinyl versions in 2024.](assets/final-project-part-three/final-chart.svg)
+![Tableau line chart of Vinyl and File release-version counts for House, Techno, and Ambient from 1985 to 2024. File first exceeds Vinyl in 2003 for Ambient and in 2008 for House and Techno; each style still has more than 2,500 Vinyl versions in 2024.](assets/final-project-part-three/final-chart-tableau.png)
 
-[Open the final chart at full size](assets/final-project-part-three/final-chart.svg).
+[Open the final chart at full size](assets/final-project-part-three/final-chart-tableau.png).
 
 Vinyl versions are still cataloged in all three styles in 2024. That does not mean the counts held steady: House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. In that same year, House had 8,428 File versions. The other two styles show the same format ordering: Techno had 10,877 File and 3,442 Vinyl versions; Ambient had 7,418 File and 2,515 Vinyl versions.
 
@@ -24,15 +24,13 @@ Discogs is a community-built catalog, and its coverage may differ across formats
 
 The first File-tagged records in this filtered sample appear in 1993. That is not the date of the first digital music release. The downward lines after 2020 describe this December 2025 snapshot; later catalog entries can change recent-year counts. These data cannot establish sales, listening, format preference, or sound quality.
 
-The [public final story](https://jessica-jz.github.io/Jessica-Zhang-portfolio/final-project-part-three#the-final-data-story) and process write-up share this Part III page. The [GitHub repository](https://github.com/jessica-JZ/Jessica-Zhang-portfolio) contains the chart source and data summary. [Part I](final-project-part-one) records the question and data preparation; [Part II](final-project-part-two) contains the storyboard and reader feedback.
-
 # Changes made since Part II
 
 In Part I, I narrowed the question to release formats in House, Techno, and Ambient, checked one dated Discogs snapshot, and used sketches to test possible comparisons. In Part II, I built a Tableau chart and storyboard, then used three full interviews and two focused critiques to find where readers hesitated. The final page applies those findings to one published chart and a shorter explanation of what the data can show.
 
 I changed the opening to state the result sooner: File versions overtook Vinyl, while each style still had more than 2,500 Vinyl versions in 2024. I added House's decline from its 1996 peak so the title does not suggest Vinyl counts held steady. The definition of a release version now appears before the chart, where readers need it.
 
-The Part II storyboard revealed the comparison in stages. For this final page, I put the complete comparison into one chart so the published result is visible here. I kept the same scales and panel order, darkened the File line, enlarged labels, and marked the crossover years. The original Tableau export remains in the [Part II storyboard](final-project-part-two#progressive-state-3-annotate-the-crossovers). The [Part III chart-generation script](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/scripts/plot-part-three-story.py) and [annual counts](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/data/final-project-part-one/discogs-annual-style-format-counts.csv) document the final redraw.
+The [Part II storyboard](final-project-part-two#storyboard) reveals the comparison in three Tableau charts with consistent scales, panel order, colors, and typography. For this final page, I show only the complete comparison. I darkened the File line, enlarged the labels, and marked the crossover years. The final Tableau workbook uses the processed Discogs release records documented in Part I.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 
@@ -40,7 +38,7 @@ I moved the Ambient cassette context below the main finding, into the limitation
 
 I wrote for electronic-music listeners who use digital access but still encounter vinyl editions through DJs, record shops, or label releases. They may know House, Techno, and Ambient without knowing Discogs's database fields. The story therefore defines a release version above the chart: a vinyl edition and a download of one album count as separate versions. It also says early that a format tag is not evidence about recording technology, sales, or listening.
 
-Part II supplied three full interviews and two focused classmate critiques. Across the full interviews, readers understood the main format shift, but “vinyl remained” sounded too vague when House vinyl counts had fallen substantially. Two readers hesitated over “release version.” A reader also noticed that the last storyboard frame looked different from the earlier ones. The focused critiques raised line contrast and label size. I treated these five responses as feedback on the page, not as a representative sample of all electronic-music listeners. I did not conduct another interview round for this final page.
+Part II supplied three full interviews and two focused classmate critiques. Across the full interviews, readers understood the main format shift, but “vinyl remained” sounded too vague when House vinyl counts had fallen substantially. Two readers hesitated over “release version.” The focused critiques raised line contrast and label size. I treated these five responses as feedback on the page, not as a representative sample of all electronic-music listeners. I did not conduct another interview round for this final page.
 
 ## Final design decisions
 
@@ -51,12 +49,12 @@ The final page uses one familiar line chart for change over time. Vinyl is blue 
 - Discogs, [monthly data dumps](https://data.discogs.com/), `discogs_20251201_releases.xml.gz` release snapshot. Discogs states that the dump is CC0 No Rights Reserved. The [Part I data section](final-project-part-one#data) records the snapshot, filtering steps, and limitations.
 - Discogs, [Database Guidelines 6: Format](https://support.discogs.com/hc/en-us/articles/360005006654-Database-Guidelines-6-Format), for format tags.
 - Berinato, Scott. [*Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations*](https://store.hbr.org/product/good-charts-the-hbr-guide-to-making-smarter-more-persuasive-data-visualizations/15005). Harvard Business Review Press, 2016, Chapter 7, “Persuasion or Manipulation? The Blurred Edge of Truth.” I used its distinction between visual emphasis and an unsupported conclusion.
-- [Data preparation documentation](data/final-project-part-one/README.md), [annual counts](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/data/final-project-part-one/discogs-annual-style-format-counts.csv), and [final chart-generation script](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/scripts/plot-part-three-story.py).
-- The [final SVG chart](assets/final-project-part-three/final-chart.svg) was generated from the project's Discogs summary. This page uses no third-party photographs, album covers, or logos. The original Tableau export is retained on [Part II](final-project-part-two#progressive-state-3-annotate-the-crossovers).
+- [GitHub repository](https://github.com/jessica-JZ/Jessica-Zhang-portfolio), [data preparation documentation](data/final-project-part-one/README.md), and [processed release records](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/data/final-project-part-one/discogs-electronic-formats-1985-2024.csv.gz).
+- The final chart is a Tableau export made from the processed Discogs release records. This page uses no third-party photographs, album covers, or logos. [Part II](final-project-part-two#storyboard) shows the comparison in three Tableau stages.
 
 ## AI acknowledgements
 
-I chose the topic, decided which feedback to use, and remain responsible for the interpretation. I used ChatGPT to check the Discogs processing workflow, revise the story and this write-up, organize and anonymize Part II feedback, generate the SVG chart from the previously extracted summary, and prepare the Word text copy. I created and reviewed the original Tableau chart in Part II. A separate simulated target-audience critique informed early design thinking but was not counted among the five human feedback sources. ChatGPT did not generate or alter participants' comments.
+I chose the topic, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, revise the story and this write-up, and help adapt the final Tableau workbook from my earlier chart. A separate simulated target-audience critique informed early design thinking. ChatGPT did not generate or alter participants' comments.
 
 # Final thoughts
 

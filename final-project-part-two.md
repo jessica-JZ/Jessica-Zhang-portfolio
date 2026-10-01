@@ -2,9 +2,7 @@
 
 # Wireframes / storyboards
 
-**Working story title:** *In the Discogs Catalog, Digital Files Took the Lead—but Vinyl Records Remained.*
-
-**On this page:** [Storyboard](#storyboard) · [Research protocol](#interview-script) · [Interview findings](#interview-findings) · [Changes planned for Part III](#identified-changes-for-part-iii)
+**Working story title:** *Digital files took the lead. Vinyl releases remained.*
 
 ## Story direction
 
@@ -12,13 +10,11 @@ Electronic-music listeners can encounter the same release as both a download and
 
 I use annual cataloged release-version counts for House, Techno, and Ambient from 1985 through 2024. One small-multiple line chart compares the two formats, with the three styles serving as supporting cases rather than a ranking. In the Discogs catalog, digital files took the lead while vinyl continued at a lower level. House vinyl releases, for example, fell from a peak of 11,121 in 1996 to 3,022 in 2024.
 
-I created the high-fidelity chart in Tableau. This page documents the Part II storyboard and research. The finished reader-facing story is on [Part III](final-project-part-three).
-
 `File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one edition of a recording: a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium rather than the recording technology. These counts do not measure sales, listening, or popularity.
 
 ## Storyboard
 
-This Part II storyboard shows one chart in three progressive states. The first two are simplified reveal frames, and the third is the high-fidelity Tableau endpoint. The panel order, time range, count scale, and color meaning remain constant. The endpoint uses Tableau typography and legend styling, so these frames represent the planned progression rather than a literal animation.
+This Part II storyboard shows one chart in three progressive states, all exported from the same Tableau workbook. The panel order, time range, count scale, typography, and color meaning remain constant. The images were updated after the interviews; the observations below refer to the earlier draft participants reviewed.
 
 ### Story beat 1: Begin with the visual contradiction
 
@@ -32,19 +28,19 @@ A note beside the chart defines one release version as a format-specific edition
 
 #### Progressive state 1: Establish that vinyl remained
 
-![Storyboard frame 1 of 3 showing annual Vinyl release-version counts for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-1.svg)
+![Tableau storyboard frame 1 of 3 showing annual Vinyl release-version counts for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-1.png)
 
 The first state asks one question: did vinyl approach zero? The blue lines remain visible through 2024 in all three panels.
 
 #### Progressive state 2: Add the format that took the lead
 
-![Storyboard frame 2 of 3 adding annual Digital file release-version counts to the Vinyl lines](assets/final-project-part-two/storyboard-stage-2.svg)
+![Tableau storyboard frame 2 of 3 adding annual Digital file release-version counts to the Vinyl lines](assets/final-project-part-two/storyboard-stage-2.png)
 
 The second state adds Digital File without changing the axes. Readers can now see both the crossover and the continued presence of vinyl rather than interpreting the change as complete replacement.
 
 #### Progressive state 3: Annotate the crossovers
 
-![Storyboard frame 3 of 3 annotating when Digital file first exceeded Vinyl for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-3.svg)
+![Tableau storyboard frame 3 of 3 annotating when Digital file first exceeded Vinyl for House, Techno, and Ambient](assets/final-project-part-two/storyboard-stage-3.png)
 
 The final state marks the first year Digital File exceeded Vinyl Record: 2003 for Ambient and 2008 for House and Techno. Ambient crossed five years earlier.
 
@@ -64,7 +60,7 @@ The planned reader path was to see the complete comparison near the top, identif
 
 ### High-fidelity draft
 
-The third frame uses my Tableau chart as the high-fidelity endpoint and adds the crossover annotations. Its direct 2024 labels, axes, legend, and source note allow it to be understood on its own.
+All three frames use the same Tableau design. The third adds crossover annotations; its direct 2024 labels, axes, legend, and source note allow it to be understood on its own.
 
 > Part II participant instruction: please stop here after reviewing the storyboard. I will ask the interview questions before you read the process notes and research plan below.
 
@@ -81,7 +77,7 @@ The comments below were made about my Part I sketches. I used them as preliminar
 | The master-level comparison was difficult to understand. | I moved the master-level sensitivity check to a methods note so the main story keeps one unit of analysis. |
 | Connectors between File and Vinyl dots implied a continuum or a 100% total. | I removed the connected-dot designs because the format categories can overlap. |
 | The amount of detail created too much cognitive load. | I reduced the reader-facing story to one chart shown in three progressive states and moved technical detail below the main narrative. |
-| “File” and “release version” were difficult for a general reader to interpret. | The chart uses “Digital File” and “Vinyl Record,” while the text defines a digital file as a download and explains release versions with a concrete album-edition example. |
+| “File” and “release version” were difficult for a general reader to interpret. | The chart labels the lines “Digital file” and “Vinyl,” while the text defines a digital file as a download and explains release versions with a concrete album-edition example. |
 | Definitions and methodology delayed the main evidence. | I shortened the definitions and placed them immediately before the storyboard, while keeping detailed limitations below the frames. |
 | The title made vinyl's continued presence sound more positive than the comparison warranted. | The working title states that digital files took the lead before it says that vinyl records remained. |
 | Ambient's cassette releases and Discogs's collector-community coverage could change the interpretation. | The storyboard adds an Ambient context note and a concise limitation about possible cataloging bias. |
@@ -123,7 +119,7 @@ For the three full interviews, participants viewed the revised page through the 
 
 ## Interview findings
 
-Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Interviews 4 and 5 were with classmates enrolled in the course who provided focused critiques, so I report only the observations they actually made. Interviews 1 through 4 include one anonymous quotation used with permission. I did not create a quotation for Interview 5. The participants reviewed the storyboard shown above; planned responses appear in the final Part III decision table.
+Five people provided Part II feedback. Interviews 1 through 3 followed the full interview protocol. Interviews 4 and 5 were with classmates enrolled in the course who provided focused critiques, so I report only the observations they actually made. Interviews 1, 2, and 4 include one anonymous quotation used with permission. I did not create a quotation for Interviews 3 or 5. The participants reviewed an earlier draft of the storyboard; planned responses appear in the final Part III decision table.
 
 ### Interview 1
 
@@ -160,16 +156,12 @@ Five people provided Part II feedback. Interviews 1 through 3 followed the full 
 |---|---|
 | Main story | The participant understood that Digital File releases overtook Vinyl while both formats remained in the catalog. |
 | First visual impressions | The crossover annotations drew attention first, followed by the House Vinyl decline and the post-2020 Digital File decline. |
-| Progressive states | The first two states built the comparison clearly, but the third looked like a different chart because its type, labels, legend, and panel styling changed. |
 | Crossover meaning | The participant understood the crossover as the first year Digital File release versions exceeded Vinyl, rather than a measure of sales or listening. |
 | Unexplained patterns | The early File records and post-2020 decline raised questions about completeness and retrospective cataloging. |
 | Ambient context | The CD and cassette percentages felt disconnected from a two-format chart. |
 | Overlapping formats | The sentence about not connecting values at a given year was hard to interpret. |
 | Meaning of “remained” | The title could understate the large decline in House Vinyl releases. |
 | Interview method | The explanatory text before the charts may have influenced the participant's answers. |
-| First suggested change | Redraw State 3 to match States 1 and 2, changing only the annotation layer. |
-
-> Interview 3: “I would redraw State 3 in exactly the same style as States 1 and 2, adding only the crossover annotation layer.”
 
 ### Interview 4: classmate's focused written critique
 
@@ -199,12 +191,11 @@ The opening wording still needs revision. Interview 1 found “remained” ambig
 
 # Identified changes for Part III
 
-The five responses produced the following plan. The first three were full interviews, while the last two were focused critiques. I added source and method clarifications to the Part II write-up, while the visible story changes remain decisions for Part III. None of the three storyboard images has been altered after the interviews.
+The five responses produced the following plan. The first three were full interviews, while the last two were focused critiques. I added source and method clarifications to the Part II write-up. The storyboard images above were refreshed after the interviews with a consistent Tableau design.
 
 | Finding | Part III decision | Reason |
 |---|---|---|
 | The opening takeaway was slow or ambiguous for all three participants. | Revise the title and subtitle to name both the decline and Vinyl's continued presence. | This was the clearest repeated issue. |
-| State 3 uses a different visual style. | Redraw state 3 to match states 1 and 2, changing only the crossover annotation layer. | A consistent frame makes the progressive reveal easier to follow. |
 | The Ambient cassette note distracted two participants, while another wanted the limitation to remain visible. | Move the cassette detail to the limitations rather than the Ambient panel. | This preserves the information without interrupting the main two-format comparison. |
 | The role of the three style panels was interpreted differently. | Explain that the styles are supporting cases and reduce the emphasis on Ambient being five years earlier. | The story is about a shared pattern rather than ranking genres. |
 | The unit of analysis caused hesitation for two participants. | Keep the concrete edition example and the short unit note beside the storyboard. | This adds clarity without repeating the full methods section. |
@@ -224,4 +215,4 @@ Berinato, Scott. *Good Charts*. Chapter 7, “Persuasion or Manipulation? The Bl
 
 ## AI acknowledgements
 
-I chose the topic, decided which feedback to use, created and reviewed the Tableau chart, and remain responsible for the interpretation. I used ChatGPT to help check the Discogs data-processing workflow, narrow the story, revise the writing, and organize and anonymize participant feedback. Separately, I used ChatGPT for a simulated target-audience critique. I did not count that simulation among the five human feedback sources. ChatGPT did not generate or alter the participants' comments.
+I chose the topic, decided which feedback to use, and remain responsible for the interpretation. I created and reviewed the original Tableau chart, then used ChatGPT to help adapt its three storyboard views. I also used ChatGPT to check the Discogs data-processing workflow, narrow the story, revise the writing, and organize and anonymize participant feedback. A separate simulated target-audience critique informed early design thinking but was not counted among the five human feedback sources. ChatGPT did not generate or alter the participants' comments.

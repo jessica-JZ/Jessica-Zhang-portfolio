@@ -16,7 +16,7 @@ I use annual cataloged release-version counts for House, Techno, and Ambient fro
 
 `File` and `Vinyl` are Discogs format tags. In the reader-facing text, I describe them as “digital file (download)” and “vinyl record.” A release version is one edition of a recording: a vinyl edition, a Japanese CD edition, and a FLAC download of the same album count as three release versions. The tags describe the release medium rather than the recording technology. These counts do not measure sales, listening, or popularity.
 
-I am building the final story as a scrolling GitHub Pages site with Tableau charts, the custom-website medium proposed in Part I. I am not using Shorthand.
+At the Part II stage, I planned a scrolling GitHub Pages site with Tableau charts, the custom-website medium proposed in Part I. I later published the [final reader story in Shorthand](https://carnegiemellon.shorthandstories.com/23fdf1b6-4f4c-42d7-b816-1c06513afc1a/index.html) and kept the [Part III GitHub page](final-project-part-three) for the Tableau views and process notes.
 
 ## Storyboard
 

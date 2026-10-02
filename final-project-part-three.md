@@ -12,7 +12,7 @@ Each line counts **cataloged release versions**, not albums sold or people liste
 
 ## 1. Start with vinyl
 
-[Open the vinyl chart on Tableau Public](https://public.tableau.com/views/VinylbyStyle-Baseline/Vinylbaselinebystyle) for a larger view, or scroll sideways through it on a narrow screen.
+[Open the vinyl chart on Tableau Public](https://public.tableau.com/views/VinylbyStyle-Baseline/Vinylbaselinebystyle) for a larger view.
 
 <div style="max-width: 100%; overflow-x: auto;">
 <iframe title="Tableau chart of cataloged Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/VinylbyStyle-Baseline/Vinylbaselinebystyle?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0; min-width: 960px;" loading="lazy" allowfullscreen></iframe>
@@ -24,11 +24,11 @@ House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. Techno 
 
 ## 2. Compare files and vinyl
 
-The Tableau chart adds the medium-gray Digital File line to the blue Vinyl line. Use the **Style** list to focus on Ambient, House, or Techno, or select **(All)** to compare them side by side. Hover over a line for the count in a particular year; the end labels show 2024 counts.
+The Tableau chart adds the medium-gray Digital File line to the blue Vinyl line. Use the **Style** list to focus on Ambient, House, or Techno, or select **(All)** to compare them side by side. Hover over a line for the count in a particular year; the visible end labels show 2024 counts. Ambient Vinyl counted 2,515 versions in 2024; its label is omitted where it would cover the line.
 
 As you switch styles, look for the annotated first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.** Ambient's 2003 counts were still relatively small: 637 File versions and 446 Vinyl versions. The takeaway is that File took the lead in the catalog, while Vinyl continued to be listed. The **(All)** view uses the same zero-based y-axis scale across the three panels; when you filter to one style, the axis may rescale. Compare the counts, not only the apparent steepness of the lines.
 
-[Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) for a larger view, or scroll sideways through the chart on a narrow screen.
+[Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) for a larger view.
 
 <div style="max-width: 100%; overflow-x: auto;">
 <iframe title="Tableau chart with a Style menu for comparing cataloged Digital File and Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0; min-width: 960px;" loading="lazy" allowfullscreen></iframe>
@@ -59,7 +59,7 @@ The title states the two-part result, and the first view shows Vinyl alone befor
 | The File line was hard to see (focused critiques) | Changed it from light gray to a more legible medium gray | File-versus-Vinyl Tableau view |
 | The finding relied too much on 2024 (Part III reader comments) | Used 2019 ratios for the main comparison and kept 2024 provisional | Comparison conclusion and methods |
 
-The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I published the Vinyl-only baseline as a Tableau view, then embedded a copy of my Tableau comparison with a visible Style list. Readers can isolate a style or return to all three. The linked static Tableau export provides a fallback when the wide chart is hard to read.
+The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I published the Vinyl-only baseline as a Tableau view, then embedded a copy of my Tableau comparison with a visible Style list. Readers can isolate a style or return to all three. The linked static Tableau export preserves a non-interactive copy.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 

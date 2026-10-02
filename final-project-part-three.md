@@ -24,9 +24,9 @@ House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. Techno 
 
 ## 2. Compare files and vinyl
 
-The Tableau chart adds Digital File to the same three styles. Open the **Style** menu and choose Ambient, House, or Techno to focus on one style. Choose **(All)** to return to the side-by-side comparison. Hover over a line for the count in a particular year.
+The Tableau chart adds the brown Digital File line to the blue Vinyl line. Use the **Style** list to focus on Ambient, House, or Techno, or select **(All)** to compare them side by side. Hover over a line for the count in a particular year; the end labels show 2024 counts.
 
-As you switch styles, look for the annotated first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.** The takeaway is that File took the lead in the catalog, while Vinyl continued to be listed. The **(All)** view uses the same zero-based y-axis scale across the three panels; when you filter to one style, the axis may rescale. Compare the counts, not only the apparent steepness of the lines.
+As you switch styles, look for the annotated first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.** Ambient's 2003 counts were still relatively small: 637 File versions and 446 Vinyl versions. The takeaway is that File took the lead in the catalog, while Vinyl continued to be listed. The **(All)** view uses the same zero-based y-axis scale across the three panels; when you filter to one style, the axis may rescale. Compare the counts, not only the apparent steepness of the lines.
 
 [Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) for a larger view, or scroll sideways through the chart on a narrow screen.
 
@@ -40,11 +40,11 @@ These are crossover years in the filtered Discogs catalog, not dates when listen
 
 ## What the chart can—and cannot—show
 
-To read this evidence, start with what the lines count. I filtered the [December 2025 Discogs release dump](https://data.discogs.com/) to records dated 1985–2024, tagged `Electronic` and at least one of House, Techno, or Ambient, and issued in Vinyl, CD, or File. The lines count distinct release IDs within each style and format. A release can have more than one format tag, so these counts do not add up to a 100% whole. The [data documentation](data/final-project-part-one/README.md) records the full filters and exclusions.
+To read this evidence, start with what the lines count. I filtered the [December 2025 Discogs release dump](https://data.discogs.com/) to records dated 1985–2024, tagged `Electronic` and at least one of House, Techno, or Ambient, and issued in Vinyl, CD, or File. The lines count distinct release IDs within each style and format. CD is kept in the processed data but is not plotted here. A release can have more than one format tag, so these counts do not add up to a 100% whole. A release can also carry several style tags, so the three panels overlap and should not be added together. The [data documentation](data/final-project-part-one/README.md) records the full filters and exclusions.
 
-Discogs is a community-built catalog, and its coverage may differ across formats and years. The comparison excludes releases tagged only with other formats. Among all 2024 Ambient releases tagged Electronic in this snapshot, 76.9% had Vinyl, CD, or File and 13.3% had Cassette; those groups can overlap. The chart is therefore not a full account of Ambient's physical releases. Physical editions may also be more likely to be cataloged than digital-only editions; I have not measured that possible bias.
+Discogs is a community-built catalog, and its coverage may differ across formats and years. The comparison excludes releases tagged only with other formats. Among all 2024 Ambient releases tagged Electronic in this snapshot, 76.9% had Vinyl, CD, or File and 13.3% had Cassette; those groups can overlap. The chart is therefore not a full account of Ambient's physical releases. If physical editions are more likely to be cataloged than digital-only editions, these data would overstate Vinyl's presence relative to File. I have not measured whether that bias exists.
 
-The first File-tagged records in this filtered sample appear in 1993. That is not the date of the first digital music release. The downward lines after 2020 describe this December 2025 snapshot; later catalog entries can change recent-year counts. These data cannot establish sales, listening, format preference, or sound quality.
+The first File-tagged records in this filtered sample appear in 1993. That is not the date of the first digital music release. Techno and Ambient File counts peak in 2020 in this snapshot, then decline; the data used for these charts cannot explain why. Later catalog entries can also change recent-year counts. These data cannot establish sales, listening, format preference, or sound quality.
 
 # Behind the story: changes made since Part II
 
@@ -52,7 +52,14 @@ In Part I, I compared Vinyl, CD, and File and tested sketches using format share
 
 The title states the two-part result, and the first view shows Vinyl alone before readers compare it with File. Peaks and later counts for all three styles appear beside that view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
 
-The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I published the Vinyl-only baseline as a Tableau view, then embedded a copy of my Tableau comparison with a Style menu. Readers can isolate a style or return to all three. The linked static Tableau export provides a fallback when the wide chart is hard to read.
+| Feedback (source) | What I changed | Where readers can see it |
+| --- | --- | --- |
+| “Vinyl remained” sounded too much like “held steady” (Part II interviews) | Added House's decline and the different Techno and Ambient paths | Text beside the Vinyl baseline |
+| “Release version” was unclear (two Part II readers) | Defined it with one album issued as vinyl and as a download | Before the first chart |
+| The File line was hard to see (focused critiques) | Changed it from light gray to a darker brown | File-versus-Vinyl Tableau view |
+| The finding relied too much on 2024 (Part III reader comments) | Used 2019 ratios for the main comparison and kept 2024 provisional | Comparison conclusion and methods |
+
+The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I published the Vinyl-only baseline as a Tableau view, then embedded a copy of my Tableau comparison with a visible Style list. Readers can isolate a style or return to all three. The linked static Tableau export provides a fallback when the wide chart is hard to read.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 
@@ -64,7 +71,7 @@ Part II supplied three full interviews and two focused classmate critiques. Acro
 
 ## Final design decisions
 
-The final story uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a Style menu. Vinyl is blue and File is warm gray, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. Shorthand holds the reader story; this GitHub page documents the process and keeps the Tableau views available.
+The final story uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a visible Style list. The baseline no longer shows a redundant Style filter or one-series legend; its lines are labeled Vinyl. Vinyl is blue and File is dark brown, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. Shorthand holds the reader story; this GitHub page documents the process and keeps the Tableau views available.
 
 ## References
 

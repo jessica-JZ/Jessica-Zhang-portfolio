@@ -76,7 +76,7 @@ The final story uses two Tableau views: a Vinyl-only introduction and a File-ver
 
 ## AI acknowledgements
 
-I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate an earlier SVG prototype (replaced here by a Tableau view), add the Style menu to a separate copy of my Tableau chart, and help revise the Shorthand story and this write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
+I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow and help revise the Shorthand story and this write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
 
 # Final thoughts
 

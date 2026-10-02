@@ -24,7 +24,7 @@ House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. Techno 
 
 ## 2. Compare files and vinyl
 
-The Tableau chart adds the brown Digital File line to the blue Vinyl line. Use the **Style** list to focus on Ambient, House, or Techno, or select **(All)** to compare them side by side. Hover over a line for the count in a particular year; the end labels show 2024 counts.
+The Tableau chart adds the medium-gray Digital File line to the blue Vinyl line. Use the **Style** list to focus on Ambient, House, or Techno, or select **(All)** to compare them side by side. Hover over a line for the count in a particular year; the end labels show 2024 counts.
 
 As you switch styles, look for the annotated first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.** Ambient's 2003 counts were still relatively small: 637 File versions and 446 Vinyl versions. The takeaway is that File took the lead in the catalog, while Vinyl continued to be listed. The **(All)** view uses the same zero-based y-axis scale across the three panels; when you filter to one style, the axis may rescale. Compare the counts, not only the apparent steepness of the lines.
 
@@ -56,7 +56,7 @@ The title states the two-part result, and the first view shows Vinyl alone befor
 | --- | --- | --- |
 | “Vinyl remained” sounded too much like “held steady” (Part II interviews) | Added House's decline and the different Techno and Ambient paths | Text beside the Vinyl baseline |
 | “Release version” was unclear (two Part II readers) | Defined it with one album issued as vinyl and as a download | Before the first chart |
-| The File line was hard to see (focused critiques) | Changed it from light gray to a darker brown | File-versus-Vinyl Tableau view |
+| The File line was hard to see (focused critiques) | Changed it from light gray to a more legible medium gray | File-versus-Vinyl Tableau view |
 | The finding relied too much on 2024 (Part III reader comments) | Used 2019 ratios for the main comparison and kept 2024 provisional | Comparison conclusion and methods |
 
 The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I published the Vinyl-only baseline as a Tableau view, then embedded a copy of my Tableau comparison with a visible Style list. Readers can isolate a style or return to all three. The linked static Tableau export provides a fallback when the wide chart is hard to read.
@@ -71,7 +71,7 @@ Part II supplied three full interviews and two focused classmate critiques. Acro
 
 ## Final design decisions
 
-The final story uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a visible Style list. The baseline no longer shows a redundant Style filter or one-series legend; its lines are labeled Vinyl. Vinyl is blue and File is dark brown, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. Shorthand holds the reader story; this GitHub page documents the process and keeps the Tableau views available.
+The final story uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a visible Style list. The baseline no longer shows a redundant Style filter or one-series legend; its lines are labeled Vinyl. Vinyl is blue and File is medium gray, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. Shorthand holds the reader story; this GitHub page documents the process and keeps the Tableau views available.
 
 ## References
 

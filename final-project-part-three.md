@@ -4,6 +4,8 @@
 
 *House, Techno, and Ambient in the Discogs catalog, 1985–2024*
 
+Read the [final Shorthand story](https://carnegiemellon.shorthandstories.com/23fdf1b6-4f4c-42d7-b816-1c06513afc1a/index.html). This page also keeps the two Tableau views and documents how I made them.
+
 If you find electronic music online but still see vinyl editions in record shops or DJ sets, you may wonder whether one format has displaced the other. In the Discogs catalog, digital-file versions overtook vinyl versions in House, Techno, and Ambient. Did vinyl disappear? First, look at vinyl on its own. Then compare the two formats in the second Tableau chart.
 
 Each line counts **cataloged release versions**, not albums sold or people listening. A vinyl edition and a download of the same album count as two versions. Discogs labels the download format `File`; I call it “digital file” here. The format tag describes the release medium, not how the music was recorded or mastered.
@@ -46,7 +48,7 @@ The first File-tagged records in this filtered sample appear in 1993. That is no
 
 # Behind the story: changes made since Part II
 
-In Part I, I compared Vinyl, CD, and File and tested sketches using format shares, release counts, and a master-level check. Part II narrowed the reader-facing question to whether vinyl disappeared after files took the lead. I built a three-frame Tableau storyboard, then used three full interviews and two focused critiques to test its wording and visual sequence. Later comments on the Part III page prompted the clearer three-style vinyl comparison and the 2019 headline ratios. This page uses a Vinyl-only Tableau view and an interactive File-versus-Vinyl Tableau view before the methods and design process.
+In Part I, I compared Vinyl, CD, and File and tested sketches using format shares, release counts, and a master-level check. Part II narrowed the reader-facing question to whether vinyl disappeared after files took the lead. I built a three-frame Tableau storyboard, then used three full interviews and two focused critiques to test its wording and visual sequence. Later comments on the Part III page prompted the clearer three-style vinyl comparison and the 2019 headline ratios. The published Shorthand story uses a Vinyl-only Tableau view followed by an interactive File-versus-Vinyl view; this page keeps both views beside the methods and design process.
 
 The title states the two-part result, and the first view shows Vinyl alone before readers compare it with File. Peaks and later counts for all three styles appear beside that view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
 
@@ -62,7 +64,7 @@ Part II supplied three full interviews and two focused classmate critiques. Acro
 
 ## Final design decisions
 
-The final page uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a Style menu. Vinyl is blue and File is warm gray, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
+The final story uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a Style menu. Vinyl is blue and File is warm gray, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. Shorthand holds the reader story; this GitHub page documents the process and keeps the Tableau views available.
 
 ## References
 
@@ -70,11 +72,11 @@ The final page uses two Tableau views: a Vinyl-only introduction and a File-vers
 - Discogs, [Database Guidelines 6: Format](https://support.discogs.com/hc/en-us/articles/360005006654-Database-Guidelines-6-Format), for format tags.
 - Berinato, Scott. [*Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations*](https://store.hbr.org/product/good-charts-the-hbr-guide-to-making-smarter-more-persuasive-data-visualizations/15005). Harvard Business Review Press, 2016, Chapter 7, “Persuasion or Manipulation? The Blurred Edge of Truth.” I used its distinction between visual emphasis and an unsupported conclusion.
 - [GitHub repository](https://github.com/jessica-JZ/Jessica-Zhang-portfolio), [data preparation documentation](data/final-project-part-one/README.md), and [processed release records](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/data/final-project-part-one/discogs-electronic-formats-1985-2024.csv.gz).
-- Both embedded charts and the linked static export are my Tableau visualizations of the processed Discogs release records. This page uses no third-party photographs, album covers, or logos. [Part II](final-project-part-two#storyboard) shows the comparison in three Tableau stages.
+- Both embedded charts and the linked static export are my Tableau visualizations of the processed Discogs release records. The Shorthand cover uses a [vinyl photo by Miguel Á. Padriñán on Pexels](https://www.pexels.com/photo/close-up-photo-of-vinyl-disc-3391930/); this GitHub page uses no third-party photographs, album covers, or logos. [Part II](final-project-part-two#storyboard) shows the comparison in three Tableau stages.
 
 ## AI acknowledgements
 
-I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate an earlier SVG prototype (replaced here by a Tableau view), add the Style menu to a separate copy of my Tableau chart, and revise this story and write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
+I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate an earlier SVG prototype (replaced here by a Tableau view), add the Style menu to a separate copy of my Tableau chart, and help revise the Shorthand story and this write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
 
 # Final thoughts
 

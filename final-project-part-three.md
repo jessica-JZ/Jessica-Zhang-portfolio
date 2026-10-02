@@ -4,23 +4,27 @@
 
 *House, Techno, and Ambient in the Discogs catalog, 1985–2024*
 
-If you find electronic music online but still see vinyl editions in record shops or DJ sets, you may wonder whether one format has displaced the other. In the Discogs catalog, digital-file versions overtook vinyl versions in House, Techno, and Ambient. Did vinyl disappear? First, look at vinyl on its own. Then use the Tableau chart to compare the two formats in each style.
+If you find electronic music online but still see vinyl editions in record shops or DJ sets, you may wonder whether one format has displaced the other. In the Discogs catalog, digital-file versions overtook vinyl versions in House, Techno, and Ambient. Did vinyl disappear? First, look at vinyl on its own. Then compare the two formats in the second Tableau chart.
 
 Each line counts **cataloged release versions**, not albums sold or people listening. A vinyl edition and a download of the same album count as two versions. Discogs labels the download format `File`; I call it “digital file” here. The format tag describes the release medium, not how the music was recorded or mastered.
 
 ## 1. Start with vinyl
 
-![Vinyl release-version counts for House, Techno, and Ambient from 1985 to 2024 on the same scale. Vinyl continues through 2024 in all three styles.](assets/final-project-part-three/story-frame-1.svg)
+[Open the vinyl chart on Tableau Public](https://public.tableau.com/views/VinylbyStyle-Baseline/Vinylbaselinebystyle) for a larger view, or scroll sideways through it on a narrow screen.
 
-[Open the vinyl chart at full size](assets/final-project-part-three/story-frame-1.svg).
+<div style="max-width: 100%; overflow-x: auto;">
+<iframe title="Tableau chart of cataloged Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/VinylbyStyle-Baseline/Vinylbaselinebystyle?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0; min-width: 960px;" loading="lazy" allowfullscreen></iframe>
+</div>
 
-House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. Vinyl also remained above zero in Techno and Ambient. Its continued presence does not mean its counts held steady.
+House fell from 11,121 Vinyl versions at its 1996 peak to 3,022 in 2024. Techno peaked at 6,510 in 1992 and counted 3,442 in 2024; Ambient reached 3,051 in 2021 and counted 2,515 in 2024. The paths differ: between 2010 and 2019, cataloged vinyl versions rose from 2,999 to 5,033 in Techno and from 641 to 2,732 in Ambient, while House was nearly flat (3,442 to 3,393). Vinyl's continued presence was not just a line hovering above zero.
+
+**Read these as Discogs catalog counts, not market totals.** People may still add recent releases, so the 2021–2024 endpoints—including Ambient's apparent peak—may change.
 
 ## 2. Compare files and vinyl
 
 The Tableau chart adds Digital File to the same three styles. Open the **Style** menu and choose Ambient, House, or Techno to focus on one style. Choose **(All)** to return to the side-by-side comparison. Hover over a line for the count in a particular year.
 
-As you switch styles, look for the first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.**
+As you switch styles, look for the annotated first year File exceeds Vinyl: **2003 in Ambient; 2008 in House and Techno.** The takeaway is that File took the lead in the catalog, while Vinyl continued to be listed. The **(All)** view uses the same zero-based y-axis scale across the three panels; when you filter to one style, the axis may rescale. Compare the counts, not only the apparent steepness of the lines.
 
 [Open the chart on Tableau Public](https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart) for a larger view, or scroll sideways through the chart on a narrow screen.
 
@@ -28,7 +32,7 @@ As you switch styles, look for the first year File exceeds Vinyl: **2003 in Ambi
 <iframe title="Tableau chart with a Style menu for comparing cataloged Digital File and Vinyl Record versions in House, Techno, and Ambient, 1985–2024" src="https://public.tableau.com/views/FileandVinylbyStyleInteractive/03Finalannotatedchart?:showVizHome=no&amp;:embed=yes" width="100%" height="650" style="border: 0; min-width: 960px;" loading="lazy" allowfullscreen></iframe>
 </div>
 
-By 2024, File outnumbered Vinyl in each style: House had 8,428 File versions versus 3,022 Vinyl; Techno, 10,877 versus 3,442; Ambient, 7,418 versus 2,515. The file lines lead at the end of the period, while vinyl remains present.
+By **2019**, File already outnumbered Vinyl by about **3.4 to 1 in House, 3.0 to 1 in Techno, and 4.9 to 1 in Ambient**. Those ratios use a year before the recent cataloging window. The 2024 entries still show thousands of vinyl versions in each style, but their totals—and the downward turns after 2020—may change as Discogs fills in.
 
 These are crossover years in the filtered Discogs catalog, not dates when listeners switched formats. These selected styles do not represent electronic music as a whole. For a non-interactive copy, [view the original Tableau export](assets/final-project-part-three/final-chart-tableau.png).
 
@@ -42,11 +46,11 @@ The first File-tagged records in this filtered sample appear in 1993. That is no
 
 # Behind the story: changes made since Part II
 
-In Part I, I compared Vinyl, CD, and File and tested sketches using format shares, release counts, and a master-level check. Part II narrowed the reader-facing question to whether vinyl disappeared after files took the lead. I built a three-frame Tableau storyboard, then used three full interviews and two focused critiques to test its wording and visual sequence. This page uses one introductory frame and one interactive final chart before the methods and design process.
+In Part I, I compared Vinyl, CD, and File and tested sketches using format shares, release counts, and a master-level check. Part II narrowed the reader-facing question to whether vinyl disappeared after files took the lead. I built a three-frame Tableau storyboard, then used three full interviews and two focused critiques to test its wording and visual sequence. Later comments on the Part III page prompted the clearer three-style vinyl comparison and the 2019 headline ratios. This page uses a Vinyl-only Tableau view and an interactive File-versus-Vinyl Tableau view before the methods and design process.
 
-The title states the two-part result, and the first view shows Vinyl alone before readers compare it with File. House's decline from its 1996 peak appears beside that view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
+The title states the two-part result, and the first view shows Vinyl alone before readers compare it with File. Peaks and later counts for all three styles appear beside that view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
 
-The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I kept the Vinyl-only frame to establish the baseline, then embedded a copy of my Tableau comparison with a Style menu. Readers can isolate a style or return to all three. The linked static export provides a fallback when the wide chart is hard to read.
+The [Part II storyboard](final-project-part-two#storyboard) tested three progressive Tableau views. On this page, I published the Vinyl-only baseline as a Tableau view, then embedded a copy of my Tableau comparison with a Style menu. Readers can isolate a style or return to all three. The linked static Tableau export provides a fallback when the wide chart is hard to read.
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 
@@ -54,11 +58,11 @@ I moved the Ambient cassette context below the main finding, into the limitation
 
 I wrote for electronic-music listeners who use digital access but still encounter vinyl editions through DJs, record shops, or label releases. They may know House, Techno, and Ambient without knowing Discogs's database fields. The story therefore defines a release version above the chart: a vinyl edition and a download of one album count as separate versions. It also says early that a format tag is not evidence about recording technology, sales, or listening.
 
-Part II supplied three full interviews and two focused classmate critiques. Across the full interviews, readers understood the main format shift, but “vinyl remained” sounded too vague when House vinyl counts had fallen substantially. Two readers hesitated over “release version.” The focused critiques raised line contrast and label size. I treated these five responses as feedback on the page, not as a representative sample of all electronic-music listeners. I did not conduct another interview round for this final page.
+Part II supplied three full interviews and two focused classmate critiques. Across the full interviews, readers understood the main format shift, but “vinyl remained” sounded too vague when House vinyl counts had fallen substantially. Two readers hesitated over “release version.” The focused critiques raised line contrast and label size. Later Part III reader comments asked for more detail on Techno and Ambient, a clearer Discogs-only caveat, and less reliance on 2024 for the headline comparison. I used those comments to revise this page; they are not a representative sample of all electronic-music listeners. I have not tested this revised version with a new reader.
 
 ## Final design decisions
 
-The final page uses two views: a Vinyl-only introduction and a Tableau comparison with a Style menu. Vinyl is blue and File is warm gray, with the format names repeated in the text. I placed the crossover years beside the interactive chart and the 2024 counts just below it so readers can check both findings. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
+The final page uses two Tableau views: a Vinyl-only introduction and a File-versus-Vinyl comparison with a Style menu. Vinyl is blue and File is warm gray, with the format names repeated in the text. The crossover years are annotated in the comparison chart. I use 2019 for the headline ratios and treat 2024 as provisional evidence that vinyl entries continued. In the all-styles view, the y-axis starts at zero and has the same scale in each style panel; filtering can rescale it. I avoided a 100% stacked chart because one Discogs release can have more than one format tag. The story and process live together on GitHub Pages under the course template.
 
 ## References
 
@@ -66,12 +70,12 @@ The final page uses two views: a Vinyl-only introduction and a Tableau compariso
 - Discogs, [Database Guidelines 6: Format](https://support.discogs.com/hc/en-us/articles/360005006654-Database-Guidelines-6-Format), for format tags.
 - Berinato, Scott. [*Good Charts: The HBR Guide to Making Smarter, More Persuasive Data Visualizations*](https://store.hbr.org/product/good-charts-the-hbr-guide-to-making-smarter-more-persuasive-data-visualizations/15005). Harvard Business Review Press, 2016, Chapter 7, “Persuasion or Manipulation? The Blurred Edge of Truth.” I used its distinction between visual emphasis and an unsupported conclusion.
 - [GitHub repository](https://github.com/jessica-JZ/Jessica-Zhang-portfolio), [data preparation documentation](data/final-project-part-one/README.md), and [processed release records](https://github.com/jessica-JZ/Jessica-Zhang-portfolio/blob/main/data/final-project-part-one/discogs-electronic-formats-1985-2024.csv.gz).
-- The introductory Vinyl frame was generated from the processed Discogs release records; the embedded chart and linked static export are my Tableau visualization of the same records. This page uses no third-party photographs, album covers, or logos. [Part II](final-project-part-two#storyboard) shows the comparison in three Tableau stages.
+- Both embedded charts and the linked static export are my Tableau visualizations of the processed Discogs release records. This page uses no third-party photographs, album covers, or logos. [Part II](final-project-part-two#storyboard) shows the comparison in three Tableau stages.
 
 ## AI acknowledgements
 
-I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate the SVG introductory frame from the processed data, add the Style menu to a separate copy of my Tableau chart, and revise this story and write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
+I chose the topic, made the original Tableau chart, decided which feedback to use, and remain responsible for the final interpretation. I used ChatGPT to check the Discogs processing workflow, help generate an earlier SVG prototype (replaced here by a Tableau view), add the Style menu to a separate copy of my Tableau chart, and revise this story and write-up. The displayed counts and crossover years were checked against the processed data. A separate simulated target-audience critique informed early design thinking; it was not one of the five human feedback sources. ChatGPT did not generate or alter participants' comments.
 
 # Final thoughts
 
-I began with a wider format story that included CD, percentages, and a separate master-level view. Feedback on Part I and interviews in Part II helped me narrow the public story to File and Vinyl; the other measures remain in the data and methods pages. The release-version lines show coexistence in the catalog, but they cannot explain why people choose vinyl or how many copies sold. I would test this finished page with readers if I had another round; the feedback reported here came from Part II.
+I began with a wider format story that included CD, percentages, and a separate master-level view. Feedback on Part I and interviews in Part II helped me narrow the public story to File and Vinyl; the other measures remain in the data and methods pages. The release-version lines show coexistence in the catalog, but they cannot explain why people choose vinyl or how many copies sold. The next useful check would be to ask a fresh reader to try this revised page and say whether the two Tableau views make that distinction clear.

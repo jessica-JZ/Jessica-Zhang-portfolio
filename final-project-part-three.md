@@ -46,13 +46,13 @@ Discogs is a community-built catalog, and its coverage may differ across formats
 
 The first File-tagged records in this filtered sample appear in 1993. That is not the date of the first digital music release. Techno and Ambient File counts peak in 2020 in this snapshot, then decline; the data used for these charts cannot explain why. Later catalog entries can also change recent-year counts. These data cannot establish sales, listening, format preference, or sound quality.
 
-# Behind the story: changes made since Part II
+# What changed after reader feedback
 
-In Part I, I compared Vinyl, CD, and File and tested sketches using format shares, release counts, and a master-level check. Part II narrowed the reader-facing question to whether vinyl disappeared after files took the lead. I built a three-frame Tableau storyboard, then used three full interviews and two focused critiques to test its wording and visual sequence. Later comments on the Part III page prompted the clearer three-style vinyl comparison and the 2019 headline ratios. The published Shorthand story uses a Vinyl-only Tableau view followed by an interactive File-versus-Vinyl view; this page keeps both views beside the methods and design process.
+Part II feedback came from three full interviews and two focused critiques. It changed how I explained “remained,” defined a release version, showed the File line, and chose the year for the headline comparison. Later comments on Part III led me to add clearer Techno and Ambient context and use 2019 ratios instead of relying on the still-changing 2024 counts.
 
-The title states the two-part result, and the first view shows Vinyl alone before readers compare it with File. Peaks and later counts for all three styles appear beside that view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
+The published Shorthand story now starts with Vinyl alone before adding File. Peaks and later counts for all three styles appear beside the first view so “remained” does not sound like “held steady.” The definition of a release version appears before the charts, where readers need it.
 
-| Feedback (source) | What I changed | Where readers can see it |
+| What readers noticed | What I changed | Where the change appears |
 | --- | --- | --- |
 | “Vinyl remained” sounded too much like “held steady” (Part II interviews) | Added House's decline and the different Techno and Ambient paths | Text beside the Vinyl baseline |
 | “Release version” was unclear (two Part II readers) | Defined it with one album issued as vinyl and as a download | Before the first chart |
@@ -63,11 +63,11 @@ The [Part II storyboard](final-project-part-two#storyboard) tested three progres
 
 I moved the Ambient cassette context below the main finding, into the limitations paragraph, because the two-format lines do not cover every Ambient record. I also kept the three styles as supporting examples rather than making Ambient's earlier crossover the central claim.
 
-## The audience
+## Writing for the reader
 
-I wrote for electronic-music listeners who use digital access but still encounter vinyl editions through DJs, record shops, or label releases. They may know House, Techno, and Ambient without knowing Discogs's database fields. The story therefore defines a release version above the chart: a vinyl edition and a download of one album count as separate versions. It also says early that a format tag is not evidence about recording technology, sales, or listening.
+The opening uses a situation familiar to electronic-music listeners: finding music online while still seeing vinyl editions in record shops, DJ sets, or label releases. It asks whether digital files replaced vinyl, then gives readers two ways to test that claim: compare the three styles and check what the lines measure. Because readers may know House, Techno, and Ambient without knowing Discogs's database fields, the story defines a release version before the first chart and separates catalog entries from sales and listening.
 
-Part II supplied three full interviews and two focused classmate critiques. Across the full interviews, readers understood the main format shift, but “vinyl remained” sounded too vague when House vinyl counts had fallen substantially. Two readers hesitated over “release version.” The focused critiques raised line contrast and label size. Later Part III reader comments asked for more detail on Techno and Ambient, a clearer Discogs-only caveat, and less reliance on 2024 for the headline comparison. I used those comments to revise this page; they are not a representative sample of all electronic-music listeners. I have not tested this revised version with a new reader.
+The feedback came from a small group rather than a representative sample of all electronic-music listeners. The next useful test is whether a new reader can explain, after seeing both charts, why a format taking the lead in the Discogs catalog does not mean the other format disappeared or that listening behavior changed.
 
 ## Final design decisions
 
@@ -87,4 +87,4 @@ I chose the topic, made the original Tableau chart, decided which feedback to us
 
 # Final thoughts
 
-I began with a wider format story that included CD, percentages, and a separate master-level view. Feedback on Part I and interviews in Part II helped me narrow the public story to File and Vinyl; the other measures remain in the data and methods pages. The release-version lines show coexistence in the catalog, but they cannot explain why people choose vinyl or how many copies sold. The next useful check would be to ask a fresh reader to try this revised page and say whether the two Tableau views make that distinction clear.
+I began with a wider format story that included CD, percentages, and a separate master-level view. Feedback on Part I and interviews in Part II helped me narrow the public story to File and Vinyl; the other measures remain in the data and methods pages. The release-version lines show coexistence in the catalog, but they cannot explain why people choose vinyl or how many copies sold.
